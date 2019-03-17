@@ -1,0 +1,3165 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0043)http://www.criarweb.com/manuais/2/print.php -->
+<HTML><HEAD><TITLE>HTML - Manual completo</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<STYLE type=text/css>BODY {
+	FONT-SIZE: 10pt; FONT-FAMILY: verdana,arial,helvetica
+}
+TD {
+	FONT-SIZE: 10pt; FONT-FAMILY: verdana,arial,helvetica
+}
+.fuente8 {
+	FONT-SIZE: 8pt; FONT-FAMILY: verdana,arial,helvetica
+}
+.coment {
+	FONT-SIZE: 8pt; FONT-FAMILY: verdana,arial,helvetica; BACKGROUND-COLOR: #eeeeee
+}
+.codigo {
+	FONT-SIZE: 8pt; COLOR: #660000; FONT-FAMILY: verdana,arial,helvetica
+}
+</STYLE>
+
+<META content="MSHTML 6.00.2800.1458" name=GENERATOR></HEAD>
+<BODY text=black vLink=#cc0033 link=#cc0033 bgColor=white topMargin=10 
+marginwidth="10" marginheight="10">
+<TABLE cellSpacing=2 cellPadding=2 width="100%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top align=middle width=155><IMG height=81 alt="" 
+      src="HTML - Manual_archivos/cabecera_print.gif" width=218 border=0></TD>
+    <TD align=middle><FONT face=verdana 
+size=5><B>HTML</B></FONT></TD></TR></TBODY></TABLE><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8 noWrap><B>Manual por: <A 
+      href="http://www.criarweb.com/"></A></B><BR>Criar Web, manuais e recursos 
+      para desenvolvimento web </TD>
+    <TD class=fuente8 align=right><B>Versão on-line: </B><BR><A 
+      href="http://www.criarweb.com/manuais/2">http://www.criarweb.com/manuais/2</A></TD></TR></TBODY></TABLE>
+<HR>
+<BR><FONT face=verdana size=4><B>Prólogo ao manual de 
+HTML</B></FONT><BR><BR>Bem-vindos ao manual de HTML de Criarweb. Através de 
+todos estes capítulos vamos descobrir a linguagem utilizada para a criação de 
+páginas web: o Hyper Text Markup Language, mais conhecido como HTML. <BR><BR>À 
+princípio, o fato de falar de uma linguagem informática pode fazer com que 
+alguém se desanime, mas não é para se assustar, pois o HTML não deixa de ser 
+mais que uma forma um tanto peculiar de dar formatos aos textos e imagens que 
+pretendemos ver por meio de um navegador. <BR><BR>Antes de começarmos este 
+manual, o qual faremos de uma forma direta e prática, lhe recomendamos 
+fervorosamente a leitura prévia de nosso manual Publicar em Internet. A partir 
+deste guia, você aprenderá os conceitos básicos necessários para a criação de um 
+web site. E também lhe permitirá acessar este manual já com alguns conhecimentos 
+de base imprescindíveis sobre HTML, além de lhe deixar bem claro o que seu 
+conhecimento contribui em relação ao simples uso de editores HTML. <BR><BR>As 
+pessoas que enfocamos neste manual são todas aquelas que com conhecimentos 
+mínimos de informática, desejam fazer mundialmente público uma mensagem, uma 
+idéia ou uma informação, usando para isso o meio mais prático, econômico e 
+atual: a Internet. <BR><BR>O que se necessita como base para se obter um bom 
+aprendizado (além de ler o manual Publicar em Internet) é: 
+<UL>
+  <LI>Saber escrever com um teclado 
+  <LI>Saber manusear um mouse 
+  <LI>Ter vontade de aprender </LI></UL>O que se obterá depois de haver passado 
+por estes capítulos: 
+<UL>
+  <LI>Capacidade para criar e publicar seu próprio site web com um mínimo de 
+  qualidade 
+  <LI>Conhecimentos de todo tipo sobre as tecnologias e ferramentas empregadas 
+  no âmbito da Rede 
+  <LI>Possivelmente um interesse ou um gostar que pode se converter em paixão, e 
+  terminar em alguns casos, sendo um vício ou um trabalho. </LI></UL>Vale lembrar 
+que estamos a sua inteira disposição para resover todo o tipo de dúvidas 
+referentes a este manual. E para entrar em contato conosco é tão fácil como 
+clicar sobre o e-mail do autor do artigo situado ao pé da página. <BR><BR>Você 
+também pode formular suas questões e, esperamos que futuramente também possa 
+ajudar a outros companheiros no fórum sobre HTML ou na lista de correios de 
+Criarweb. <BR><BR>Passamos então, sem mais preâmbulos, a ver o que se trata o 
+HTML... <BR><BR><SPAN class=fuente8>Informe de <B>Miguel Angel 
+Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Introdução ao HTML</B></FONT><BR><BR>HTML é a linguagem 
+com que se escrevem as páginas web. As páginas web podem ser vistas pelo usuário 
+mediante um tipo de aplicação chamada navegador (browser). Podemos dizer 
+portanto, que o HTML é a linguagem usada pelos navegadores para mostrar as 
+páginas webs ao usuário, sendo hoje em dia a interface mais extensa na rede. 
+<BR><BR>Esta linguagem nos permite aglutinar textos, imagens e áudios, e 
+combiná-los a nosso gosto. Ademais, e é aqui onde está a sua vantagem em relação 
+aos livros e revistas, o HTML nos permite a introdução de referências a outras 
+páginas por meio dos links hipertextos. <BR><BR>O HTML se criou a princípio com 
+objetivos de divulgação. Porém, não se pensou que a web chegaria a ser uma área 
+de ócio com caráter multimídia, de modo que, o HTML se criou sem dar respostas a 
+todos os possíveis usos que lhe dariam posteriormente e ao todo coletivo de 
+gente que o utilizariam no futuro. Entretanto, frente a este deficiente 
+planejamento, com o tempo, foram se incorporando modificações, as quais são os 
+padrões do HTML. Numerosos padrões já se apresentaram. O HTML 4.01 foi o último 
+padrão feito até o mês de abril de 2004. <BR><BR>Esta evolução tão anárquica do 
+HTML, trouxe toda uma série de incovenientes e deficiências que tiveram que ser 
+superadas com a introdução de outras tecnologias acessórias capazes de 
+organizar, optimizar e automatizar o funcionamento das webs. Exemplos que podem 
+soar como conhecidos são as CSS, JavaScript ou outros. Veremos mais adiante em 
+que consistem algumas delas. <BR><BR>Alguns dos problemas que acompanham ao HTML 
+é a diversidade de navegadores presentes no mercado, os quais não são capazes de 
+interpretar o mesmo código de uma maneira unificada. Isto obriga ao webmaster a, 
+uma vez criada sua página, comprovar que esta pode ser lida satisfatoriamente 
+por todos os navegadores, ou pelo menos, pelos mais utilizados. <BR><BR>Além do 
+navegador necessário para ver os resultados de nosso trabalho, necessitamos 
+evidentemente outra ferramenta capaz de criar a página em si. Um arquivo HTML 
+(uma página) não é mais do que um texto. É por isso que para programar em HTML 
+necessitamos um editor de textos. <BR><BR>É recomendável usar o bloco de notas 
+que vem no Windows, ou outro editor de textos simples. No entanto, há de ter 
+cuidado com alguns editores mais complexos como Wordpad ou MicrosoftWord, pois 
+colocam seu próprio código especial ao salvar as páginas e como o HTML é 
+unicamente texto plano, poderemos ter problemas com isso. <BR><BR>Existem outros 
+tipos de editores específicos para a criação de páginas web, os quais oferecem 
+muitas facilidades que nos permitem aumentar nossa produtividade. Porém, é 
+aconselhável à princípio utilizar uma ferramenta, o mais simples possível para 
+poder prestar a máxima atenção ao nosso código e familiarizarmos o antes 
+possível com ele. Logo mais adiante, ganharemos tempo ao utilizarmos os editores 
+mais versáteis. <BR><BR>Par ter mais claro todo o tema de editores e os tipos 
+que existem, visite os artigos: 
+<UL>
+  <LI>Editores de HTML 
+  <LI>Bloco de notas 
+  <LI>Também se pode acessar a descrições de editores mais complexos que o Bloco 
+  de notas, porém mais potentes como o Homesite. </LI></UL>É importante ter claro 
+tudo isso visto que em função de seus objetivos, pode ser que mais do que 
+aprender HTML, resulte mais interessante aprender o uso de uma aplicação para a 
+criação de páginas. <BR><BR>Sendo assim, uma página é um arquivo onde está 
+contido o código HTML em forma de texto. Estes arquivos tem extensão .html ou 
+.htm (é indiferente qual deles utilizar). De modo que quando programarmos em 
+HTML, o faremos com um editor de textos e salvaremos nossos trabalhos com 
+extensão .html, por exemplo, minhapagina.html. <BR><BR>Conselho: Utilize sempre 
+a mesma extensão em seus arquivos HTML. Isso evitará que você se confunda ao 
+escrever os nomes dos seus arquivos umas vezes com .html e outras com .htm. E se 
+você trabalha com uma equipe em um projeto, é ainda mais importante que todos 
+estejam de acordo com a mesma extensão. <BR><BR><SPAN class=fuente8>Informe de 
+<B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Sintaxes do HTML</B></FONT><BR><BR>O HTML é uma linguagem 
+que baseia sua sintaxe em um elemento de base que chamamos etiqueta (tag). A 
+etiqueta apresenta frequentemente duas partes: <BR><BR>Uma abertura de forma 
+geral &lt;etiqueta&gt; <BR>Um fechamento do tipo &lt;/etiqueta&gt; <BR><BR>Tudo 
+que estiver incluído no interior desta etiqueta sofrerá as modificações que 
+caracterizam a esta etiqueta. Como por exemplo: <BR><BR>As etiquetas &lt;b&gt; e 
+&lt;/b&gt; definem um texto em negrito. Se em nosso documento HTML escrevemos 
+uma frase com o seguinte código: <BR><BR><SPAN class=codigo>&lt;b&gt;Isto está 
+em negrito&lt;/b&gt;</SPAN> <BR><BR>O resultado será: <BR><BR><B>Isto está em 
+negrito </B><BR><BR>As etiquetas &lt;p&gt; e &lt;/p&gt; definem um parágrafo. Se 
+em nosso documento HTML escrevêssemos: <B></B><SPAN class=codigo>&lt;p&gt;Olá, 
+estamos no parágrafo 1&lt;/p&gt; <BR>&lt;p&gt;Agora mudamos de 
+parágrafo&lt;/p&gt;</SPAN> <BR><BR>O resultado seria: <BR><BR>
+<P>Olá, estamos no parágrafo 1</P>
+<P>Agora mudamos de parágrafo</P><BR><BR><B>Partes de um documento HTML</B> 
+<BR><BR>Ademais de tudo isso, um documento HTML deve estar delimitado pela 
+etiqueta &lt;html&gt; e &lt;/html&gt;</SPAN>. Dentro deste documento, podemos 
+ainda distinguir duas partes principais: <BR><BR>O cabeçalho, delimitado por 
+&lt;head&gt; e &lt;/head&gt; onde colocaremos etiquetas de índole informativo 
+como por exemplo o título de nossa página. <BR><BR>O corpo, delimitado pelas 
+etiquetas &lt;body&gt; e &lt;/body&gt;, que será onde colocaremos nosso texto e 
+imagens delimitados por sua vez por outras etiquetas como as que vimos 
+anteriormente. <BR><BR>O resultado é um documento com a seguinte 
+estrutura:<BR><BR><SPAN class=codigo>&lt;html&gt; 
+<BR><BR>&lt;head&gt;<BR><BR></SPAN>Etiquetas e conteúdos do 
+cabeçalho<BR><BR>Dados que não aparecem em nossa página mas que são importantes 
+para catalogá-la: Título, palavras-chaves, etc <BR><BR><SPAN 
+class=codigo>&lt;/head&gt; <BR><BR>&lt;body&gt;</SPAN><BR><BR>Etiquetas e 
+conteúdo do corpo<BR><BR>Parte do documento que será mostrada pelo navegador: 
+Textos e imagens<BR><BR><SPAN 
+class=codigo>&lt;/body&gt;<BR><BR>&lt;/html&gt;</SPAN><BR><BR>As maiúsculas ou 
+minúsculas são indiferentes ao escrever as etiquetas <BR><BR>As etiquetas podem 
+ser escritas com qualquer tipo de combinação entre maiúsculas e minúsculas. Ou 
+seja, &lt;HTML&gt; ou &lt;HtMl&gt; são a mesma etiqueta. Entretanto, é 
+aconselhável acostumar-se a escrevê-las em minúscula já que outras tecnologias 
+que podem conviver com nosso HTML (XML por exemplo) não são tão permissivas e 
+nunca está mal ter bons costumes desde o princípio para evitar falhos triviais 
+no futuro. <BR><BR><SPAN class=fuente8>Informe de <B>Miguel Angel 
+Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Sua primeira página</B></FONT><BR><BR>Podemos já com 
+estes conhecimentos, e mais algum outro, criar nossa primeira página. Para isso, 
+abra seu editor de textos e, copie e cole o seginte texto em um novo documento: 
+<BR><BR><SPAN class=codigo>&lt;html&gt; <BR><BR>&lt;head&gt; 
+<BR>&lt;title&gt;Cozinha Para Todos&lt;/title&gt; <BR>&lt;/head&gt; 
+<BR><BR>&lt;body&gt; <BR>&lt;p&gt;&lt;b&gt;Bem-vindo,&lt;/b&gt;&lt;/p&gt; 
+<BR>&lt;p&gt;Você está na página&lt;b&gt;Comida para todos&lt;/b&gt;.&lt;/p&gt; 
+<BR>&lt;p&gt;Aqui você aprenderá receitas fáceis e deliciosas.&lt;/p&gt; 
+<BR>&lt;/body&gt;<BR><BR>&lt;/html&gt;</SPAN><BR><BR>Agora salve este arquivo 
+com extensão .html ou .htm em seu disco rígido. Para isso, acessamos no menu 
+"Arquivo" e selecionamos a opção "Salvar como". Na janela escolhemos o diretório 
+onde desejamos salvá-lo e colocaremos um nome para ele, como por exemplo: 
+minha_página.html. <BR><BR>
+<TABLE width="80%" align=center>
+  <TBODY>
+  <TR>
+    <TD class=coment><B>Conselho:</B> Utilize nomes em seus arquivos que 
+      tenham algumas normas básicas para poupar alguma confusão ou desgosto. 
+      <BR>Nosso conselho é que não utilize acentos, nem espaços, nem outros 
+      caracteres raros. Também lhe ajudará escrever sempre as letras em 
+      minúsculas. <BR>Isto não quer dizer que se deve fazer nomes de arquivos 
+      curtos, é melhor fazê-los descritivos para que se possa lembrar o que há 
+      dentro. Algum caractere como o traço "-" ou o traço baixo "_" lhe pode 
+      ajudar a separar as palavras. Por exemplo: 
+quem_somos.html</TD></TR></TBODY></TABLE><BR><BR>Com o documento HTML criado, 
+podemos ver o resultado obtido através de um navegador. Chegado a este ponto, é 
+conveniente, insistir no fato de que nem todos os navegadores são idênticos. 
+Infelizmente, os resultados de nosso código podem mudar de um para outro, sendo 
+por isso aconselhável visualizar a página em vários navegadores. Geralmente 
+usam-se Internet Explorer e Netscape como referências já que são os mais 
+extensos. <BR><BR>Na verdade, no momento em que estas linhas são escritas, o 
+Internet Explorer monopoliza a maioria imensa de usuários (mais ou menos 90%) e 
+o Netscape está relegado a um segundo plano. Isto não quer dizer que devemos 
+deixá-lo de lado já que o 10% de visitas que este pode nos proporcionar, pode 
+resultar muito importante para nós. Por outro lado, parece que já se tornou 
+pública a intenção do Netscape de desviar um pouco seus negócios para outros 
+rumos e abondonar esta chamada "luta de navegadores" na qual estava recebendo a 
+pior parte. <BR><BR>Então, voltando ao tema, uma vez criado o arquivo .html ou 
+.htm, podemos visualizar o resultado de nosso trabalho abrindo a página criada 
+com um navegador. Para isso, dependendo do navegador a forma de fazer será 
+diferente. <BR><BR>Se estamos usando o Explorer, temos de ir à barra de menu, 
+selecionar "Arquivo" e em seguida "Abrir". Uma janela irá se abrir. Clicamos 
+sobre o botão "Examinar" e acessamos uma janela a partir da qual poderemos nos 
+mover pelo interior do nosso disco rígido até encontrar o arquivo que desejamos 
+abrir. <BR><BR>A coisa não é mais difícil com o Netscape. Neste caso, temos de 
+ir também à barra de menu principal e selecionarmos File e logo, Open File. A 
+mesma janela de busca nos permitirá examinar o conteúdo de nosso PC até dar com 
+o arquivo procurado. <BR><BR>
+<TABLE width="80%" align=center>
+  <TBODY>
+  <TR>
+    <TD class=coment><B>Nota:</B> Também se pode abrir o arquivo acessando o 
+      diretório onde ele está salvo. Nele se pode encontrar seu arquivo HTML e 
+      ver que possui como ícone o logotipo de Netscape ou o do Internet 
+      Explorer. Para abrí-lo simplesmente fazemos um clique duplo sobre 
+  ele.</TD></TR></TBODY></TABLE><BR><BR>Uma vez aberto o arquivo, já poderá ver 
+sua primeira página web. Algo simples mas que já é um começo. E que em pouco 
+tempo, já verá como será capaz de melhorar sensivelmente. <BR><BR>Observe a 
+parte superior esquerda da janela do navegador e poderá comprovar a presença do 
+texto delimitado pela etiqueta &lt;title&gt;. Esta é uma das funções desta 
+etiqueta, cujo principal incubência é o de servir de referência nos motores de 
+busca como <A href="http://www.altavista.com/" target=_blank>Altavista</A> ou <A 
+href="http://www.yahoo.com/" target=_blank>Yahoo</A>. <BR><BR><IMG 
+src="HTML - Manual_archivos/pantallapagina2.gif"> <BR><BR>Por outro lado, os 
+elementos que colocamos entre a etiqueta &lt;body&gt; e &lt;/body&gt; se podem 
+ver no espaço reservado para o corpo da página. <BR><BR>Podemos ver <A 
+href="http://www.criarweb.com/artigos/exemplos/html/pagina1.html" 
+target=_blank>a página do exemplo em funcionamento aqui</A>. <BR><BR>Se agora 
+dermos um clique no botão direito do mouse sobre a página e selecionarmos "Ver 
+código fonte" (ou View page source), veremos como que numa janela acessória 
+aparece o código de nossa página. Este recurso é de extrema importância já que 
+nos permite ver o tipo de técnicas empregadas por outros para a confecção de 
+suas páginas. <BR><BR>Com tudo isso assimilado já estamos em condições de 
+aprofundarmos um pouco mais na descrição de algumas das etiquetas mais usadas do 
+HTML. <BR><BR>
+<TABLE width="80%" align=center>
+  <TBODY>
+  <TR>
+    <TD class=coment><B>Possível problema:</B> Ao utilizar o Bloco de Notas no 
+      Windows em algumas ocasiões, mesmo lhe dizendo que é um arquivo .html, o 
+      documento se salva como se fosse um texto e não uma página web. O que está 
+      acontecendo é que o Bloco de Notas tem pré-determinado salvar seus 
+      arquivos com extensão .txt e por isso, na realidade o que ele está 
+      salvando no disco rígido é minha_pagina.html.txt. <BR>Para conseguir ter o 
+      controle das extensões no Bloco de Notas e no Windows em geral podemos 
+      acessar ao "Meu computador" e no menu de "Ver", selecionar "Opções de 
+      pasta". Na janela que aparece clicamos na opção "Ver" e nos permite 
+      desabilitar uma caixa de seleção que põe como "Ocultar extensões para os 
+      tipo de arquivos conhecidos". (assim se faz no Win98, mas pode variar um 
+      pouco em outras versões do Windows) <BR>Com isso conseguiremos ver sempre 
+      a extensão do arquivo com o qual estamos trabalhando e fazer com que o 
+      Bloco de Notas atenda o que estamos lhe solicitando quando gravamos com 
+      outra extensão que não seja .txt.</TD></TR></TBODY></TABLE><BR><BR><SPAN 
+class=fuente8>Informe de <B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Formato de parágrafos em HTML</B></FONT><BR><BR>Nos 
+capítulos anteriores apresentamos a título de exemplo, algumas etiquetas que 
+permitem dar formato ao nosso texto. Neste capítulo veremos com mais detalhe, as 
+etiquetas mais amplamente utilizadas e exemplificaremos algumas delas 
+posteriormente. <BR><BR>Formatar um texto passa por tarefas tão evidentes como 
+definir os parágrafos, justificá-los, introduzir marcadores, numerações, ou pôr 
+em negrito, itálico, etc. <BR><BR>Vimos que para definir os parágrafos 
+utilizamos a etiqueta &lt;p&gt; que introduz um salto e deixa uma linha em 
+branco antes de continuar com o resto do documento. <BR><BR>Podemos também 
+utilizar a etiqueta &lt;br&gt;, da qual não existe seu fechamento correspondente 
+(&lt;/br&gt;), para realizar um simples enter, com o que não deixamos uma linha 
+em branco, e sim, somente mudamos de linha. <BR><BR>
+<TABLE width="80%" align=center>
+  <TBODY>
+  <TR>
+    <TD class=coment><B>Nota</B>: Existem outras etiquetas que não têm seu 
+      correspondente de fechamento, como &lt;img&gt; para as imagens, que 
+      veremos mais adiante. Isto ocorre porque um salto de linha ou uma imagem 
+      não começam e acabam mais adiante, simplesmente só têm presença em um 
+      lugar pontual.</TD></TR></TBODY></TABLE><BR><BR>Podemos comprovar que mudar de 
+linha em nosso documento HTML sem introduzir algumas dessas ou de outras 
+etiquetas não implica em absoluto uma mudança de linha na página visualizada. 
+<BR><BR>Na realidade o navegador introduzirá o texto e não mudará de linha a não 
+ser que esta chegue a seu fim ou se o especifiquemos com a etiqueta 
+correspondente. <BR><BR>Os parágrafos delimitados por etiquetas &lt;p&gt; podem 
+ser facilmente justificados à esquerda, ao centro ou à direita, especificando 
+tal justificação no interior da etiqueta por meio de um atributo align. Um 
+atributo não é mais do que um parâmetro incluído no interior da etiqueta que 
+ajuda a definir o funcionamento da etiqueta de uma forma mais pessoal. Veremos 
+ao longo deste manual uma quantidade de atributos muito úteis para todo tipo de 
+etiquetas. <BR><BR>Então, se desejássemos introduzir um texto alinhado à 
+esquerda escreveríamos: <BR><BR><SPAN class=codigo>&lt;p align="left"&gt;Texto 
+alinhado à esquerda&lt;/p&gt;</SPAN> <BR><BR>O resultado seria: <BR><BR>
+<P align=left>Texto alinhado à esquerda</P><BR><BR>Para uma justificação ao 
+centro: <BR><BR><SPAN class=codigo>&lt;p align="center"&gt;Texto alinhado ao 
+centro&lt;/p&gt;</SPAN> <BR><BR>Que seria: <BR><BR>
+<P align=center>Texto alinhado ao centro</P><BR><BR>Para justificar à direita: 
+<BR><BR><SPAN class=codigo>&lt;p align="right"&gt;Texto alinhado à 
+direita&lt;/p&gt;</SPAN> <BR><BR>Cujo efeito seria: <BR><BR>
+<P align=right>Texto alinhado à direita</P><BR><BR>Como se vê, em cada caso o 
+atributo align toma determinados valores que são escritos entre aspas. Em 
+algumas ocasiões necessitamos especificar alguns atributos para o funcionamento 
+correto da etiqueta. Em outros casos, o próprio navegador toma um valor definido 
+por padrão. Para o caso de align, o valor padrão é left. <BR><BR>
+<TABLE width="80%" align=center>
+  <TBODY>
+  <TR>
+    <TD class=coment><B>Nota:</B> Os atributos têm seus valores indicados 
+      entre aspas ("), mas se não os indicamos entre aspas, também funcionará na 
+      maioria dos casos. Entretanto, é aconselhável que ponhamos sempre as aspas 
+      para acostumarmos a utilizá-las, por dar homogeneidade aos nossos códigos 
+      e para evitar erros futuros em sistemas mais 
+  meticulosos.</TD></TD></TR></TBODY></TABLE><BR><BR>O atributo align não é 
+exclusivo da etiqueta &lt;p&gt;. Outras etiquetas muitos comuns, que veremos 
+mais adiante, entre as quais se introduzem texto ou imagens, costumam fazer uso 
+deste atributo de forma habitual. <BR><BR>Imaginemos um texto relativamente 
+longo onde todos os parágrafos estão alinhados à esquerda (por exemplo). Uma 
+forma de simplificar nosso código e de evitar introduzir continuamente o 
+atributo align sobre cada uma de nossas etiquetas é utilizando a etiqueta 
+&lt;div&gt;. <BR><BR>Esta etiqueta por si só não serve para nada. Tem que estar 
+acompanhada do atributo align e o que nos permite é alinhar qualquer elemento 
+(parágrafo ou imagem) da maneira que nós desejarmos. <BR><BR>Assim, o código: 
+<SPAN class=codigo>&lt;p align="left"&gt;paragrafo1&lt;/p&gt; <BR>&lt;p 
+align="left"&gt;parágrafo2&lt;/p&gt; <BR>&lt;p 
+align="left"&gt;paragrafo3&lt;/p&gt; </SPAN><BR><BR>É equivalente a: 
+<BR><BR><SPAN class=codigo>&lt;div align="left"&gt; 
+<BR>&lt;p&gt;paragrafo1&lt;/p&gt; <BR>&lt;p&gt;paragrafo2&lt;/p&gt; 
+<BR>&lt;p&gt;paragrafo3&lt;/p&gt; <BR>&lt;/div&gt; </SPAN><BR><BR>Como vimos, a 
+etiqueta &lt;div&gt; marca divisões nas quais definimos um mesmo tipo de 
+alinhado. <BR><BR><B>Exemplo prático:</B> <BR><BR>Para praticar um pouco o que 
+acabamos de ver, vamos propor um exercício que se pode resolver no seu 
+computador. Simplesmente queremos construir uma página que tenha, por esta 
+ordem: <BR><BR>2 parágrafos centralizados <BR>3 parágrafos à direita <BR>Um 
+salto triplo de linha <BR>1 parágrafo alinhado à esquerda <BR><BR>Não vamos 
+escrever nesta ocasião o código fonte do exercício. Podemos vê-lo <A 
+href="http://www.criarweb.com/artigos/exemplos/html/exemplo1.html" 
+target=_blank>em funcionamento</A> em nosso navegador e na janela podemos obter 
+o código fonte selecionando no menu Exibir a opção Código fonte. 
+<BR><BR><B>Cabeçalhos</B> <BR><BR>Existem outras etiquetas para definir 
+parágrafos especiais, formatados como títulos. São os cabeçalhos ou Header em 
+inglês. Como dissemos, são etiquetas que formatam o texto como um título, para o 
+qual atribuem um tamanho maior de letra e colocam o texto em negrita. 
+<BR><BR>Existem vários tipos de cabeçalhos que se diferenciam no tamanho da 
+letra que utilizam. A etiqueta em concreto é a &lt;h1&gt;, para os cabeçalhos 
+maiores, &lt;h2&gt; para os de segundo nível e assim, até &lt;h6&gt; que é o 
+cabeçalho menor. <BR><BR>Os cabeçalhos implicam também uma separação em 
+parágrafos, portanto, tudo o que for escrito dentro de &lt;h1&gt; e &lt;/h1&gt; 
+(ou qualquer outro cabeçalho) será colocado em um parágrafo independente. 
+<BR><BR>Podemos ver como se apresentam alguns cabeçalhos a seguir: <BR><BR><SPAN 
+class=codigo>&lt;h1&gt;Cabeçalho de nível 1&lt;/h1&gt;</SPAN> <BR><BR>Será visto 
+dessa maneira na página: <BR><BR>
+<H1>Cabeçalho de nível 1</H1><BR><BR>Os cabeçalhos, como outras etiquetas de 
+html, suportam o atributo align. Vejamos um exemplo de cabeçalho de nível 2 
+alinhado ao centro: <BR><BR><SPAN class=codigo>&lt;h2 
+align="center"&gt;Cabeçalho de nível 2&lt;/h2&gt;</SPAN> <BR><BR>Será visto 
+dessa maneira na página: <BR><BR>
+<H2>Cabeçalho de nível 2</H2><BR><BR>Outro exercício interessante é construir 
+uma página web que contenha todos os cabeçalhos possíveis. Pode-se ver a seguir: 
+<BR><BR><SPAN class=codigo>&lt;html&gt; <BR>&lt;head&gt; <BR>&lt;title&gt;Todos 
+os cabeçalhos&lt;/title&gt; <BR>&lt;/head&gt; <BR><BR>&lt;body&gt; 
+<BR><BR>&lt;h1&gt;Cabeçalho de nível 1&lt;/h1&gt; <BR>&lt;h2&gt;Cabeçalho de 
+nível 2&lt;/h2&gt; <BR>&lt;h3&gt;Cabeçalho de nível 3&lt;/h3&gt; 
+<BR>&lt;h4&gt;Cabeçalho de nível 4&lt;/h4&gt; <BR>&lt;h5&gt;Cabeçalho de nível 
+5&lt;/h5&gt; <BR>&lt;h6&gt;Cabeçalho de nível 6&lt;/h6&gt; <BR><BR>&lt;/body&gt; 
+<BR><BR>&lt;/html&gt;</SPAN> <BR><BR>Pode-se ver o exercício em uma <A 
+href="http://www.criarweb.com/artigos/exemplos/html/exemplo2.html" 
+target=_blank>página a parte</A>. <BR><BR>
+<TABLE width="80%" align=center>
+  <TBODY>
+  <TR>
+    <TD class=coment><B>Conselho:</B> Não devemos utilizar as etiquetas do 
+      cabeçalho para formatar o texto, ou seja, se queremos colocar um tipo de 
+      letra maior e em negrito, devemos utilizar as etiquetas que existem para 
+      isso (que veremos em seguida). Os cabeçalhos são para colocar títulos em 
+      páginas web e é o navegador o responsável de formatar o texto de maneira 
+      que pareça um título. Cada navegador então, pode formatar o texto ao seu 
+      gosto contanto que pareça um título.</TD></TD></TR></TBODY></TABLE><BR><BR><SPAN 
+class=fuente8>Informe de <B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Formatando o texto</B></FONT><BR><BR>Além de tudo 
+relativo à organização dos parágrafos, um dos aspectos primordiais da formatação 
+de um texto, é o da própria letra. É muito comum e prático, apresentar o texto 
+ressaltado em negrito, itálico e outros. Paralelamente, o uso de índices e 
+subíndices é vital para a publicação de textos científicos. Tudo isso e muito 
+mais, é possível por meio do HTML a partir de uma série de etiquetas entre as 
+quais vamos destacar algumas. <BR><BR><B>Negrito</B> <BR><BR>Podemos escrever o 
+texto em negrito o incluindo dentro das etiquetas &lt;b&gt; e &lt;/b&gt; (bold). 
+Esta mesma tarefa é desempenhada por &lt;strong&gt; e &lt;/strong&gt; sendo 
+ambas equivalentes. Nós nos inclinamos pelas primeiras por uma simples razão de 
+esforço. <BR><BR>Escrevendo um código deste tipo: <BR><BR><SPAN 
+class=codigo>&lt;b&gt;Texto em negrito&lt;/b&gt;</SPAN> <BR><BR>Obteremos este 
+resultado: <B>Texto em negrito</B> <BR><BR>
+<TABLE width="80%" align=center>
+  <TBODY>
+  <TR>
+    <TD class=coment><B>Nota:</B> Qual a diferença entre &lt;b&gt; e 
+      &lt;strong&gt;? Apesar das duas etiquetas fazerem o mesmo efeito, há uma 
+      peculiaridade que as fazem distintas. A etiqueta &lt;b&gt; indica negrito, 
+      enquanto que a etiqueta &lt;strong&gt; indica que se deve escrever 
+      ressaltado. Os navegadores interpretam o HTML segundo seu critério, é por 
+      isso que se podem ver as páginas de distintas maneiras em uns browsers e 
+      outros. A etiqueta &lt;h1&gt; quer dizer "cabeçalho de nível 1", o 
+      navegador é o responsável de formatar o texto de maneira que pareça um 
+      cabeçalho de primeiro nível. Na prática, os cabeçalhos do Internet 
+      Explorer e do Netscape são muito parecidos (tamanho de letra grande e em 
+      negrito), mas outro navegador poderia colocar os cabeçalhos sublinhados se 
+      lhe parecesse oportuno.</TD></TR></TBODY></TABLE><BR><BR><B>Itálico</B> 
+<BR><BR>Também neste caso existem duas possibilidades, uma curta: &lt;i&gt; e 
+&lt;/i&gt; (italic) e outra um pouco mais longa: &lt;em&gt; e &lt;/em&gt;. Neste 
+manual, e na maioria das páginas que se vê por aí, é normal encontrar com a 
+primeira forma que é sem dúvida mais simples para escrever e para se lembrar. 
+<BR><BR>Abaixo, um exemplo de texto em itálico: <BR><BR><SPAN 
+class=codigo>&lt;i&gt;Texto em itálico&lt;/i&gt;</SPAN> <BR><BR>Que dá o 
+seguinte efeito: <BR><BR><I>Texto em itálico</I> <BR><BR><B>Sublinhado</B> 
+<BR><BR>O HTML nos propõe também para o sublinhado as etiquetas: &lt;u&gt; e 
+&lt;/u&gt; (underline). Entretanto o uso do sublinhado deve ser usado com muita 
+precaução visto que os links hipertextos vão, a não ser que se indique o 
+contrário, sublinhados com o que podemos confundir o leitor e afastá-lo do 
+verdadeiro interesse de nosso texto. <BR><BR><B>Subscrito e sobrescrito 
+</B><BR><BR>Este tipo de formato é de extrema utilidade para textos científicos. 
+As etiquetas empregadas são: <BR><BR>&lt;sup&gt; e &lt;/sup&gt; para os 
+sobrescritos <BR>&lt;sub&gt; e &lt;/sub&gt; para os subscritos <BR><BR>Temos 
+aqui um exemplo: <BR><BR>A <SPAN 
+class=codigo>&lt;sup&gt;13&lt;/sup&gt;CC&lt;sub&gt;3&lt;/sub&gt;H&lt;sub&gt;4&lt;/sub&gt;CINOS 
+é um heterociclo alergeno enriquecido</SPAN> <BR><BR>O resultado seria: 
+<BR><BR>A ¹³CC3H4CINOS é um heterociclo alergeno enriquecido. 
+<BR><BR><B>Combinar etiquetas</B> <BR><BR>Todas estas etiquetas, incluindo as 
+que já vimos e as que ainda vamos ver, podem ser combinadas estando umas dentro 
+das outras de forma que conseguimos resultados diferentes. Assim, podemos sem 
+nenhum problema criar um texto em negrito e em itálico colocando uma etiqueta 
+dentro da outra: <BR><BR><SPAN class=codigo>&lt;b&gt;Isto só está em 
+negrito&lt;i&gt;e isto em negrito e itálico&lt;/i&gt;&lt;/b&gt;</SPAN> 
+<BR><BR>Isto daria: <BR><BR><B>Isto só está em negrito<I> e isto em negrito e 
+itálico</I></B> <BR><BR>
+<TABLE width="80%" align=center>
+  <TBODY>
+  <TR>
+    <TD class=coment><B>Conselho:</B> Para unir etiquetas HTML, faça 
+      corretamente. Referimo-nos a que se você abre uma etiqueta dentro de outra 
+      mais principal, antes de fechar a etiqueta principal feche as etiquetas 
+      que você tiver aberto dentro dela. <BR><BR>Devemos evitar códigos como o 
+      seguinte:<BR>&lt;b&gt;Isto está em negrito e 
+      &lt;i&gt;itálico&lt;/b&gt;&lt;/i&gt; <BR><BR>A favor de códigos com 
+      etiquetas corretamente colocadas:<BR>&lt;b&gt;Isto está em negrito 
+      e&lt;i&gt;itálico&lt;/i&gt;&lt;/b&gt; <BR><BR>Isto é muito aconselhável, 
+      ainda que os navegadores entendam bem as etiquetas mal colocadas, por duas 
+      razões:<BR><BR>1. Sistemas como XML não são tão permissivos com estes 
+      erros e pode que no futuro nossas páginas não funcionem 
+      corretamente.<BR>2. Leva muito tempo de processamento para os navegadores 
+      resolverem este tipo de erro, inclusive mais do que construir a própria 
+      página, por isso devemos evitar-lhes que sofram por uma má codificação. 
+  </TD></TR></TBODY></TABLE><BR><BR><SPAN class=fuente8>Informe de <B>Miguel Angel 
+Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Cor, tamanho e tipo de letra</B></FONT><BR><BR>Apesar de 
+que por razões de homogeneidade e simplicidade de código estes tipos de formatos 
+são controlados atualmente por folhas de estilo cascata (das quais já teremos 
+tempo de falar), existe uma forma clássica e direta de definir cor, tamanho e 
+tipo de letra de um determinado texto. <BR><BR>Isto se faz a partir da etiqueta 
+&lt;font&gt; e seu fechamento correspondente. Dentro desta etiqueta devemos 
+especificar os atributos correspondentes a cada um destes parâmetros que 
+desejamos definir. A seguir comentamos os atributos principais desta etiqueta: 
+<BR><BR><B>Atributo face</B> <BR><BR>Define o tipo de letra. Este atributo é 
+interpretado por versões do Netscape a partir da 3 e de MSIE 3 ou superiores. 
+Outros navegadores as ignoram completamente e mostram o texto com a fonte que 
+utilizam. <BR><BR>Deve-se ter cuidado com este atributo já que cada usuário, 
+dependendo da plataforma que utilize, pode não dispor dos mesmos tipos de letra 
+que nós com o que, se nós escolhemos um tipo do que não dispõe, o navegador se 
+verá forçado a mostrar o texto com a fonte que utiliza por padrão (que costuma 
+ser Times New Roman). Para evitar isso, dentro do atributo costuma-se selecionar 
+vários tipos de letras separados por vírgulas. Neste caso, o navegador 
+comprovará que dispõe do primeiro tipo numerado e se não for assim, passará para 
+o segundo e assim sucessivamente até encontrar um tipo que possua ou então, até 
+acabar a lista e colocar a fonte padrão. Vejamos um exemplo: <BR><BR>&lt;font 
+face="Comic SansMS,arial,verdana"&gt;Este texto tem outra 
+tipografia&lt;/font&gt; <BR><BR>Que se visualizaria assim em uma página web: 
+<BR><BR><FONT face="Comic SansMS,arial,verdana">Este texto tem outra tipografia 
+</FONT><BR><BR>
+<TABLE width="80%" align=center>
+  <TBODY>
+  <TR>
+    <TD class=coment><B>Nota</B>: Aqui temos um exemplo de atributo cujo valor 
+      deve estar limitado entre aspas (").<BR>Havíamos dito que as aspas eram 
+      opcionais nos atributos, entretanto isto não é assim sempre. Se o valor do 
+      atributo contém espaços, como é o caso de: <BR><BR>face="Comic Sans 
+      MS,arial,verdana" <BR><BR>devemos colocar as aspas para limitá-lo. Em caso 
+      de não ter aspas <BR><BR>face=Comic Sans MS,arial, verdana <BR><BR>se 
+      entenderia que face=Comic, mas não se levaria em conta tudo o que segue, 
+      porque o HTML não o associaria ao valor atributo. Neste caso o HTML 
+      pensaria que as seguintes palavras (depois do espaço) são outros 
+      atributos, mas como não os conhece como atributos simplesmente iria 
+      ignorá-los.</TD></TR></TBODY></TABLE><BR><BR><B>Atributo size</B> <BR><BR>Define 
+o tamanho da letra. Este tamanho pode ser absoluto ou relativo. <BR><BR>Se 
+falarmos em términos absolutos, existem 7 níveis de tamanhos distintos numerados 
+de 1 a 7 por ordem crescente. Escolheremos portanto um valor size="1" para a 
+menor letra ou size="7" para a maior. <BR><BR>&lt;font size=4&gt;Este texto é 
+maior&lt;/font&gt; <BR><BR>Que se visualizaria assim em uma página web: 
+<BR><BR><FONT size=4>Este texto é maior</FONT> <BR><BR>Podemos também modificar 
+o tamanho de nossa letra em relação ao do texto mostrado anteriormente definindo 
+o número de níveis que queremos subir ou descer nesta escala de tamanhos por 
+meio do signo + ou - . Desse modo, se definimos nosso atributo como size="+1" o 
+que queremos dizer é que aumentamos um nível o tamanho da letra. Se estávamos 
+escrevendo previamente em 3, passaremos automaticamente a 4. <BR><BR>Os tamanhos 
+reais que vermos na tela dependerão da definição e do tamanho da fonte escolhido 
+pelo usuário no navegador. Este tamanho de fonte pode ser definido no Explorer 
+indo ao menu superior, Exibir/Tamanho da fonte. No Netscape escolheremos 
+View/Text Size. Esta flexibilidade pode acabar sendo embaraçosa para nós em mais 
+de uma ocasião, já que em muitos casos desejaremos que o tamanho do texto 
+permaneça constante para que este caiba em um determinado espaço. Veremos em seu 
+momento que esta pré-fixação do tamanho pode ser realizada pelas folhas de 
+estilo em cascata. <BR><BR><B>Atributo cor</B> <BR><BR>A cor do texto pode ser 
+definida através do atributo cor. Cada cor é por sua vez definida por um número 
+hexadecimal que está composto por três partes. Cada uma destas partes representa 
+a contribuição do vermelho, verde e azul à cor em questão. <BR><BR>Por outro 
+lado é possível definir de uma maneira imediata algumas das cores mais 
+freqüentemente usadas para as que se criaram um nome mais memotécnico: <BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD align=middle><B>Nombre</B></TD>
+    <TD align=middle><B>Color</B></TD></TR>
+  <TR>
+    <TD>Aqua</TD>
+    <TD bgColor=aqua></TD></TR>
+  <TR>
+    <TD>Black</TD>
+    <TD bgColor=black></TD></TR>
+  <TR>
+    <TD>Blue</TD>
+    <TD bgColor=blue></TD></TR>
+  <TR>
+    <TD>Fuchsia</TD>
+    <TD bgColor=fuchsia></TD></TR>
+  <TR>
+    <TD>Gray</TD>
+    <TD bgColor=gray></TD></TR>
+  <TR>
+    <TD>Green</TD>
+    <TD bgColor=green></TD></TR>
+  <TR>
+    <TD>Lime</TD>
+    <TD bgColor=lime></TD></TR>
+  <TR>
+    <TD>Maroon</TD>
+    <TD bgColor=maroon></TD></TR>
+  <TR>
+    <TD>Navy</TD>
+    <TD bgColor=navy></TD></TR>
+  <TR>
+    <TD>Olive</TD>
+    <TD bgColor=olive></TD></TR>
+  <TR>
+    <TD>Purple</TD>
+    <TD bgColor=purple></TD></TR>
+  <TR>
+    <TD>Red</TD>
+    <TD bgColor=red></TD></TR>
+  <TR>
+    <TD>Silver</TD>
+    <TD bgColor=silver></TD></TR>
+  <TR>
+    <TD>Teal</TD>
+    <TD bgColor=teal></TD></TR>
+  <TR>
+    <TD>White</TD>
+    <TD bgColor=white></TD></TR>
+  <TR>
+    <TD>Yellow</TD>
+    <TD bgColor=yellow></TD></TR></TBODY></TABLE><BR><BR>&lt;font 
+color="red"&gt;Este texto está em vermelho&lt;/font&gt; <BR><BR>Que se 
+visualizaria assim em uma página web: <BR><BR><FONT color=red>Este texto está em 
+vermelho</FONT> <BR><BR>Com tudo isso, já somos capazes de criar um texto 
+formatado de uma forma realmente elaborada. <BR><BR>Colocamos então em prática 
+tudo o que aprendemos nestes capítulos fazendo um exercício consistente em uma 
+página que tenha as seguintes características: <BR><BR>
+<UL>
+  <LI>Um título com cabeçalho de nível 1, em itálico e na cor verde oliva. 
+  <LI>Um segundo título com cabeçalho de nível 2, também na cor verde oliva. 
+  <LI>Todo texto da página deverá apresentar-se com uma fonte diferente da fonte 
+  padrão. Por exemplo, "Comic Sans MS" e no caso de que esta não esteja no 
+  sistema, que se coloque a fonte "Arial". </LI></UL>Pode-se ver <A 
+href="http://www.criarweb.com/artigos/exemplos/html/exemplo3.html" 
+target=_blank>uma possível solução do exercício neste link</A>. <BR><BR><SPAN 
+class=fuente8>Informe de <B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Atributos para páginas</B></FONT><BR><BR>As páginas HTML 
+podem ser construídas com uma variedade de atributos que lhe podem dar um 
+aspecto à página muito personalizado. Podemos definir atributos como a cor de 
+fundo, a cor do texto ou dos links. Estes atributos se definem na etiqueta 
+&lt;body&gt; e, como dizíamos são gerais a toda a página. <BR><BR>O melhor para 
+explicar seu funcionamento é vê-los um a um. <BR><BR><B>Atributos para 
+fundos</B> <BR><BR><B>Bgcolor</B>: especificamos uma cor de fundo para a página. 
+No capítulo anterior aprendemos a construir qualquer cor, com seu nome ou seu 
+valor RGB. A cor de fundo que podemos atribuir com bgcolor é uma cor plana, ou 
+seja, a mesma para toda a superfície do navegador. <BR><BR><B>Background</B>: 
+serve para indicar a colocação de uma imagem como fundo da página. Nos capítulos 
+mais adiante, veremos como se inserem imagens com HTML e os tipos de imagens que 
+se podem utilizar. <BR><BR><B>Exemplo de fundo</B> <BR><BR>Vamos colocar esta 
+imagem no fundo da página. <BR><BR>
+<DIV align=center><IMG height=50 alt="Imagen que utilizaremos de fondo" 
+src="HTML - Manual_archivos/fondo.jpg" width=50 border=0></DIV><BR><BR>A imagem 
+chama-se fundo.jpg e supomos que se encontra no mesmo diretório que a página. 
+Neste caso se colocaria a seguinte etiqueta &lt;body&gt; <BR><BR><SPAN 
+class=codigo>&lt;body background="fondo.jpg"&gt;</SPAN> <BR><BR>Pode-se ver o 
+efeito de colocar este fundo <A 
+href="http://www.criarweb.com/artigos/exemplos/html/exemplo4.html" 
+target=_blank>em uma página a parte</A>. <BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width="90%" align=center bgColor=#eeeeee 
+border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8><B>Conselho</B>: Sempre que colocarmos uma imagem de 
+      fundo, devemos também pôr uma cor de fundo próxima da cor da imagem. 
+      <BR><BR>Isto se deve, pois ao colocar uma imagem de fundo, temos que 
+      colocar uma cor que contraste suficientemente com tal fundo. Se o 
+      visitante não pode ver o fundo por qualquer questão (por exemplo, por ter 
+      a carga de imagens desabilitada) pode que o texto não contraste o 
+      suficiente com a cor de fundo padrão da web. <BR><BR>Acredito que o melhor 
+      a fazer é testar com um exemplo. Se a imagem de fundo é escura, teremos 
+      que colocar um texto claro para que se possa ler. Se o visitante que 
+      acessa a página não vê a imagem de fundo, sairá o fundo padrão, que 
+      geralmente é branco, de modo que ao ter um texto de cor clara sobre um 
+      fundo branco, não será possível ler o texto convenientemente. 
+      <BR><BR>Ocorre parecido quando se está fazendo o download da página. Se 
+      ainda não chegou ao nosso sistema a imagem de fundo, veremos o fundo que 
+      tivermos selecionado com bgcolor e é interessante que seja parecido à cor 
+      da imagem para que se possa ler o texto enquanto se faz o download da 
+      imagem de fundo.</TD></TR></TBODY></TABLE><BR><BR><B>Cor do texto</B> 
+<BR><BR><B>Text</B>: Este atributo serve para atribuir a cor do texto da página. 
+Por padrão é o negro. <BR><BR>Ademais da cor do texto, temos três atributos para 
+atribuir a cor dos links da página. Já devemos saber que os links devem 
+diferenciar-se do resto do texto da página para que os usuários possam 
+identificá-los facilmente. Para isso, eles costumam aparecer sublinhados e com 
+uma cor mais viva que o texto. Os três atributos são os seguintes: 
+<BR><BR><B>Link</B>: a cor dos links que não foram visitados. 
+<BR><BR><B>Vlink</B>: a cor dos links visitados. A letra "v" vem justamente da 
+palavra visitado. É a cor que terão os links que já visitamos. Por padrão sua 
+cor é roxa. Esta cor deverá ser um pouco menos viva que a cor dos links normais. 
+<BR><BR><B>Alink</B>: é a cor dos links ativos. Um link está ativo no preciso 
+momento em que se clica. Às vezes é difícil perceber quando um link está ativo 
+porque no momento em que se ativa, é porque o estamos clicando e nesse caso, o 
+navegador abandonará a página rapidamente e não poderemos ver o link ativo mais 
+que um mínimo instante. <BR><BR><B>Exemplo de cor de texto</B> <BR><BR>Vamos ver 
+uma página em que a cor de fundo seja preta, e as cores dos textos e dos links 
+sejam claros. Colocaremos a cor do texto branca e os links amarelos, mais 
+ressaltados os que não tenham sido visitados e menos ressaltados os que já 
+tenham sido. Para isso, escreveríamos a etiqueta body assim: <BR><BR><SPAN 
+class=codigo>&lt;body bgcolor="#000000" text="#ffffff" link="#ffff33" 
+alink="ffffcc" alink="ffff00"&gt; </SPAN><BR><BR>O efeito pode-se ver <A 
+href="http://www.criarweb.com/artigos/exemplos/html/exemplo5.html" 
+target=_blank>em uma página a parte</A>. <BR><BR><B>Margens</B> <BR><BR>Com 
+outros atributos da etiqueta &lt;body&gt; podem-se atribuir espaços de margens 
+nas páginas, o que é muito útil para eliminar as margens em branco que aparecem 
+nos lados, em cima e embaixo da página. Estes atributos são diferentes para o 
+Internet Explorer e para o Netscape Navigator, por isso, devemos utilizá-los 
+todos se queremos que todos os navegadores os interpretem perfeitamente. 
+<BR><BR><B>Leftmargin</B>: para a indicar a margem nos lados da página. Válido 
+para Internet Explorer. <BR><BR><B>Topmargin</B>: para indicar a margem acima e 
+abaixo da página. Para Internet Explorer. <BR><BR><B>Marginwidth</B>: a 
+contrapartida de leftmargin para Netscape. (margem nos lados) 
+<BR><BR><B>Marginheight</B>: igual ao topmargin, mas para Netscape. (margem 
+acima e abaixo) <BR><BR>Um exemplo de página sem margem é a própria página de 
+criarweb.com que você está visitando atualmente. (pelo menos na hora de escrever 
+este artigo). Além disso, vamos ver outra página sem margens, caso alguém 
+necessite ver o exemplo nestas linhas: <BR><BR><SPAN class=codigo>&lt;body 
+topmargin=0 leftmargin=0 marginheight=0 marginwidth=0 bgcolor="ffffff"&gt; 
+<BR>&lt;table width=100% bgcolor=ff6666&gt;&lt;tr&gt;&lt;td&gt; 
+<BR>&lt;h1&gt;Olá amigos&lt;/h1&gt; <BR>&lt;br&gt; <BR>&lt;br&gt; <BR>Obrigado 
+por me visitar! <BR>&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; <BR>&lt;/body&gt; 
+</SPAN><BR><BR>Esta página tem o fundo branco e dentro um painel com o fundo 
+vermelho. Na página poderemos ver que o painel ocupa o espaço na página sem 
+deixar lugar para nenhum tipo de margem. Pode-se ver o exemplo <A 
+href="http://www.criarweb.com/artigos/exemplos/html/exemplo6.html" 
+target=_blank>em uma página à parte</A>. <BR><BR><SPAN class=fuente8>Informe de 
+<B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Listas I</B></FONT><BR><BR>São realmente notáveis as 
+possibilidades que o HTML nos oferece em questão de tratamento de texto. Não se 
+limitam ao que vimos até agora, pois vão ainda mais longe. Vários exemplos disso 
+são as listas, que servem para numerar e definir elementos, os textos 
+pré-formatados e os cabeçalhos ou os títulos. <BR><BR>As listas são utilizadas 
+para citar, numerar e definir objetos. Também são utilizadas correntemente para 
+deslocar o começo da linha para a direita. <BR><BR>Podemos distinguir três tipos 
+de listas: 
+<UL>
+  <LI><A href="http://www.criarweb.com/artigos/#des">Listas desordenadas</A> 
+  <LI><A href="http://www.criarweb.com/artigos/26.php">Listas ordenadas</A> 
+  <LI><A href="http://www.criarweb.com/artigos/27.php">Listas de definição</A> 
+  </LI></UL>Veremos agora detalhadamente uma por uma: <BR><BR><A 
+name=des></A><B>Listas desordenadas</B> <BR><BR>São delimitadas pelas etiquetas 
+&lt;ul&gt; e &lt;/ul&gt; (unordered list). Cada um dos elementos da lista é 
+citado por meio de uma etiqueta &lt;li&gt; (sem fechamento, ainda que exista 
+nenhum inconveniente em colocá-lo). Então, fica assim: <BR><BR><SPAN 
+class=codigo>&lt;p&gt;Países do mundo&lt;/p&gt; <BR>&lt;ul&gt; 
+<BR>&lt;li&gt;Brasil&lt;/li&gt; <BR>&lt;li&gt;Espanha&lt;/li&gt; 
+<BR>&lt;li&gt;Austrália&lt;/li&gt; <BR>&lt;/ul&gt; </SPAN><BR><BR>O resultado: 
+<BR><BR>
+<P>Países do mundo</P>
+<UL>
+  <LI>Brasil 
+  <LI>Espanha 
+  <LI>Austrália </LI></UL>Podemos definir o tipo de marcador empregado para cada 
+elemento. Para isso devemos especificá-lo por meio do atributo type incluído 
+dentro da etiqueta de abertura &lt;ul&gt;, se queremos que o estilo seja válido 
+para toda a lista, ou dentro da etiqueta &lt;li&gt; se queremos especificar um 
+só elemento. A sintaxe é do seguinte tipo: <BR><BR>&lt;ul type="tipo de 
+marcador"&gt; <BR><BR>E o tipo de marcador pode ser um dos seguintes: 
+<BR><BR>Circle <BR>Disc <BR>Square <BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width="90%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8 bgColor=#dddddd><B>Nota</B>: Em alguns navegadores não 
+      funciona a opção de mudar o tipo de marcador e por mais que nos 
+      empenhemos, sempre sairá a bolinha preta. <BR><BR>Em caso de que não 
+      funcione, sempre podemos construir a lista à mão com o marcador que 
+      quisermos, utilizando as tabelas do HTML. Veremos mais adiante como 
+      trabalhar com tabelas.</TD></TR></TBODY></TABLE><BR><BR>Vamos ver um exemplo de 
+lista com um quadrado ao invés de uma bolinha e, no último elemento, colocaremos 
+um círculo. Para isso, vamos colocar o atributo type na etiqueta &lt;ul&gt;, que 
+irá afetar todos os elementos da lista. <BR><BR><SPAN class=codigo>&lt;ul 
+type="square"&gt; <BR>&lt;li&gt;Elemento 1&lt;/li&gt; <BR>&lt;li&gt;Elemento 
+2&lt;/li&gt; <BR>&lt;li&gt;Elemento 3&lt;/li&gt; <BR>&lt;li 
+type="circle"&gt;Elemento 4&lt;/li&gt; <BR>&lt;/ul&gt; </SPAN><BR><BR>Que tem 
+como resultado: 
+<UL type=square>
+  <LI>Elemento 1 
+  <LI>Elemento 2 
+  <LI>Elemento 3 
+  <LI type=circle>Elemento 4 </LI></UL><BR><BR><SPAN class=fuente8>Informe de 
+<B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Listas II</B></FONT><BR><BR>Continuamos estudando as 
+listas do HTML, que nos possibilita criar estruturas atrativas para apresentar a 
+informação. <BR><BR><B>Listas ordenadas </B><BR><BR>Neste caso, usaremos as 
+etiquetas &lt;ol&gt; (ordered list) e seu fechamento. Cada elemento será 
+igualmente precedido de sua etiqueta &lt;li&gt;. <BR><BR>Como exemplo: 
+<BR><BR><SPAN class=codigo>&lt;p&gt;Regras de comportamento no 
+trabalho&lt;/p&gt; <BR>&lt;ol&gt; <BR>&lt;li&gt;O chefe sempre tem a 
+razão&lt;/li&gt; <BR>&lt;li&gt;Em caso de dúvida, aplicar a regra 1&lt;/li&gt; 
+<BR>&lt;/ol&gt; </SPAN><BR><BR>O resultado é: <BR><BR>
+<P>Regras de comportamento no trabalho</P>
+<OL>
+  <LI>O chefe sempre tem a razão 
+  <LI>Em caso de dúvida aplicar a regra 1 </LI></OL>Do mesmo modo das listas 
+desordenadas , as listas ordenadas oferecem a possibilidade de modificar o 
+estilo. Concretamente, nos é possível especificar o tipo de numeração empregado 
+escolhendo entre números (1,2,3...), letras (a,b,c...) e suas maiúsculas 
+(A,B,C...) e números romanos em suas versões maiúsculas (I,II,III...) e 
+minúsculas (i,ii,iii...). <BR><BR>Para realizar tal seleção temos de utilizar, 
+como para o caso anterior, o atributo type, o qual será situado dentro da 
+etiqueta &lt;ol&gt;. Neste caso, os valores que o atributo pode tomar são: 
+<BR><BR>1 Para ordenar por números <BR>a Por letras do alfabeto <BR>A Por letras 
+maiúsculas do alfabeto <BR>i Ordenação por números romanos em minúsculas <BR>I 
+Ordenação por números romanos em maiúsculas <BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width="90%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8 bgColor=#dddddd><B>Nota</B>: Lembramos que em alguns 
+      navegadores não funciona a opção de mudar o tipo de 
+marcador.</TD></TR></TBODY></TABLE><BR><BR>Pode ser que em algum caso desejemos 
+começar nossa numeração por um número ou letra que não tem porque ser 
+necessariamente o primeiro de todos. Para resolver esta situação, podemos 
+utilizar um segundo atributo, start, que terá um número como valor. Este número, 
+que por padrão é 1, corresponde ao valor a partir do qual começamos a definir 
+nossa lista. Para o caso das letras ou dos números romanos, o navegador se 
+encarrega de fazer a tradução do número à letra correspondente. <BR><BR>Propomos 
+um exemplo usando este tipo de atributos: <BR><BR><SPAN 
+class=codigo>&lt;p&gt;Ordenamos por números&lt;/p&gt; <BR>&lt;ol type="1"&gt; 
+<BR>&lt;li&gt;Elemento 1&lt;/li&gt; <BR>&lt;li&gt;Elemento 2&lt;/li&gt; 
+<BR>&lt;/ol&gt; <BR><BR>&lt;p&gt;Ordenamos por letras&lt;/p&gt; <BR>&lt;ol 
+type="a"&gt; <BR>&lt;li&gt;Elemento a&lt;/li&gt; <BR>&lt;li&gt;Elemento 
+b&lt;/li&gt; <BR>&lt;/ol&gt; <BR><BR>&lt;p&gt;Ordenamos por números romanos 
+começando pelo 10&lt;/p&gt; <BR>&lt;ol type="i"start="10"&gt; 
+<BR>&lt;li&gt;Elemento x&amp;li;/li&gt; <BR>&lt;li&gt;Elemento xi&amp;li;/li&gt; 
+<BR>&lt;/ol&gt; </SPAN><BR><BR>O resultado: <BR><BR>
+<P>Ordenamos por números</P>
+<OL type=1>
+  <LI>Elemento 1 
+  <LI>Elemento 2 </LI></OL>
+<P>Ordenamos por letras</P>
+<OL type=a>
+  <LI>Elemento a 
+  <LI>Elemento b </LI></OL>
+<P>Ordenamos por números romanos começando pelo 10</P>
+<OL type=i start=10>
+  <LI>Elemento x 
+  <LI>Elemento xi </LI></OL><BR><BR><SPAN class=fuente8>Informe de <B>Miguel Angel 
+Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Listas III</B></FONT><BR><BR>Terminamos o assunto das 
+listas estudando as listas de definição. Veremos também a combinação de listas. 
+<BR><BR><B>Listas de definição</B> <BR><BR>Cada elemento é apresentado junto com 
+sua definição. A definição principal é &lt;dl&gt; e &lt;/dl&gt; (definition 
+list). As etiquetas do elemento e sua definição são &lt;dt&gt; (difinition term) 
+e &lt;dd&gt; (definition definition) respectivamente. <BR><BR>Aqui lhe propomos 
+um código que poderá clarear este sistema: <BR><BR><SPAN 
+class=codigo>&lt;p&gt;Dicionário da Língua Portuguesa&lt;/p&gt; <BR>&lt;dl&gt; 
+<BR>&nbsp;&nbsp; &lt;dt&gt;Açougue&lt;/dt&gt; <BR>&nbsp;&nbsp; 
+&lt;dd&gt;Estabelecimento onde se vendem carnes frescas&lt;/dd&gt; 
+<BR>&nbsp;&nbsp; &lt;dt&gt;Colheita&lt;/dt&gt; <BR>&lt;dd&gt;Ato de colher os 
+produtos agrícolas&lt;/dd&gt; <BR>&lt;/dl&gt; </SPAN><BR><BR>O efeito produzido: 
+<BR><BR>
+<P>Dicionário da Língua Portuguesa</P>
+<DL>
+  <DT>Açougue 
+  <DD>Estabelecimento onde se vendem carnes frescas 
+  <DT>Colheita 
+  <DD>Ato de colher os produtos agrícolas </DD></DL>Observe que em cada linha 
+&lt;dd&gt; está deslocada da direção da esquerda. Este tipo de etiquetas é usado 
+muitas vezes com o propósito de criar textos mais ou menos deslocados da direção 
+da esquerda. <BR><BR>O código: <BR><BR><SPAN class=codigo>&lt;dl&gt; 
+<BR>&lt;dd&gt;Primeiro nível de deslocamento <BR>&nbsp;&nbsp; &lt;dl&gt; 
+<BR>&nbsp;&nbsp;&nbsp; &lt;dd&gt;Segundo nível de deslocamento <BR>&nbsp;&nbsp; 
+&lt;dl&gt; <BR>&nbsp;&nbsp;&nbsp; &lt;dd&gt;Terceiro nível de deslocamento 
+<BR>&nbsp;&nbsp; &lt;/dl&gt; <BR>&nbsp;&nbsp; &lt;/dl&gt; <BR>&lt;/dl&gt; 
+</SPAN><BR><BR>O resultado: 
+<DL>
+  <DD>Primeiro nível de deslocamento 
+  <DL>
+    <DD>Segundo nível de deslocamento 
+    <DL>
+      <DD>Terceiro nível de deslocamento </DD></DL></DD></DL></DD></DL><B>Combinando 
+listas</B> <BR><BR>Nada nos impede de utilizar todas estas etiquetas de forma 
+combinada como vimos em outros casos. Dessa forma, podemos conseguir listas 
+mistas como, por exemplo: <BR><BR><SPAN class=codigo>&lt;p&gt;Cidades do 
+mundo&lt;/p&gt; <BR>&lt;ul&gt; <BR>&nbsp;&nbsp; &lt;li&gt;Brasil 
+<BR>&nbsp;&nbsp;&nbsp; &lt;ol&gt; <BR>&nbsp;&nbsp;&nbsp; &lt;li&gt;Rio de 
+Janeiro <BR>&nbsp;&nbsp;&nbsp; &lt;li&gt;Salvador <BR>&nbsp;&nbsp;&nbsp; 
+&lt;/ol&gt; <BR>&nbsp;&nbsp; &lt;li&gt;Espanha <BR>&nbsp;&nbsp; &lt;ol&gt; 
+<BR>&nbsp;&nbsp;&nbsp; &lt;li&gt;Madrid <BR>&nbsp;&nbsp;&nbsp; 
+&lt;li&gt;Barcelona <BR>&nbsp;&nbsp; &lt;/ol&gt; <BR>&lt;/ul&gt; 
+</SPAN><BR><BR>Dessa forma criamos uma lista como esta: <BR><BR>
+<P>Cidades do mundo</P>
+<UL>
+  <LI>Brasil 
+  <OL>
+    <LI>Rio de Janeiro 
+    <LI>Salvador </LI></OL>
+  <LI>Espanha 
+  <OL>
+    <LI>Madrid 
+    <LI>Barcelona </LI></OL></LI></UL><BR><BR><SPAN class=fuente8>Informe de 
+<B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Caracteres especiais</B></FONT><BR><BR>Uma página web é 
+vista por diferentes países, que usam conjuntos de caracteres distintos. A 
+linguagem HTML nos oferece um mecanismo pelo qual podemos estar seguros que uma 
+série de caracteres raros serão bem vistos em todos os computadores do mundo, 
+independentemente de seu jogo de caracteres. <BR><BR>Estes conjuntos são os 
+caracteres especiais. Quando queremos pôr um desses caracteres numa página, 
+devemos substituí-lo por seu código. <BR><BR>Por exemplo, a letra "á" (a 
+minúscula acentuada) se escreve: "á" de modo que a palavra página seria escrita 
+numa página HTML desse modo: p&amp;aamp;aacute;gina . <BR><BR><B>Caracteres 
+especiais básicos </B><BR><BR>Na realidade estes caracteres se usam em HTML para 
+não confundir um início ou final de etiqueta, umas aspas ou um &amp; com seu 
+correspondente caracter. <BR><BR>
+<TABLE cellSpacing=1 cellPadding=2 width=460 border=0>
+  <TBODY>
+  <TR>
+    <TD>&amp;lt;</TD>
+    <TD>&lt;</TD>
+    <TD>&amp;gt;</TD>
+    <TD>&gt;</TD></TR>
+  <TR>
+    <TD>&amp;amp;</TD>
+    <TD>&amp;</TD>
+    <TD>&amp;quot;</TD>
+    <TD>"</TD></TR></TBODY></TABLE><BR><BR><B>Caracteres especiais do HTML 2.0 
+</B><BR><BR>
+<TABLE cellSpacing=1 cellPadding=2 width=460 border=0>
+  <TBODY>
+  <TR>
+    <TD>&amp;Aacute;</TD>
+    <TD>Á</TD>
+    <TD>&amp;Agrave;</TD>
+    <TD>À</TD></TR>
+  <TR>
+    <TD>&amp;Eacute;</TD>
+    <TD>É</TD>
+    <TD>&amp;Egrave;</TD>
+    <TD>È</TD></TR>
+  <TR>
+    <TD>&amp;Iacute;</TD>
+    <TD>Í</TD>
+    <TD>&amp;Igrave;</TD>
+    <TD>Ì</TD></TR>
+  <TR>
+    <TD>&amp;Oacute;</TD>
+    <TD>Ó</TD>
+    <TD>&amp;Ograve;</TD>
+    <TD>Ò</TD></TR>
+  <TR>
+    <TD>&amp;Uacute;</TD>
+    <TD>Ú</TD>
+    <TD>&amp;Ugrave;</TD>
+    <TD>Ù</TD></TR>
+  <TR>
+    <TD>&amp;aacute;</TD>
+    <TD>á</TD>
+    <TD>&amp;agrave;</TD>
+    <TD>à</TD></TR>
+  <TR>
+    <TD>&amp;eacute;</TD>
+    <TD>é</TD>
+    <TD>&amp;egrave;</TD>
+    <TD>è</TD></TR>
+  <TR>
+    <TD>&amp;iacute;</TD>
+    <TD>í</TD>
+    <TD>&amp;igrave;</TD>
+    <TD>ì</TD></TR>
+  <TR>
+    <TD>&amp;oacute;</TD>
+    <TD>ó</TD>
+    <TD>&amp;ograve;</TD>
+    <TD>ò</TD></TR>
+  <TR>
+    <TD>&amp;uacute;</TD>
+    <TD>ú</TD>
+    <TD>&amp;ugrave;</TD>
+    <TD>ù</TD></TR>
+  <TR>
+    <TD>&amp;Auml;</TD>
+    <TD>Ä</TD>
+    <TD>&amp;Acirc;</TD>
+    <TD>Â</TD></TR>
+  <TR>
+    <TD>&amp;Euml;</TD>
+    <TD>Ë</TD>
+    <TD>&amp;Ecirc;</TD>
+    <TD>Ê</TD></TR>
+  <TR>
+    <TD>&amp;Iuml;</TD>
+    <TD>Ï</TD>
+    <TD>&amp;Icirc;</TD>
+    <TD>Î</TD></TR>
+  <TR>
+    <TD>&amp;Ouml;</TD>
+    <TD>Ö</TD>
+    <TD>&amp;Ocirc;</TD>
+    <TD>Ô</TD></TR>
+  <TR>
+    <TD>&amp;Uuml;</TD>
+    <TD>Ü</TD>
+    <TD>&amp;Ucirc;</TD>
+    <TD>Û</TD></TR>
+  <TR>
+    <TD>&amp;auml;</TD>
+    <TD>ä</TD>
+    <TD>&amp;acirc;</TD>
+    <TD>â</TD></TR>
+  <TR>
+    <TD>&amp;euml;</TD>
+    <TD>ë</TD>
+    <TD>&amp;ecirc;</TD>
+    <TD>ê</TD></TR>
+  <TR>
+    <TD>&amp;iuml;</TD>
+    <TD>ï</TD>
+    <TD>&amp;icirc;</TD>
+    <TD>î</TD></TR>
+  <TR>
+    <TD>&amp;ouml;</TD>
+    <TD>ö</TD>
+    <TD>&amp;ocirc;</TD>
+    <TD>ô</TD></TR>
+  <TR>
+    <TD>&amp;uuml;</TD>
+    <TD>ü</TD>
+    <TD>&amp;ucirc;</TD>
+    <TD>û</TD></TR>
+  <TR>
+    <TD>&amp;Atilde;</TD>
+    <TD>Ã</TD>
+    <TD>&amp;aring;</TD>
+    <TD>å</TD></TR>
+  <TR>
+    <TD>&amp;Ntilde;</TD>
+    <TD>Ñ</TD>
+    <TD>&amp;Aring;</TD>
+    <TD>Å</TD></TR>
+  <TR>
+    <TD>&amp;Otilde;</TD>
+    <TD>Õ</TD>
+    <TD>&amp;Ccedil;</TD>
+    <TD>Ç</TD></TR>
+  <TR>
+    <TD>&amp;atilde;</TD>
+    <TD>ã</TD>
+    <TD>&amp;ccedil;</TD>
+    <TD>ç</TD></TR>
+  <TR>
+    <TD>&amp;ntilde;</TD>
+    <TD>ñ</TD>
+    <TD>&amp;Yacute;</TD>
+    <TD>Ý</TD></TR>
+  <TR>
+    <TD>&amp;otilde;</TD>
+    <TD>õ</TD>
+    <TD>&amp;yacute;</TD>
+    <TD>ý</TD></TR>
+  <TR>
+    <TD>&amp;Oslash;</TD>
+    <TD>Ø</TD>
+    <TD>&amp;yuml;</TD>
+    <TD>ÿ</TD></TR>
+  <TR>
+    <TD>&amp;oslash;</TD>
+    <TD>ø</TD>
+    <TD>&amp;THORN;</TD>
+    <TD>Þ</TD></TR>
+  <TR>
+    <TD>&amp;ETH;</TD>
+    <TD>Ð</TD>
+    <TD>&amp;thorn;</TD>
+    <TD>þ</TD></TR>
+  <TR>
+    <TD>&amp;eth;</TD>
+    <TD>ð</TD>
+    <TD>&amp;AElig;</TD>
+    <TD>Æ</TD></TR>
+  <TR>
+    <TD>&amp;szlig;</TD>
+    <TD>ß</TD>
+    <TD>&amp;aelig;</TD>
+    <TD>æ</TD></TR></TBODY></TABLE><BR><BR><B>Caracteres especiais do HTML 3.2 
+</B><BR><BR>
+<TABLE cellSpacing=1 cellPadding=2 width=460 border=0>
+  <TBODY>
+  <TR>
+    <TD>&amp;frac14;</TD>
+    <TD>¼</TD>
+    <TD>&amp;nbsp;</TD>
+    <TD>&nbsp;</TD></TR>
+  <TR>
+    <TD>&amp;frac12;</TD>
+    <TD>½</TD>
+    <TD>&amp;iexcl;</TD>
+    <TD>¡</TD></TR>
+  <TR>
+    <TD>&amp;frac34;</TD>
+    <TD>¾</TD>
+    <TD>&amp;pound;</TD>
+    <TD>£</TD></TR>
+  <TR>
+    <TD>&amp;copy;</TD>
+    <TD>©</TD>
+    <TD>&amp;yen;</TD>
+    <TD>¥</TD></TR>
+  <TR>
+    <TD>&amp;reg;</TD>
+    <TD>®</TD>
+    <TD>&amp;sect;</TD>
+    <TD>§</TD></TR>
+  <TR>
+    <TD>&amp;ordf;</TD>
+    <TD>ª</TD>
+    <TD>&amp;curren;</TD>
+    <TD>¤</TD></TR>
+  <TR>
+    <TD>&amp;sup2;</TD>
+    <TD>²</TD>
+    <TD>&amp;brvbar;</TD>
+    <TD>¦</TD></TR>
+  <TR>
+    <TD>&amp;sup3;</TD>
+    <TD>³</TD>
+    <TD>&amp;laquo;</TD>
+    <TD>«</TD></TR>
+  <TR>
+    <TD>&amp;sup1;</TD>
+    <TD>¹</TD>
+    <TD>&amp;not;</TD>
+    <TD>¬</TD></TR>
+  <TR>
+    <TD>&amp;macr;</TD>
+    <TD>¯</TD>
+    <TD>&amp;shy;</TD>
+    <TD>&shy;</TD></TR>
+  <TR>
+    <TD>&amp;micro;</TD>
+    <TD>µ</TD>
+    <TD>&amp;ordm;</TD>
+    <TD>º</TD></TR>
+  <TR>
+    <TD>&amp;para;</TD>
+    <TD>¶</TD>
+    <TD>&amp;acute;</TD>
+    <TD>´</TD></TR>
+  <TR>
+    <TD>&amp;middot;</TD>
+    <TD>·</TD>
+    <TD>&amp;uml;</TD>
+    <TD>¨</TD></TR>
+  <TR>
+    <TD>&amp;deg;</TD>
+    <TD>°</TD>
+    <TD>&amp;plusmn;</TD>
+    <TD>±</TD></TR>
+  <TR>
+    <TD>&amp;cedil;</TD>
+    <TD>¸</TD>
+    <TD>&amp;raquo;</TD>
+    <TD>»</TD></TR>
+  <TR>
+    <TD>&amp;iquest;</TD>
+    <TD>¿</TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR></TBODY></TABLE><BR><BR><B>Outros caracteres especiais 
+</B><BR><BR>
+<TABLE cellSpacing=1 cellPadding=2 width=460 border=0>
+  <TBODY>
+  <TR>
+    <TD>&amp;times;</TD>
+    <TD>×</TD>
+    <TD>&amp;cent;</TD>
+    <TD>¢</TD></TR>
+  <TR>
+    <TD>&amp;divide;</TD>
+    <TD>÷</TD>
+    <TD>&amp;euro;</TD>
+    <TD>€</TD></TR>
+  <TR>
+    <TD>&amp;#147;</TD>
+    <TD>“</TD>
+    <TD>&amp;#153;</TD>
+    <TD>™</TD></TR>
+  <TR>
+    <TD>&amp;#148;</TD>
+    <TD>”</TD>
+    <TD>&amp;#137;</TD>
+    <TD>‰</TD></TR>
+  <TR>
+    <TD>&amp;#140;</TD>
+    <TD>Œ</TD>
+    <TD>&amp;#131;</TD>
+    <TD>ƒ</TD></TR>
+  <TR>
+    <TD>&amp;#135;</TD>
+    <TD>‡</TD>
+    <TD>&amp;#134;</TD>
+    <TD>†</TD></TR></TBODY></TABLE><BR><BR><SPAN class=fuente8>Informe de <B>Miguel 
+Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Links em HTML</B></FONT><BR><BR>Até aqui, vimos que uma 
+página web é um arquivo HTML no qual podemos incluir, entre outras coisas, 
+textos formatados ao nosso gosto e imagens que veremos mais adiante. Do mesmo 
+modo, um site web poderá ser considerado como um conjunto de arquivos, 
+principalmente páginas HTML e imagens, que constituem o conteúdo ao qual o 
+navegante tem acesso. <BR><BR>Entretanto, não poderíamos falar de navegante ou 
+de navegação se estes arquivos HTML não estivessem devidamente conectados entre 
+eles e com o exterior de nosso site por meio de links hipertexto. Na verdade, o 
+atrativo original do HTML reside no possível empenho dos conteúdos dos arquivos 
+introduzindo referências sob a forma de links que permitem um acesso rápido à 
+informação desejada. Serviria pouco se tivéssemos na rede páginas isoladas as 
+quais as pessoas não pudessem acessar ou páginas onde não fosse possível ir para 
+outras. <BR><BR>Um link pode ser facilmente detectado em uma página. Basta 
+deslizar o ponteiro do mouse sobre as imagens ou o texto e ver como muda de sua 
+forma original transformando-se por regra geral em uma mão com um dedo 
+indicador. Adicionalmente, estes links costumam ir, no caso dos textos, 
+coloridos e sublinhados para que o usuário não tenha dificuldade em os 
+reconhecer. Se não especificamos o contrário (já teremos a ocasião de explicar 
+como), estes links-texto estarão sublinhados e coloridos de azul. No caso das 
+imagens que servem de link, veremos que estão delimitadas por uma marcação azul 
+por padrão. <BR><BR>Para colocar um link, utilizaremos as etiquetas &lt;a&gt; e 
+&lt;/a&gt;. Dentro da etiqueta de abertura devemos especificar o destino do 
+link. Este destino será introduzido sob a forma de atributo, no qual leva o nome 
+href. <BR><BR>A sintaxe geral de um link é portanto da seguinte forma: 
+<BR><BR>&lt;a href="destino"&gt;conteúdo&lt;/a&gt; <BR><BR>Sendo o conteúdo um 
+texto ou uma imagem. É a parte da página que se colocará ativa e onde deveremos 
+clicar para acessar ao link. <BR><BR>E o destino por sua vez, será uma página, 
+um correio eletrônico ou um arquivo. <BR><BR>Em função do destino, os links são 
+classicamente agrupados da seguinte forma: 
+<UL>
+  <LI><B>Links internos:</B> os que se dirigem a outras partes dentro da mesma 
+  página. 
+  <LI><B>Links locais:</B> os que se dirigem a outras páginas do mesmo site web. 
+
+  <LI><B>Links remotos:</B> os que se dirigem à páginas de outros sites web. 
+  <LI><B>Links com endereços de correio:</B> para criar uma mensagem de correio 
+  dirigido a um endereço. 
+  <LI><B>Links com arquivos:</B> Para que os usuários possam fazer download de 
+  arquivos. </LI></UL><BR><BR><SPAN class=fuente8>Informe de <B>Miguel Angel 
+Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Links internos</B></FONT><BR><BR>São os links que apontam 
+a um lugar diferente dentro da mesma página. Este tipo de link é essencialmente 
+utilizado em páginas onde o acesso aos conteúdos pode ser prejudicado devido ao 
+grande tamanho da mesma. Mediante estes links, podemos oferecer aos visitantes a 
+possibilidade de acessar rapidamente ao início e ao final da página, ou também a 
+diferentes parágrafos ou seções. <BR><BR>Par criar um link deste tipo é 
+necessário, além do link origem propriamente dito, um segundo link que será 
+colocado no destino. Vejamos mais claramente como funcionam estes links com um 
+simples exemplo: <BR><BR>Suponhamos que queremos criar um link que aponte ao 
+final da página. O primeiro a fazer será colocar nosso link origem. Colocaremos 
+e escreveremos da seguinte forma: <BR><BR>&lt;a href="#abaixo"&gt;Ir 
+abaixo&lt;/a&gt; <BR><BR>Link com o final deste documento para que prove seu 
+funcionamento: <BR><BR><A href="http://www.criarweb.com/artigos/#abaixo">Ir 
+abaixo</A><A name=abaixo></A> <BR><BR>Como pode ser visto, o conteúdo do link é 
+o texto "Ir abaixo" e o destino, abaixo, é um ponto da mesma página que ainda 
+não foi definido. Atenção ao símbolo # ; é ele quem especifica ao navegador que 
+o link aponta a uma seção particular. <BR><BR>Em segundo lugar, temos que gerar 
+um link no destino. Este link levará o nome "abaixo" para poder distinguí-lo dos 
+outros possíveis links realizados dentro da mesma página. Neste caso, a etiqueta 
+que escreveremos será esta: <BR><BR>&lt;a name="abaixo"&gt;&lt;/a&gt; <BR><BR>Na 
+verdade, estes links, mesmo sendo úteis, não são os mais utilizados. A tendência 
+geral é a de criar páginas (arquivos) independentes com tamanhos mais reduzidos 
+linkados entre eles por links locais (que veremos em seguida). Desta forma, 
+evitamos o excesso de tempo de carregamento de um arquivo e a introdução de 
+excesso de informação que possa desviar a atenção do usuário. <BR><BR>Uma 
+aplicação corrente destes links consiste em colocar um pequeno índice ao 
+princípio de nosso documento onde introduzimos links origem às diferentes 
+seções. Paralelamente, ao final de cada seção introduzimos um link que aponta ao 
+índice de forma que possamos guiar o navegante na busca da informação útil para 
+ele. <BR><BR><SPAN class=fuente8>Informe de <B>Miguel Angel Alvarez</B><BR>Mail: 
+<A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Links locais</B></FONT><BR><BR>Como dissemos, um site web 
+está constituido de páginas interconexas. No capítulo anterior vimos como linkar 
+diferentes seções dentro de uma mesma página. Resta-nos estudar a maneira de 
+relacionar os distintos documentos HTML que compõem nosso site web. <BR><BR>Para 
+criar este tipo de links, temos que criar uma etiqueta da seguinte forma: 
+<BR><BR>&lt;a href="arquivo.html"&gt;conteúdo&lt;/a&gt; <BR><BR>Por regra geral, 
+para uma melhor organização, os sites costumam estar ordenados por diretórios. 
+Estes diretórios costumam conter diferentes seções da página, imagens, 
+audios...É por isso que em muitos casos não nos será válido especificar o nome 
+do arquivo, e sim, o diretório onde nosso arquivo.html está alojado. <BR><BR>Se 
+você já tiver trabalhado com MS-DOS não terá nenhum problema para compreender o 
+modo de funcionamento. Somente deverá ter cuidado em usar a barra "/" no lugar 
+da contra-barra "\". <BR><BR>Para aqueles que não sabem como mostrar um caminho 
+de um arquivo, aqui vai uma série de indicações que lhes vão ajudar a 
+compreender a forma de expressá-los. Não é nada difícil e com um pouco de 
+prática o fará praticamente sem pensar. <BR><BR>
+<OL>
+  <LI>Há de situar mentalmente no diretório no qual se encontra a página com o 
+  link. 
+  <LI>Se a página destino está em um diretório incluído dentro do diretório no 
+  qual nos encontramos, temos de marcar o caminho numerando cada um dos 
+  diretórios pelos quais passamos até chegar ao arquivo e separando-os pelo 
+  símbolo barra "/". No final, obviamente, escrevemos o arquivo. 
+  <LI>Se a página destino encontra-se em um diretório que inclui o da página com 
+  o link, temos que escrever dois pontos seguidos e uma barra "../" tantas vezes 
+  quantas forem os níveis que subirmos na hierarquia de diretórios, até chegar 
+  no diretório onde está localizado o arquivo destino. 
+  <LI>Se a página encontra-se em outro diretório não incluído nem incluente do 
+  arquivo origem, teremos que subir com a regra 3 por meio de ".." até encontrar 
+  o diretório que englobe o diretório que contém a página destino. A seguir 
+  faremos como a regra 2. Escreveremos todos os diretórios pelos quais passamos 
+  até chegar ao arquivo. </LI></OL>
+<TABLE cellSpacing=1 cellPadding=1 width="90%" align=center bgColor=#eeeeee 
+border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8><IMG height=119 
+      alt="Estrutura de diretórios de web exemplo" hspace=5 
+      src="HTML - Manual_archivos/directorioweb.gif" width=116 align=right 
+      vspace=3 border=0> <SPAN style="FONT-SIZE: 10pt"><B>Exemplo:</B></SPAN> 
+      <BR><BR><BR><SPAN class=fuente8>Para esclarecer este ponto podemos fazer 
+      um exemplo a partir da estrutura de diretórios da imagem. 
+      <P><BR><BR>Para fazer um link desde index.html para yyy.html: <BR>&lt;a 
+      href="secao1/paginas/yyy.html"&gt;conteudo&lt;/a&gt; 
+      <P>Para fazer um link desde xxx.html para yyy.html: <BR>&lt;a 
+      href="../secao1/paginas/yyy.html"&gt;conteudo&lt;/a&gt; 
+      <P>Para fazer um link desde yyy.html para xxx.html: <BR>&amp;&lt;a 
+      href="../../secao2/xxx.html"&gt;conteudo&lt;/a&gt; 
+  </SPAN></P></TD></TR></TBODY></TABLE><BR>Os links locais podem por sua vez já 
+apontar mais precisamente a uma seção concreta, ao invés da página em geral. 
+Este tipo de link costuma ser um híbrido de interno e local. A sintaxe é deste 
+tipo: <BR><BR>&lt;a href="arquivo.html#secao"&gt;conteudo&lt;/a&gt; <BR><BR>Como 
+para os links internos, neste caso temos que marcar a seção com outro link do 
+tipo: <BR><BR>&lt;a name="secao"&gt;&lt;/a&gt; <BR><BR>Como exemplo temos aqui 
+um <A href="http://www.criarweb.com/artigos/42.php#abaixo">link que aponta ao 
+capítulo anterior ao final da página</A>. <BR><BR><SPAN class=fuente8>Informe de 
+<B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Links externos, de correio e para 
+arquivos</B></FONT><BR><BR>Para terminar o tema dos links veremos os três 
+últimos tipos de links que havíamos assinalado. <BR><BR><B>Links remotos</B> 
+<BR><BR>São os links que se dirigem às páginas que se encontram fora do nosso 
+site web, ou seja, qualquer outro documento que não faz parte de nosso site. 
+<BR><BR>Este tipo de link é muito comum e não representa nenhuma dificuldade. 
+Simplesmente colocamos no atributo HREF de nossa etiqueta &lt;A&gt; a URL ou 
+endereço da página com a qual queremos linkar. Será algo parecido a isto: 
+<BR><BR>&lt;a href=http://www.yahoo.com.br&gt;ir a yahoo.com.br&lt;/a&gt; 
+<BR><BR>Somente cabe destacar que todos os endereços web (URLs) começam por 
+<B>http://</B> . Isto indica que o protocolo pelo qual se acessa é HTTP, o 
+utilizado na web. Não devemos nos esquecer de colocá-lo porque senão os links 
+serão tratados como links locais em nosso site. <BR><BR>Outra coisa interessante 
+é que não temos necessariamente que linkar com uma página web com o protocolo 
+HTTP. Também podemos acessar recursos através de outros protocolos como o FTP. 
+Em tal caso, os endereços dos recursos não começarão com http:// e sim por 
+ftp://. <BR><BR><B>Links a endereços de correio</B> <BR><BR>Os links a endereços 
+de correio são aqueles em que ao clicá-los nos abre uma nova mensagem de correio 
+eletrônico dirigido a um determinado endereço de mail. Estes links são muito 
+habituais nas páginas web e é a maneira mais rápida de oferecer ao visitante uma 
+via para o contato com o proprietário da página. <BR><BR>Para colocar um link 
+dirigido a um endereço de correio colocamos <B>mailto:</B> no atributo href do 
+link, seguido do endereço de correio ao qual se deve dirigir o link. 
+<BR><BR>&lt;a 
+href="mailto:juliana@criarweb.com"&gt;juliana@criarweb.com&lt;/a&gt; 
+<BR><BR>Este link pode ser visto aqui: <A 
+href="mailto:juliana@criarweb.com">juliana@criarweb.com</A> <BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width="90%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8 bgColor=#dddddd><B>Conselho:</B> Quando você colocar 
+      links a endereços de correio, procure indicar no conteúdo do link (o que 
+      há entre &lt;A&gt; e &lt;/A&gt;) o endereço de correio ao qual se deve 
+      escrever. Isto, porque se um usuário não tem configurado um programa de 
+      correio em seu computador não poderá enviar menssagens, mas pelo menos 
+      poderá copiar o endereço de mail e escrever o correio através de outro 
+      computador ou um sistema web-mail. </TD></TR></TBODY></TABLE><BR>Além do 
+endereço do correio eletrônico do destinatário, também podemos colocar no link o 
+assunto da mensagem. Isto se consegue colocando depois do endereço de correio 
+uma interrogação, a palavra subject, o sinal de igual (=) e o assunto em 
+concreto. <BR><BR>&lt;a href="malito:juliana@criarweb.com?subject=contato 
+através da página"&gt;juliana@criarweb.com&lt;/a&gt; <BR><BR>Podemos colocar 
+outros atributos de mensagem com uma sintaxe parecida. Neste caso indicamos 
+também que o correio debe ir com cópia a colabore@criarweb.com. <BR><BR>&lt;a 
+href="mailto:juliana@criarweb.com?subject=contato através da 
+página&amp;cc=colabore@criarweb.com"&gt; juliana@criarweb.com&lt;/a&gt; <BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width="90%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8 bgColor=#dddddd><B>Nota:</B> O visitante da página 
+      necessitará ter configurada uma conta de correio eletrônico em seu sitema 
+      para enviar as mensagens. Logicamente, se não tiver serviço de correio no 
+      computador não será possível enviar as mensagens e este sistema de contato 
+      com o visitante não funcionará. </TD></TR></TBODY></TABLE><BR><B>Links com 
+arquivos</B> <BR><BR>Este não é um tipo de link propriamente dito, mas o 
+assinalamos aqui porque é um tipo de link muito habitual e que apresenta alguma 
+complicação para o usuário novato. <BR><BR>O mecanismo é o mesmo que conhecemos 
+nos links locais e nos remotos, com a única particulariedade de que em vez de 
+estar dirigidos para uma página web, está dirigido para um arquivo de outro 
+tipo. <BR><BR>Se queremos linkar com um arquivo meu_arquivo.zip que se encontra 
+no mesmo diretório que a página, escreveríamos um link assim: <BR><BR>&lt;a 
+href="meu_arquivo.zip"&gt;Baixar meu_arquivo.zip&lt;/a&gt; <BR><BR>Se clicamos 
+um link deste tipo nosso navegador baixará o arquivo, fazendo a pergunta típica 
+se: "Deseja abrir o arquivo ou salvá-lo no computador?". <BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width="90%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8 bgColor=#dddddd><B>Conselho:</B> Não colocar em Internet 
+      arquivos executáveis diretamente e sim, arquivos comprimidos. Por duas 
+      razões: <BR>
+      <OL>
+        <LI>O arquivo ocupará menos, com o que será mais rápido sua 
+        transferência. 
+        <LI>Ao perguntar ao usuário o que deseja fazer com o arquivo, lhe 
+        oferece a opção de abrí-lo e salvá-lo no computador. Nós geramente 
+        desejaremos que o usuário salve-o no computador e não o execute até que 
+        o tenha em seu disco rígido. Se decido abrí-lo ao invés de salvá-lo 
+        simplesmente o colocará em funcionamento e quando pare não estará salvo 
+        em seu sistema. Se os arquivos estiverem comprimidos obrigaremos ao 
+        usuários a descomprimí-los em seu disco rígido antes de colocá-los em 
+        funcionamento, com o que nos certificamos que o usuário o salva em seu 
+        computador antes de executá-lo. </LI></OL></TD></TR></TBODY></TABLE><BR><B>Se 
+queremos linkar outro tipo de arquivos como um PDF ou mundo VRML</B> (Realidade 
+Virtual para Internet) continuamos fazendo da mesma maneira. O navegador, se 
+reconhece o tipo de arquivo, é o responsável de abrí-lo utilizando o conectador 
+adequado para isso. Assim, se por exemplo linkamos com um PDF colocará o 
+programa Acrobat Reader em funcionamento para mostrar os conteúdos. Se linkamos 
+com um mundo VRML colocará em funcionamento o plug-in que o usuário tenha 
+instalado para ver os mundos virtuais (Cosmo, por exemplo) . <BR><BR>Este seria 
+um exemplo de link a um documento PDF. <BR><BR>&lt;a 
+href="meu_documento.pdf"&gt;Baixar o PDF&lt;/a&gt; <BR><BR><SPAN 
+class=fuente8>Informe de <B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Imagens em HTML</B></FONT><BR><BR>Sem dúvida, um dos 
+aspectos mais vistosos e atrativos das páginas web é o grafismo. A introdução em 
+nosso texto de imagens pode nos ajudar a explicar mais facilmente nossa 
+informação e dar um ar muito mais estético. Porém, o abuso pode nos conduzir a 
+uma sobrecarga que se traduz em uma distração para o navegante, quem terá mais 
+dificuldade em encontrar a informação necessária, e um maior tempo para carregar 
+a página o que pode ser de um efeito nefasto se nosso visitante não tem uma boa 
+conexão ou se é um pouco impaciente. <BR><BR>Neste capítulos não explicaremos 
+como criar, nem como tratar as imagens, unicamente diremos que para isso 
+utilizam-se aplicações como Paint Shop Pro, Photoshop ou Corel Draw. Também não 
+explicaremos as particularidades de cada tipo de arquivo GIF ou JPG e a forma de 
+otimizar nossas imagens. A este assunto será dedicado em um futuro capítulo. 
+<BR><BR>As imagens são armazenadas em forma de arquivos, principalmente GIF 
+(para desenhos) ou JPG (para fotos). Estes arquivos podem ser criados por nós 
+mesmos ou podem ser baixados gratuitamente em sites web especializados. Em 
+criarweb contamos com a maior <A 
+href="http://www.gograph.com/fusion/IntegrationProcessor.cfm?user=5363">base de 
+dados de gifts animados e imagens</A> de todo o tipo em português, que nos 
+provem o site internacional Gograph . <BR><BR>Sendo assim, nestes primeiros 
+capítulos nos limitaremos a explicar como inserir e alinhar devidamente em nossa 
+página uma imagem já criada. <BR><BR>A etiqueta que utilizaremos para inserir 
+uma imagem é &lt;img&gt; (image). Esta etiqueta não possui seu fechamento 
+correspondente e nela temos de especificar obrigatoriamente o paradeiro de nosso 
+arquivo mediante o atributo src (source). <BR><BR>A sintaxe fica então da 
+seguinte forma: <BR><BR>&lt;img src="caminho para o arquivo"&gt; <BR><BR>Para 
+expressar o caminho, faremos da mesma <A 
+href="http://www.criarweb.com/artigos/51.php?manual=2">forma que vimos para os 
+links</A>. As regras continuam sendo as mesmas, o único que muda é que, no lugar 
+de uma página destino, o destino é um arquivo gráfico. <BR><BR>Além deste 
+atributo, obviamente indispensável para a visualização da imagem, a etiqueta 
+&lt;img&gt; nos propõe outra série de atributos de maior ou menor utilidade: 
+<BR><BR><B>Atributo alt</B> <BR><BR>Entre aspas deste atributo, colocaremos uma 
+brevíssima descrição da imagem. Esta etiqueta não é indispensável, mas apresenta 
+várias utilidades. <BR><BR>Primeiramente, durante o processo de carregamento da 
+página, quando a imagem não tiver sido ainda carregada, o navegador mostrará 
+esta descrição, com a qual o navegante poderá ter uma idéia do que se trata 
+neste caso. <BR><BR>Isto não é tão trivial se temos em conta que alguns usuários 
+navegam pela rede com uma opção do navegador que desativa a amostra de imagens, 
+com o que tais pessoas poderão sempre saber de que se trata o gráfico e 
+eventualmente mudar o modo com imagens para visualizar. <BR><BR>Além disso, 
+determinadas aplicações para incapacitados ou para telefones vocais que não 
+mostram imagens oferecem a possibilidade de lê-las, o que nunca é demais pensar 
+nestes coletivos. <BR><BR>Em geral, podemos considerar como aconselhável o uso 
+deste atributo salvo para imagens de pouca importância e absolutamente 
+indispensável se a imagem em questão serve de link. <BR><BR><B>Atributos height 
+e width</B> <BR><BR>Definem a altura e largura respectivamente da imagem em 
+pixels. <BR><BR>Todos os arquivos gráficos possuem umas dimensões de largura e 
+altura. Estas dimensões podem ser obtidas a partir do próprio disigner gráfico 
+ou também, clicando com o botão direito sobre a imagem vista pelo navegador para 
+logo escolher propriedades sobre o menu que se desdobra. <BR><BR>O fato de 
+explicitar em nosso código as dimensões de nossas imagens ajuda ao navegador a 
+confeccionar a página da forma que nós desejamos inclusive antes das imagens 
+serem baixadas. <BR><BR>Assim, se as dimensões das imagens tiverem sido 
+proporcionadas, durante o processo de carregamento, o navegador reservará o 
+espaço correspondente a cada imagem criando uma planificação correta. O usuário 
+poderá começar a ler tranqüilamente o texto sem que este se mova de um lado a 
+outro cada vez que se carregue uma imagem. <BR><BR>Além desta utilidade, o 
+alterar os valores destes atributos, é uma forma imediata de redimensionar nossa 
+imagem. Este tipo de utilidade não é aconselhável visto que, se o que 
+pretendemos é aumentar o tamanho, a perda da qualidade da imagem será muito 
+sensível. Inversamente, se desejamos diminuir seu tamanho, estaremos usando um 
+arquivo maior do que o necessário para a imagem que estamos mostrando, com o que 
+aumentamos o tempo de descarregamento de nosso documento desnecessariamente. 
+<BR><BR>É importante insistir neste ponto já que muitos estreantes têm o péssimo 
+costume de criar gráficos pequenos redimensionando a imagem por meio desses 
+atributos a partir de arquivos de tamanho descomunal. Temos que pensar que o 
+tamanho de uma imagem com umas dimensões da metade não se reduz à metade, e sim, 
+que é aproximadamente 4 vezes inferior. <BR><BR><B>Atributo border</B> 
+<BR><BR>Define o tamanho em pixels do quadro que rodeia a imagem. <BR><BR>Dessa 
+forma, podemos re-enquadrar nossa imagem se desejamos. É particularmente útil 
+quando desejamos eliminar a borda que aparece quando a imagem serve de link. Em 
+tal caso teremos que especificar border="0". <BR><BR><B>Atributos vspace e 
+hspace</B> <BR><BR>Serve para indicar o espaço livre, em pixels, que tem que ser 
+colocado entre a imagem e outros elementos que a rodeiam, como texto, outras 
+imagens, etc. <BR><BR><B>Atributo lowsrc</B> <BR><BR>Com este atributo podemos 
+indicar um arquivo de baixa resolução. Quando o navegador detecta que a imagem 
+tem este atributo, primeiro descarrega e mostra a imagem de baixa resolução (que 
+ocupa muito pouco e que se transfere muito rápido). Posteriormente, descarrega e 
+mostra a imagem de resolução adequada (assinalada com o atributo src, que se 
+supõe que ocupará mais e que será mais lenta de se transferir). <BR><BR>Está 
+atributo está em desuso, mesmo supondo uma vantagem considerável para que o 
+descarregamento inicial se realize mais rápido e que um visitante possa ver uma 
+amostra da imagem enquanto se descarrega a imagem real. <BR><BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width="90%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8 bgColor=#eeeeee><B>Dica: Utilizar imagens como links</B> 
+      <BR><BR>Isto quer dizer que uma imagem, assim como um texto, pode servir 
+      de link. Visto a estrutura dos links podemos muito facilmente adivinhar o 
+      tipo de código necessário. <BR><BR>&lt;a href="arquivo.html"&gt;&lt;img 
+      src="imagem.gif"&gt;&lt;/a&gt; </TD></TR></TBODY></TABLE><BR><BR><B>Exemplo 
+prático</B> <BR><BR>Será óbvio para os leitores, fazer agora uma página que 
+contenha uma imagem várias vezes repetidas, mas com diferentes atributos. 
+<BR><BR>
+<UL>
+  <LI>Uma das vezes que saia deve ser mostrada com seu tamanho original e com 
+  uma borda de 3 pixels. 
+  <LI>Em outra ocasião a imagem aparecerá sem borda, com sua mesma altura e com 
+  uma largura superior a original. 
+  <LI>Também mostraremos a imagem sem borda, com sua mesma largura e com uma 
+  altura superior a original. 
+  <LI>Por último, mostraremos a imagem com uma altura e largura maiores que as 
+  originais, mas proporcionalmente igual que antes. </LI></UL>
+<TABLE cellSpacing=2 cellPadding=2 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8>Vamos utilizar esta imagem para fazer o exercício:</TD></TR>
+  <TR>
+    <TD class=fuente8 align=middle><IMG height=21 alt="" 
+      src="HTML - Manual_archivos/envelope.gif" width=28 
+border=0></TD></TR></TBODY></TABLE><BR>As dimensões originais da imagem são 
+28x21, o código fonte seria então da seguinte forma: <BR><BR>&lt;img 
+src="img1.gif" width="28" height="21" alt="Tamanho original" border="3"&gt; 
+<BR>&lt;br&gt; <BR>&lt;br&gt; <BR>&lt;img src="img1.gif" width="68" height="21" 
+alt="Achatada" border="0"&gt; <BR>&lt;br&gt; <BR>&lt;br&gt; <BR>&lt;img 
+src="img1.gif" width="28" height="51" alt="Alargada" border="0"&gt; 
+<BR>&lt;br&gt; <BR>&lt;br&gt; <BR>&lt;img src="img1.gif" width="56" height="42" 
+alt="Dobro grande" border="0"&gt; <BR><BR><SPAN class=fuente8>Informe de 
+<B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Alinhamento de imagens com HTML</B></FONT><BR><BR>Vimos 
+em seu momento o atributo align que nos permitia alinhar o texto à direita, 
+esquerda ou no centro de nossa página. Dissemos que este atributo não era 
+exclusivo da etiqueta 
+<P>e sim, que podia ser encontrado em outro tipo de etiquetas. <BR><BR>Sendo 
+assim, &lt;img&gt; é uma dessas etiquetas que aceitam este atributo, mesmo sendo 
+, neste caso, o funcionamento diferente. <BR><BR>Para alinhar uma imagem 
+horizontalmente podemos fazer da mesma forma que o texto, ou seja, utilizando 
+align dentro de uma etiqueta &lt;p&gt; ou &lt;div&gt;. Neste caso, o que 
+incluiremos dentro desta etiqueta será a imagem no lugar do texto: <BR><BR>Este 
+código mostrará a imagem no centro: <BR><BR>&lt;div align="center"&gt;&lt;img 
+src="logo.gif"&gt;&lt;/div&gt; <BR><BR>
+<DIV align=center>Ficaria assim: <BR><IMG 
+src="HTML - Manual_archivos/logo.gif"></DIV><BR>Entretanto, já dissemos que a 
+etiqueta &lt;img&gt; pode aceitar o atributo align. Neste caso, a utilidade que 
+lhe damos é diferente da anterior. <BR><BR>O fato de utilizar o atributo align 
+dentro da etiqueta &lt;img&gt; nos permite, no caso de dar os valores left ou 
+right, justificar a imagem do lado que desejamos uma vez que recheamos com texto 
+o lado oposto. Dessa forma, incorporamos nossas imagens dentro do texto de uma 
+maneira simples. <BR><BR>Aqui se pode ver o tipo de código a criar para obter 
+tal efeito: <BR><BR>&lt;p&gt; <BR>&lt;img src="imagem.gif" 
+align="right"&gt;Texto tão extenso quanto quisermos que cubra a parte esquerda 
+da imagem. Continuo colocando texto para que se veja o efeito, Bla bla bla bla 
+bla bla bla... <BR>&lt;/p&gt; <BR><BR>
+<DIV align=center>Ficaria assim:</DIV>
+<P><IMG src="HTML - Manual_archivos/logo.gif" align=right>Texto tão extenso 
+quanto quisermos que cubra a parte esquerda da imagem. Continuo colocando texto 
+para que se veja o efeito, Bla bla bla bla bla bla bla... </P>&lt;p&gt; 
+<BR>&lt;img src="imagen.gif" align="left"&gt;Texto tan extenso como queramos que 
+cubrirá la parte derecha de la imagen. Sigo poniendo texto para que se vea el 
+efecto, Bla bla bla bla bla bla bla... <BR>&lt;/p&gt; <BR><BR>
+<DIV align=center>Ficaria assim:</DIV>
+<P><IMG src="HTML - Manual_archivos/logo.gif" align=left>Texto tan extenso como 
+queramos que cubrirá la parte derecha de la imagen. Sigo poniendo texto para que 
+se vea el efecto, Bla bla bla bla bla bla bla... </P><BR><BR>Se em algum momento 
+desejarmos preencher esse espaço lateral, podemos passar a uma zona livre 
+introduzindo uma quebra de linha &lt;br&gt; dentro do qual acrescentaríamos um 
+atributo: clear <BR><BR>Sendo então, etiquetas do tipo: <BR><BR>&lt;br 
+clear="left"&gt; <BR>Pulará verticalmente até encontrar a lateral esquerdo 
+livre. <BR>&lt;br clear="right"&gt; <BR>Pulará verticalmente até encontrar a 
+lateral direita livre. <BR>&lt;br clear="all"&gt; <BR>Pulará verticalmente até 
+encontrar ambas laterais livres. <BR><BR>Exemplo de clear: <BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width=400 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD><IMG src="HTML - Manual_archivos/logo.gif" align=left>Texto tão 
+      extenso quanto quisermos que cubra a parte esquerda. <BR clear=all>Isto 
+      está debaixo da imagem. </TD></TR></TBODY></TABLE><BR><BR>Existe outro tipo de 
+valores que pode adotar o atributo align dentro da etiqueta &lt;img&gt;. Isto é 
+relativo ao alinhamento vertical da imagem. <BR><BR>Supomos que escrevemos uma 
+linha ao lado de nossa imagem. Esta linha pode ficar, por exemplo acima, abaixo 
+ou no meio da imagem. Ainda assim, pode que uma mesma linha tenhamos várias 
+imagens de alturas diferentes que podem ser alinhadas de distintas formas. 
+<BR><BR>Estes valores adicionais são: <BR><BR><B>Top</B> <BR>Ajusta a imagem à 
+parte mais alta da linha. Isto quer dizer que, se existe uma imagem mais alta, 
+ambas imagens apresentarão a borda superior na mesma altura. 
+<BR><BR><B>Bottom</B> <BR>Ajusta o baixo da imagem ao texto. 
+<BR><BR><B>Absbottom</B> <BR>Colocará a borda inferior da imagem ao nível do 
+elemento mais baixo da linha. <BR><BR><B>Middle</B> <BR>Faz coincidir a base da 
+linha de texto com o meio vertical da imagem. <BR><BR><B>Absmiddle</B> 
+<BR>Ajusta a imagem ao meio absoluto da linha. <BR><BR>Estas explicações, que 
+podem ser um pouco complicadas, serão mais facilmente assimiladas com um pouco 
+mais de prática. <BR><BR>Falta explicar como introduzir debaixo da imagem um pé 
+de foto ou uma explicação. Para isso, teremos que ver antes de mais nada as 
+tabelas, nos próximos capítulos... <BR><BR><SPAN class=fuente8>Informe de 
+<B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Formatos gráficos para páginas web</B></FONT><BR><BR>O 
+componente gráfico das páginas web tem muita importância, é que o que faz com 
+que estas seja vistosas e o que nos permite aplicar nossa criatividade para 
+fazer o design do site uma tarefa agradável. É também uma ferramenta para 
+aproximar os sites ao mundo onde vivemos, entretanto, é também o causador de 
+graves erros nas páginas e fazer destas, em alguns casos, um martírio para o 
+visitante. <BR><BR>As noções básicas para o uso de arquivos gráficos são 
+simples, conhecê-las, mesmo que seja ligeiramente, nos ajudará a criar sites 
+agradáveis e rápidos. Não cometer erros no uso das imagens é fundamental, mesmo 
+que não seja um designer e as imagens que utiliza são feias, utilize-as bem e 
+assim, estará tornando mais agradável a visitas às suas páginas. 
+<BR><BR><B>Tipos de arquivos</B> <BR><BR>Em Internet se utilizam principalmente 
+dois tipos de arquivos gráficos GIF e JPG, pensados especialmente para otimizar 
+o tamanho que ocupam em disco, já que os arquivos pequenos se transmitem mais 
+rapidamente pela Rede. <BR><BR>O formato de arquivo GIF se usa para as imagens 
+que tenham desenhos, enquanto que o formato JPG se usa para as fotografias. Os 
+dois comprimem as imagens para salvá-las. A forma de comprimir a imagem que 
+utiliza cada formato é o que os faz ideais para um propósito ou outro. 
+<BR><BR>Adicionalmente, pode-se usar um terceiro formato gráfico nas páginas 
+web, o PNG. Este formato não tem tanta aceitação como o GIF ou o JPG, por várias 
+razões, entre elas: o desconhecimento do formato por parte dos desenvolvedores, 
+que as ferramentas habituais para tratar gráficos (como por exemplo, Photoshop) 
+geralmente não suportam, e que os navegadores antigos também têm problemas para 
+visualizá-las. Entretanto, o formato se comporta muito bem quanto a compreensão 
+e a qualidade do gráfico conseguinte, pelo que seria útil se chega a extender 
+seu uso. <BR><BR><B>GIF</B> <BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width=200 align=right border=0>
+  <TBODY>
+  <TR>
+    <TD><IMG height=85 src="HTML - Manual_archivos/logo.gif" width=220 
+      border=0></TD></TR>
+  <TR>
+    <TD class=fuente8 align=middle>Um logotipo é um exemplo claro de imagem 
+    GIF</TD></TR></TBODY></TABLE>Além se ser um arquivo ideal para as imagens que 
+estão desenhadas, tem muitas outras características que são importantes e úteis. 
+<BR><BR><B>Compresión:</B> É muito boa para desenhos, como já foi dito. 
+Inclusive pode ser interessante se a imagem é muito pequena, mesmo que seja uma 
+foto. <BR><BR clear=all>
+<TABLE cellSpacing=2 cellPadding=0 width=90 align=right border=0>
+  <TBODY>
+  <TR>
+    <TD><IMG height=80 src="HTML - Manual_archivos/ratoli.gif" width=90></TD></TR>
+  <TR>
+    <TD class=fuente8 align=middle>Parte desta imagem é 
+  transparente</TD></TR></TBODY></TABLE><B>Transparência:</B> É uma utilidade para 
+definir certas partes do desenho como transparentes. Desse modo, podemos colocar 
+as imagens sobre distintos fundos sem que se veja o quadrado onde está es está 
+inscrito o desenho, vendo em troca a silhueta do desenho em questão. Para criar 
+um gif transparente devemos utilizar um programa de desenho gráfico, com o qual 
+podemos indicar que cores do desenho queremos que sejam transparentes. 
+Geralmente, definimos a transparência quando vamos salvar o tráfico. 
+<BR><BR><B>Cores:</B> Com este formato gráfico podemos utilizar conjuntos de 256 
+colores ou menos. Este é um detalhe muito importante, visto que quanto menos 
+cores utilizarmos na imagem, em geral, menos ocupará o arquivo. Às vezes, mesmo 
+utilizando menos cores em um gráfico, este não perde muita qualidade, chegando a 
+ser inapreciável à vista. Em alguns programas podemos modificar a quantidade de 
+cores ao salvar o arquivo, em outros, fazemos enquanto criamos o gráfico. 
+<BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8 align=middle><IMG height=60 
+      src="HTML - Manual_archivos/gograph32.gif" width=120><BR>32 Cores</TD>
+    <TD class=fuente8 align=middle><IMG height=60 
+      src="HTML - Manual_archivos/gograph16.gif" width=120><BR>16 Cores</TD>
+    <TD class=fuente8 align=middle><IMG height=60 
+      src="HTML - Manual_archivos/gograph8.gif" width=120><BR>8 Cores</TD></TR>
+  <TR>
+    <TD class=fuente8 align=middle colSpan=3>Imagem tomada com distintas 
+      aquarelas de cores. Pode-se apreciar como que com poucas cores se vê bem o 
+      gráfico e como perde um pouco a medida em que lhe colocamos mais 
+  cores.</TD></TR></TBODY></TABLE><BR><BR><B>JPG </B><BR><BR>
+<TABLE cellSpacing=2 cellPadding=0 width=220 align=right border=0>
+  <TBODY>
+  <TR>
+    <TD><IMG height=146 src="HTML - Manual_archivos/castillo.jpg" 
+  width=220></TD></TR>
+  <TR>
+    <TD class=fuente8 align=middle>Uma fotografia com formato 
+JPG</TD></TR></TBODY></TABLE>Vejamos agora quais são as características 
+fundamentais do formato JPG: <BR><BR><B>Compressão:</B> Tal como dissemos 
+anteriormente, sua gama de compressão torna ideal este formato para salvar 
+fotografias. Além disso, com JPG podemos definir a qualidade da imagem, com 
+qualidade baixa o arquivo ocupará menos, e vice-versa. <BR><BR clear=all>
+<TABLE cellSpacing=2 cellPadding=0 width=100 align=right border=0>
+  <TBODY>
+  <TR>
+    <TD><IMG height=50 src="HTML - Manual_archivos/alcalapeque.jpg" 
+    width=100></TD></TR>
+  <TR>
+    <TD class=fuente8 align=middle>Uma tentativa de transparência em 
+  JPG.</TD></TR></TBODY></TABLE><B>Transparência:</B> Este formato não tem 
+possibilidade de criar áreas transparentes. Se desejamos colocar uma imagem com 
+uma área que pareça transparente procederemos assim: com nosso programa de 
+desenho gráfico faremos com que o fundo da imagem seja o mesmo que o da página 
+onde queremos colocá-la. Em muitos casos, os fundos da imagem e a página 
+parecerão o mesmo. <BR><BR><B>Cores:</B> JPG trabalha sempre com 16 milhões de 
+cores, ideal para fotografias. <BR><BR><B>Otimizar arquivos </B><BR><BR>Para que 
+as imagens ocupem o menos possível e se transfiram rapidamente pela Rede devemos 
+aprender a otimizar os arquivos gráficos. Para isso, devemos fazer o seguinte: 
+<BR><BR><B>Para os arquivos GIF:</B> Reduziremos o número de cores de nossa 
+aquarela. Isto se faz com nosso editor gráfico, em muitos casos poderemos fazer 
+ao salvar o arquivo. <BR><BR>
+<TABLE cellSpacing=2 cellPadding=0 width=468 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8 align=middle><IMG height=60 
+      src="HTML - Manual_archivos/criarweb468x60-256.gif" width=468><BR>GIF 256 
+      cores - 11,1 KB<BR><BR></TD></TR>
+  <TR>
+    <TD class=fuente8 align=middle><IMG height=60 
+      src="HTML - Manual_archivos/criarweb468x60-16.gif" width=468><BR>GIF 16 
+      cores - 7,3 KB<BR><BR></TD></TR>
+  <TR>
+    <TD class=fuente8 align=middle><IMG height=60 
+      src="HTML - Manual_archivos/criarweb468x60-4.gif" width=468><BR>GIF 4 
+      cores - 3,9 KB<BR><BR></TD></TR></TBODY></TABLE><BR><B>Para os arquivos JPG:</B> 
+Ajustaremos a qualidade do arquivo quando estivermos salvando. Este formato nos 
+permite baixar muito a qualidade da imagem sem que esta perca muito em seu 
+aspecto visual. <BR><BR>
+<TABLE cellSpacing=2 cellPadding=0 width=200 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8 align=middle><IMG height=132 
+      src="HTML - Manual_archivos/vosgos0.jpg" width=200><BR>JPG qualidade 0 3 
+      KB<BR><BR></TD></TR>
+  <TR>
+    <TD class=fuente8 align=middle><IMG height=132 
+      src="HTML - Manual_archivos/vosgos20.jpg" width=200><BR>JPG qualidade 20 
+      5,9 KB<BR><BR></TD></TR>
+  <TR>
+    <TD class=fuente8 align=middle><IMG height=132 
+      src="HTML - Manual_archivos/vosgos50.jpg" width=200><BR>JPG qualidade 50 
+      10 KB<BR><BR><BR></TD></TR></TBODY></TABLE><BR>
+<TABLE cellSpacing=2 cellPadding=0 width=250 align=right border=0>
+  <TBODY>
+  <TR>
+    <TD><IMG height=182 src="HTML - Manual_archivos/saveasweb.jpg" 
+    width=250></TD></TR>
+  <TR>
+    <TD class=fuente8 align=middle>Photoshop é uma ferramenta excelente para 
+      otimizar arquivos. Vendo várias cópias podemos escolher a mais 
+  adequada.</TD></TR></TBODY></TABLE>É imprescindível dispor para otimizar a 
+imagem de uma boa ferramenta que nos permita configurar estas características da 
+imagem com liberdade e facilidade. Photoshop 5.5 ou 6 é um programa bastante 
+recomendável, pois incorpora uma opção que se chama "Salvar para Web" com a qual 
+podemos definir as cores do gif, a qualidade do JPG e outras opções em várias 
+amostras. Assim, com todas as opções configuráveis, vendo os resultados do 
+tamanho do arquivo, podemos otimizar a imagem de uma maneira precisa com os 
+resultados que desejamos. <BR><BR>Também existem no mercado outros programas que 
+nos permitem otimizar estas imagens de maneira surpreendente. Uma vez que 
+criamos a imagem, a passamos por estes programas e nos comprimem ainda mais o 
+arquivo, fazendo-lhe rápido de transferir e, portanto, mais otimizado para 
+Internet. Ao ser estas utilidades tão especializadas, os resultados costumam ser 
+melhores que com os programas de edição gráfica. <BR><BR><B>Exemplos de 
+optimizadores gráficos:</B> <BR>- <A href="http://webopt.com/">WebGraphics 
+Optimizer</A> <BR>- <A href="http://www.boxtopsoft.com/">ProJPG, GIF 
+Imantion</A> <BR><B>E com versões On-line:</B> <BR>- <A 
+href="http://www.spinwave.com/">JPG - GIF Crunchers</A> <BR>- <A 
+href="http://www.gifwizard.com/">GIF Wizard</A> <BR><BR><SPAN 
+class=fuente8>Informe de <B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>As cores e HTML</B></FONT><BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width=90 align=right border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8 align=middle><IMG height=87 alt="Roda das cores" 
+      hspace=10 src="HTML - Manual_archivos/roda.gif" width=88 border=0> Tabela 
+      de cor</TD></TR></TBODY></TABLE>&nbsp;&nbsp;&nbsp;&nbsp;As cores possuem um 
+papel muito importante na composição de webs. São indicadas em valores RGB, ou 
+seja, que para conseguir uma cor qualquer misturaremos quantidades de Vermelho, 
+Verde e Azul. <BR>&nbsp;&nbsp;&nbsp;&nbsp;Os valores RBG são indicados em 
+numeração hexadecimal, em base 16. (Os dígitos podem crescer até 16). Como não 
+existem tantos dígitos numéricos se utilizam as letras da A à F. <BR><BR>
+<TABLE borderColor=#000000 cellSpacing=0 cellPadding=2 width=360 align=center 
+border=1>
+  <TBODY>
+  <TR bgColor=#cccc99>
+    <TD align=middle>0=0</TD>
+    <TD align=middle>4=4</TD>
+    <TD align=middle>8=8</TD>
+    <TD align=middle>C=12</TD></TR>
+  <TR>
+    <TD align=middle>1=1</TD>
+    <TD align=middle>5=5</TD>
+    <TD align=middle>9=9</TD>
+    <TD align=middle>D=13</TD></TR>
+  <TR align=middle bgColor=#cccc99>
+    <TD>2=2</TD>
+    <TD>6=6</TD>
+    <TD>A=10</TD>
+    <TD>E=14</TD></TR>
+  <TR align=middle>
+    <TD>3=3</TD>
+    <TD>7=7</TD>
+    <TD>B=11</TD>
+    <TD>F=15</TD></TR></TBODY></TABLE><BR>&nbsp;&nbsp;&nbsp;&nbsp;Para conseguir uma 
+cor, misturaremos valores desta maneira: 
+<CENTER><FONT size=4><B>RRGGBB</B></FONT> <BR><B>Onde cada valor pode crescer 
+desde 00 até FF.</B></CENTER><BR><B>Exemplo</B>: Como se mudaria a fonte para 
+escrever em vermelho: <BR>
+<CENTER>&lt;font color="#FF0000"&gt;<FONT 
+color=#ff0000>Vermelho</FONT>&lt;/font&gt; </CENTER><BR>Ao Atributo <B>cor</B> 
+lhe damos um valor RGB em formato hexadecimal. O caractere # se coloca ao 
+princípio da expressão. <BR><BR><B>Outras cores</B>: 
+<TABLE cellSpacing=2 cellPadding=2 width=200 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top width="50%"><FONT color=#ff8000 
+    size=2><B>Laranja</B></FONT></TD>
+    <TD vAlign=top align=middle width="50%"><FONT 
+    size=2><B>#FF8000</B></FONT></TD></TR>
+  <TR>
+    <TD vAlign=top noWrap><FONT color=#339966 size=2><B>Verde 
+      turquesa</B></FONT></TD>
+    <TD vAlign=top align=middle><FONT size=2><B>#339966</B></FONT></TD></TR>
+  <TR>
+    <TD vAlign=top noWrap><FONT color=#000080 size=2><B>Azul 
+    escuro</B></FONT></TD>
+    <TD vAlign=top align=middle><FONT 
+  size=2><B>#000080</B></FONT></TD></TR></TBODY></TABLE><BR>
+<TABLE cellSpacing=0 cellPadding=0 width=470 border=0>
+  <TBODY>
+  <TR>
+    <TD class=titcol2><B>Cores compatíveis em todos os sistemas</B> 
+  </TD></TR></TBODY></TABLE><BR>&nbsp;&nbsp;&nbsp;&nbsp;Como as páginas web têm 
+que ser vistas por todos os usuários, e os sistemas que utilizam para entrar são 
+distintos, há que utilizar cores compatíveis com a paleta de todos eles. 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;A forma de conseguir isto é limitando nossas cores 
+aos que se podem conseguir utilizando a seguinte norma: <BR><BR>
+<CENTER>
+<TABLE borderColor=#000000 cellSpacing=0 cellPadding=2 width=150 align=center 
+border=1>
+  <TBODY>
+  <TR align=middle bgColor=#808050>
+    <TD><FONT color=#ffffff size=1><B>Utilizaremos sempre<BR>estes 
+      valores:</B></FONT></TD></TR>
+  <TR bgColor=#cccc99>
+    <TD align=middle><FONT size=2><B>00</B></FONT></TD></TR>
+  <TR>
+    <TD align=middle><FONT size=2><B>33</B></FONT></TD></TR>
+  <TR bgColor=#cccc99>
+    <TD align=middle><FONT size=2><B>66</B></FONT></TD></TR>
+  <TR bgColor=#cccc99>
+    <TD align=middle><FONT size=2><B>99</B></FONT></TD></TR>
+  <TR>
+    <TD align=middle><FONT size=2><B>CC</B></FONT></TD></TR>
+  <TR bgColor=#cccc99>
+    <TD align=middle><FONT 
+size=2><B>FF</B></FONT></TD></TR></TBODY></TABLE></CENTER><BR><B>Exemplos: <FONT 
+color=#3366ff>#3366FF</FONT> <FONT color=#ff9900>#FF9900</FONT> <FONT 
+color=#666666>#666666</FONT> </B><BR><BR><B>Consegue-se as seguintes cores:</B> 
+<BR><BR>
+<TABLE borderColor=black cellSpacing=0 cellPadding=1 width=440 align=center 
+border=1>
+  <SCRIPT language=javascript>
+
+var r = new Array("00","33","66","99","CC","FF");
+
+var g = new Array("00","33","66","99","CC","FF");
+
+var b = new Array("00","33","66","99","CC","FF");
+
+for (i=0;i<r.length;i++) 
+
+	for (j=0;j<g.length;j++) {
+
+		document.write("<tr>");
+
+		for (k=0;k<b.length;k++) {
+
+			var nuevoc = "#" + r[i] + g[j] + b[k];
+
+			document.write("<td bgcolor=\"" + nuevoc + "\" align=center><font size=1 face=\"verdana,arial\" color=999999>");
+
+			document.write(nuevoc);
+
+			document.write("</td>");
+
+		}
+
+		document.write("</tr>");
+
+	}
+
+</SCRIPT>
+
+  <TBODY></TBODY></TABLE><BR><BR><SPAN class=fuente8>Informe de <B>Miguel Angel 
+Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Tabelas em HTML</B></FONT><BR><BR>Uma tabela em um 
+conjunto de células organizadas dentro das quais podemos alojar distintos 
+conteúdos. <BR><BR>À princípio, poderia parecer que as tabelas são raramente 
+úteis e que podem ser utilizadas simplesmente para listar dados como agendas, 
+resultados e outros dados de uma forma organizada. Nada mais distante da 
+realidade. <BR><BR>Hoje, grande parte dos desenhadores de páginas baseia seu 
+planejamento neste tipo de engenhoca. De fato, uma tabela nos permite organizar 
+e distribuir os espaços da melhor forma. Pode nos ajudar a gerar textos em 
+colunas como os jornais, prefixar os tamanhos ocupados por distintas seções da 
+página ou colocar de uma maneira simples uma legenda a uma imagem. <BR><BR>Pode 
+ser que a princípio seja um pouco complicado trabalhar com estas estruturas mas, 
+se desejamos criar uma página de qualidade, mais cedo ou mais tarde teremos que 
+nos ver com elas e nos dar conta das possibilidades que nos oferecem. 
+<BR><BR>Para começar, nada mais simples do que pelo princípio: as tabelas são 
+definidas pelas etiquetas &lt;table&gt; e &lt;/table&gt; <BR><BR>Dentro dessas 
+duas etiquetas colocaremos todas as outras etiquetas, textos e imagens que darão 
+forma e conteúdo à tabela. <BR><BR>As tabelas são descritas por linhas da 
+esquerda para direita. Cada uma destas linhas é definida por outra etiqueta e 
+seu fechamento: &lt;tr&gt; e &lt;/tr&gt; <BR><BR>Ainda assim, dentro de cada 
+linha, haverá diferentes células. Cad uma dessas células será definida por outro 
+par de etiquetas:&lt;td&gt; e &lt;/td&gt;. Dentro desta etiqueta será onde 
+colocaremos nosso conteúdo. <BR><BR>Aqui temos um exemplo de estrutura de 
+tabela: <BR><BR>&lt;table&gt;<BR>&lt;tr&gt;<BR>&lt;td&gt;Célula 1, linha 
+1&lt;/td&gt;<BR>&lt;td&gt;Célula 2, linha 
+2&lt;/td&gt;<BR>&lt;/tr&gt;<BR>&lt;tr&gt;<BR>&lt;td&gt;Célula 1, linha 
+2&lt;/td&gt;<BR>&lt;td&gt;Célula 2, linha 
+2&lt;/td&gt;<BR>&lt;/tr&gt;<BR>&lt;/table&gt;<BR><BR>O resultado:<BR>Célula 1, 
+linha 1 Célula 2, linha1<BR>Célula 1, linha 2 Célula 2, linha 2 <BR><BR>NOTA: 
+Até aqui vimos todas as etiquetas que necessitamos conhecer para criar as 
+tabelas. Existem outras etiquetas, mas o que podemos conseguir com elas se pode 
+conseguir também usando as que já vimos. <BR><BR>Por exemplo, assinalamos a 
+etiqueta &lt;th&gt;, que serve para criar uma célula cujo conteúdo esteja 
+formatado como um título ou cabeçalho da tabela. Na prática, o que faz é colocar 
+em negrito e centralizado o conteúdo dessa célula, o que se pode conseguir 
+aplicando as correspondentes etiquetas dentro da célula. Assim: <BR><BR>&lt;td 
+align="center"&gt;&lt;b&gt;Conteúdo da célula&lt;/b&gt;&lt;/td&gt; <BR><BR>A 
+partir desta idéia simples, as tabelas adquirem outra magnitude quando lhes 
+incorporamos toda uma bateria de atributos aplicados sobre cada tipo de 
+etiquetas que as compõem. Ao longo dos próximos capítulos nos aprofundaremos no 
+estudo desses atributos de forma a proporcionar-lhe tudo que é útil e 
+indispensável para um bom arranque em páginas. <BR><BR><SPAN 
+class=fuente8>Informe de <B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Tabelas em HTML. Atributos para filas e 
+células.</B></FONT><BR><BR>Vimos no capítulo anterior que as tabelas estão 
+compostas de linhas que, por sua vez, contém células. As células são delimitadas 
+pelas etiquetas &lt;td&gt; ou pelas etiquetas &lt;th&gt; (se queremos texto em 
+negrito e centralizado) e constituem um entorno independente do resto do 
+documento. Isto quer dizer que: <BR>
+<UL>
+  <LI>Podemos usar praticamente qualquer tipo de etiqueta dentro da etiqueta 
+  &lt;td&gt; para, desta forma, dar forma a seu conteúdo. 
+  <LI>As etiquetas situadas no interior da célula não modificam o resto do 
+  documento. 
+  <LI>As etiquetas de fora da célula não são tidas em conta por esta. 
+</LI></UL>Sendo assim, podemos especificar o formato de nossas células a partir 
+de etiquetas introduzidas em seu interior ou mediante atributos colocados dentro 
+da etiqueta de célula &lt;td&gt; ou também, em alguns casos, dentro da etiqueta 
+&lt;tr&gt;, se desejamos que o atributo seja válido para toda a linha. A forma 
+mais útil e atual de dar forma às células é a partir das <A 
+href="http://www.criarweb.com/css/">folhas de estilo em cascata</A> que já 
+teremos a oportunidade de abordar mais adiante. <BR><BR>Vemos em seguida alguns 
+atributos úteis para a construção de nossas tabelas. Começamos vendo alguns 
+atributos que nos permite modificar uma célula em concreto ou toda uma linha. 
+<BR><BR><B>align</B> Justifica o texto da célula da mesma forma que se fosse o 
+de um parágrafo. <BR><BR><B>valign</B> Podemos escolher se queremos que o texto 
+apareça acima (top), no centro (middle) ou abaixo (bottom) da célula. 
+<BR><BR><B>bgcolor</B> Dá cor à célula ou escolha de linha. 
+<BR><BR><B>bordercolor</B> Define a cor da borda. <BR><BR>Outros atributos que 
+podem ser unicamente atribuídos a uma célula e não ao um conjunto de células de 
+uma linha são: <BR><BR><B>background</B> Permite-nos colocar um fundo para a 
+célula a partir de um link a uma imagem. <BR><BR><B>height</B> Define a altura 
+da célula em pixels ou porcentagem. <BR><BR><B>width</B> Define a largura da 
+célula em pixels ou porcentagem <BR><BR><B>colspan</B> Expande um célula 
+horizontalmente. <BR><BR><B>rowspan</B> Expande um célula verticalmente. 
+<BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width="90%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8 bgColor=#dddddd><B>Nota:</B> O atributo height não 
+      funciona em todos os navegadores, ademais, seu uso não está muito 
+      estendido. As células em geral, têm a altura que necessitam para caber 
+      todo o conteúdo que tenha inserido, ou seja, crescem o suficiente para que 
+      caiba o que colocamos dentro. O atributo width sim que funciona em todos 
+      os navegadores e deve ser utilizado constantemente. Se lhe atribuímos uma 
+      largura à célula, a largura será respeitada e se a tal célula tiver muito 
+      texto ou qualquer outro conteúdo, a célula crescerá um tanto para baixo 
+      quanto for o necessário para caber o que colocamos. Uma observação neste 
+      último parágrafo. Trata-se que se definimos uma célula de uma largura 100, 
+      por exemplo e colocamos na célula um conteúdo como uma imagem que meça 
+      mais de 100 pixels, a célula crescerá em horizontalmente tanto quanto for 
+      necessário para que a imagem caiba. Se o elemento, mesmo mais largo, fosse 
+      divisível (como um texto) a largura seria respeitada e o texto cresceria 
+      para baixo, ou o que é o mesmo, em altura, como assinalamos no parágrafo 
+      anterior. </TD></TR></TBODY></TABLE><BR>Estes últimos quatro atributos descritos 
+são de grande utilidade. Concretamente, height e width nos ajudam a definir as 
+dimensões de nossas células de uma forma absoluta (em pixel ou em pontos de 
+tela) ou de uma forma relativa, ou seja, por porcentagens referentes ao tamanho 
+total da tabela. <BR><BR>Por exemplo: <BR><BR>&lt;td width="80"&gt; <BR>Dará uma 
+largura de 80 pixels à célula. Entretanto, <BR><BR>&lt;td width =80%&gt; 
+<BR>Dará uma largura à célula do 80% da largura da tabela. <BR><BR>Há de ter em 
+conta que, definidas as dimensões das células, o navegador vai fazer o que 
+bondosamente puder para satisfazer ao programador. Isto quer dizer que pode que 
+em algumas ocasiões o resultado que obtenhamos não seja o esperado. 
+Concretamente, se o texto apresenta uma palavra excessivamente comprida pode que 
+a largura da célula se veja aumentada para manter a palavra na mesma linha. Por 
+outro lado, se o texto é muito grande , a célula aumentará sua para poder 
+mostrar todo o seu conteúdo. <BR><BR>Analogamente se, por exemplo, definimos 
+duas larguras distintas às células de uma mesma coluna, o navegador não saber 
+qual atender. É por isso que é conveniente ter bem claro desde o princípio como 
+é a tabela que queremos desenhar. Não é demais saber se pré-desenhamos no papel 
+se a complexidade é importante. O HTML em geral é fácil, mas as tabelas podem 
+converte-se em um verdadeiro quebra-cabeça se não chegamos a compreende-las 
+devidamente. <BR><BR>Os atributos rowspan e colspan são também utilizados 
+freqüentemente. Graças a isso é possível expandir células fundindo estas com 
+suas vizinhas. O valor que podem tomar estas etiquetas é numérico. O número 
+representa a quantidade de células fundidas. <BR><BR>Assim, <BR>&lt;td 
+colspan="2"&gt; <BR>Fundirá a célula em questão com sua vizinha direita. 
+<BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width=350 border=1>
+  <TBODY>
+  <TR>
+    <TD align=middle colSpan=2>Esta célula tem um colspan="2"</TD></TR>
+  <TR>
+    <TD align=middle>Célula normal</TD>
+    <TD align=middle>Outra célula</TD></TR></TBODY></TABLE><BR>Do mesmo modo, 
+<BR>&lt;td rowspan="2"&gt; <BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width=300 border=1>
+  <TBODY>
+  <TR>
+    <TD align=middle rowSpan=2>Esta célula tem rowspan="2", por isso tem 
+      fundida a célula abaixo.</TD>
+    <TD align=middle>Célula Normal</TD></TR>
+  <TR>
+    <TD align=middle>Outra célula normal</TD></TR></TBODY></TABLE><BR>A célula 
+expandirá para baixo fundindo-se com a célula inferior. <BR><BR>O resto dos 
+atributos apresentados apresenta uma utilidade e um uso bastante óbvio. Por 
+isso, os deixamos a sua própria investigação. <BR><BR><SPAN 
+class=fuente8>Informe de <B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Tabelas em HTML. Atributos da tabela e 
+conclusão.</B></FONT><BR><BR>Além dos atributos específicos de cada célula ou 
+linha, as tabelas podem ser adicionalmente formatadas a partir dos atributos que 
+nos oferece a própria etiqueta &lt;table&gt;. A seguir, mostramos aqueles que 
+nos podem parecer à principio mais importantes: <BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width=460 border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top><STRONG>align</STRONG></TD>
+    <TD>Alinha horizontalmente a tabela em relação ao seu entorno.</TD></TR>
+  <TR>
+    <TD vAlign=top><STRONG>background</STRONG></TD>
+    <TD>Permite-nos colocar um fundo para a tabela desde um link a uma 
+    imagem.</TD></TR>
+  <TR>
+    <TD vAlign=top><STRONG>bgcolor</STRONG></TD>
+    <TD>Dá cor de fundo à tabela.</TD></TR>
+  <TR>
+    <TD vAlign=top><STRONG>border</STRONG></TD>
+    <TD>Define o número de pixels da borda principal.</TD></TR>
+  <TR>
+    <TD vAlign=top><STRONG>bordercolor</STRONG></TD>
+    <TD>Define a cor da borda.</TD></TR>
+  <TR>
+    <TD vAlign=top><STRONG>cellpadding</STRONG></TD>
+    <TD>Define, em pixels, o espaço entre as bordas da célula e o conteúdo da 
+      mesma. </TD></TR>
+  <TR>
+    <TD vAlign=top><STRONG>cellspacing</STRONG></TD>
+    <TD>Define o espaço entre as bordas (em pixels).</TD></TR>
+  <TR>
+    <TD vAlign=top><STRONG>height</STRONG></TD>
+    <TD>Define a altura da tabela em pixels ou porcentagem.</TD></TR>
+  <TR>
+    <TD vAlign=top><STRONG>width</STRONG></TD>
+    <TD>Define a largura da tabela em pixels ou 
+porcentagem.</TD></TR></TBODY></TABLE><BR>Os atributos que definem as dimensões, 
+height e width, funcionam de uma maneira análoga ao das células, tal como vimos 
+no capítulo anterior. Contrariamente, o atributo align não nos permite 
+justificar o texto de cada una das células que compõem a tabela, mas sim que 
+permite, justificar a própria tabela em relação ao seu entorno. <BR><BR>Vamos 
+colocar três exemplos de alinhamento de tabelas, centralizadas, alinhadas à 
+direita e à esquerda.<BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD align=middle width=180><STRONG>Exemplo de tabela centralizada</STRONG> 
+    </TD>
+    <TD class=fuente8>
+      <TABLE cellSpacing=2 cellPadding=2 width=220 align=center border=1>
+        <TBODY>
+        <TR>
+          <TD class=fuente8>Esta tabela está centralizada (aling="center"). 
+            Tem somente uma célula.</TD></TR></TBODY></TABLE>Este seria um texto 
+      qualquer colocado ao lado de uma tabela centralizada. <BR><BR></TD></TR>
+  <TR>
+    <TD align=middle><STRONG>Exemplo de tabela alinhada à direita</STRONG></TD>
+    <TD class=fuente8>
+      <TABLE cellSpacing=2 cellPadding=2 width=220 align=right border=1>
+        <TBODY>
+        <TR>
+          <TD class=fuente8>Esta tabela está alinhada à direita 
+            (aling="right"). Tem somente uma célula.</TD></TR></TBODY></TABLE>Para que 
+      seja visto o efeito de alinhamento da tabela devemos colocar um texto ao 
+      lado e o texto irá rodear a tabela, assim como ocorreria como as imagens 
+      alinhadas a um lado. <BR><BR></TD></TR>
+  <TR>
+    <TD align=middle><STRONG>Exemplo de tabela alinhada à esquerda</STRONG></TD>
+    <TD class=fuente8>
+      <TABLE cellSpacing=2 cellPadding=2 width=220 align=left border=1>
+        <TBODY>
+        <TR>
+          <TD class=fuente8>Esta tabela está alinhada à esquerda 
+            (aling="left"). Tem somente uma célula.</TD></TR></TBODY></TABLE>Para que 
+      seja visto o efeito de alinhamento da tabela, devemos colocar um texto ao 
+      lado e o texto irá rodear a tabela, assim como ocorreria com as imagens 
+      alinhadas a um lado.</TD></TR></TBODY></TABLE><BR>Os atributos cellpading e 
+cellspacing ajudarão a dar a nossa tabela um aspecto mais estético. À princípio 
+pode nos parecer um pouco confuso seu uso mas com um pouco de prática já será 
+suficiente para saber utilizá-los. <BR><BR>Na seguinte imagem podemos ver 
+graficamente o significado destes atributos: <BR>
+<DIV align=center><IMG height=82 alt="" 
+src="HTML - Manual_archivos/cellpadingcellspacing.gif" width=154 
+border=0></DIV><BR>Você mesmo pode comprovar que os atributos definidos para uma 
+célula têm prioridade em relação aos definidos para uma tabela. Podemos definir, 
+por exemplo, uma tabela com a cor de fundo vermelha e uma das células com a cor 
+de fundo verde. E assim, toda a tabela será vista de cor vermelha manos a célula 
+verde. Da mesma forma, podemos definir uma cor azul para as bordas da tabela e 
+fazer com que uma célula particular seja mostrada com uma borda vermelha. 
+(Apesar de que isto não funcionará em todos os navegadores devido ao fato de 
+alguns não reconhecerem o atributo bordercolor.) <BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width=300 align=center bgColor=#cc0000 
+border=1>
+  <TBODY>
+  <TR>
+    <TD>Tabela de cor vermelha de fundo</TD>
+    <TD>O atributo bgcolor da tabela está em vermelho.</TD></TR>
+  <TR>
+    <TD>Célula normal</TD>
+    <TD bgColor=#009900>Esta célula está em verde. Tem o atributo bgcolor na 
+      cor verde</TD></TR></TBODY></TABLE><BR><STRONG>Tabelas aninhadas</STRONG> 
+<BR><BR>O uso de tabelas aninhadas também é muito útil. Da mesma forma que 
+podíamos incluir listas dentro de outras listas, as tabelas podem ser incluídas 
+dentro de outras. Assim, podemos incluir uma tabela dentro da célula de outra. A 
+forma de funcionamento continua sendo o mesmo apesar de que a situação pode se 
+complicar se o número de tabelas incluídas dentro de outras for elevado. 
+<BR><BR>Vamos ver um código de um aninhamento de tabelas. Veremos primeiro o 
+resultado e em seguida, o código, pois assim conseguiremos entendê-lo melhor. 
+<BR><BR>
+<TABLE cellSpacing=10 cellPadding=10 border=3>
+  <TBODY>
+  <TR>
+    <TD align=middle>Célula da tabela principal </TD>
+    <TD align=middle>
+      <TABLE cellSpacing=2 cellPadding=2 border=1>
+        <TBODY>
+        <TR>
+          <TD>Tabela aninhada, célula 1</TD>
+          <TD>Tabela aninhada, célula 2</TD></TR>
+        <TR>
+          <TD>Tabela aninhada, célula 3</TD>
+          <TD>Tabela aninhada, célula 
+4</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR>Este seria o código: 
+<BR><BR>&lt;table cellspacing="10" cellpadding="10" border="3"&gt; 
+<BR>&lt;tr&gt; <BR>&nbsp;&nbsp;&nbsp; &lt;td align="center"&gt; 
+<BR>&nbsp;&nbsp;&nbsp; Célula da tabela principal <BR>&nbsp;&nbsp;&nbsp; 
+&lt;/td&gt; <BR>&nbsp;&nbsp;&nbsp; &lt;td align="center"&gt; 
+<BR>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;table cellspacing="2" 
+cellpadding="2" border="1"&gt; <BR>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+&lt;tr&gt; <BR>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+&lt;td&gt;Tabela aninhada, célula 1&lt;/td&gt; <BR>&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;Tabela aninhada, célula 
+2&lt;/td&gt; <BR>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/tr&gt; 
+<BR>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;tr&gt; <BR>&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;td&gt;Tabela unida, célula 
+3&lt;/td&gt; <BR>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+&lt;td&gt;Tabela aninhada, célula 4&lt;/td&gt; <BR>&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp; &lt;/tr&gt; <BR>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+&lt;/table&gt; <BR>&nbsp;&nbsp;&nbsp; &lt;/td&gt; <BR>&lt;/tr&gt; 
+<BR>&lt;/table&gt; <BR><BR><STRONG>Exemplos práticos</STRONG> <BR><BR>Estas são 
+as informações que pretendíamos transmitir-lhes sobre as tabelas em HTML. Agora 
+seria importante fazer algum exemplo de realização de uma tabela um pouco mais 
+complexa. Por exemplo, a seguinte: <BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 align=center bgColor=#dddddd border=1>
+  <TBODY>
+  <TR>
+    <TD align=middle bgColor=#666666 colSpan=4><FONT 
+      color=#ffffff><STRONG>Animais em perigo de extinção</STRONG></FONT></TD></TR>
+  <TR bgColor=#aaaaaa>
+    <TD>Nome</TD>
+    <TD align=middle>Cabeças</TD>
+    <TD align=middle>Previsão 2010</TD>
+    <TD align=middle>Previsão 2020</TD></TR>
+  <TR>
+    <TD>Baleia</TD>
+    <TD align=middle>6000</TD>
+    <TD align=middle>4000</TD>
+    <TD align=middle>1500</TD></TR>
+  <TR>
+    <TD>Urso Pardo</TD>
+    <TD align=middle>50</TD>
+    <TD align=middle bgColor=red colSpan=2 rowSpan=2>0</TD></TR>
+  <TR>
+    <TD>Lince</TD>
+    <TD align=middle>10</TD></TR>
+  <TR>
+    <TD>Tigre</TD>
+    <TD align=middle>300</TD>
+    <TD align=middle colSpan=2>210</TD></TR></TBODY></TABLE><BR><BR>Outro exemplo de 
+tabela com a qual podemos praticar: <BR><BR>
+<TABLE cellSpacing=4 cellPadding=4 width=400 align=center bgColor=#dddddd 
+border=1>
+  <TBODY>
+  <TR>
+    <TD align=middle bgColor=#666666 colSpan=2><FONT 
+      color=#ffffff><STRONG>Climas de América do Sul</STRONG></FONT></TD></TR>
+  <TR>
+    <TD width="50%">
+      <TABLE cellSpacing=1 cellPadding=1 align=right border=1>
+        <TBODY>
+        <TR>
+          <TD align=middle bgColor=#cccccc>Venezuela</TD></TR>
+        <TR>
+          <TD align=middle bgColor=#cccccc>Colômbia</TD></TR>
+        <TR>
+          <TD align=middle bgColor=#cccccc>Equador</TD></TR>
+        <TR>
+          <TD align=middle bgColor=#cccccc>Perú</TD></TR></TBODY></TABLE>Norte da 
+      América de Sul. Países como: </TD>
+    <TD width="50%">
+      <TABLE cellSpacing=1 cellPadding=1 align=right border=1>
+        <TBODY>
+        <TR>
+          <TD align=middle bgColor=#cccccc>Argentina</TD></TR>
+        <TR>
+          <TD align=middle bgColor=#cccccc>Chile</TD></TR>
+        <TR>
+          <TD align=middle bgColor=#cccccc>Uruguai</TD></TR>
+        <TR>
+          <TD align=middle bgColor=#cccccc>Paraguai</TD></TR></TBODY></TABLE>Sul da 
+      América do Sul. Países como: </TD></TR>
+  <TR>
+    <TD bgColor=#358391>Floresta tropical, clima de savana, clima marítimo com 
+      invernos secos.</TD>
+    <TD bgColor=#358391>Climas marítimos com verões secos, com invernos secos, 
+      climas frios, clima de estepe, clima 
+desértico.</TD></TR></TBODY></TABLE><BR><BR><SPAN class=fuente8>Informe de 
+<B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Formulários HTML</B></FONT><BR><BR>Até agora vimos a 
+forma na qual o HTML providencia e mostra a informação, essencialmente mediante 
+o texto, imagens e links. Falta ver de que forma podemos trocar informações com 
+nosso visitante. Desde então, este novo aspecto é primordial para a grande 
+quantidade de ações que se podem realizar mediante o Web: Comprara um artigo, 
+preencher uma enquete, enviar um comentário ao autor... <BR><BR>Vimos 
+anteriormente que poderíamos, mediante os links, entrar em contato diretamente 
+com um correio eletrônico. Entretanto, esta opção pode ser em alguns casos pouco 
+versátil se o que desejamos é que o navegante nos envie uma informação bem 
+precisa. É através dele, o HTML que propõem outra solução muito mais ampla: Os 
+formulários. <BR><BR>Os formulários são estas famosas caixas de texto e botões 
+que podemos encontrar em muitas páginas web. São muito utilizados para realizar 
+buscar ou também para introduzir dados pessoais, por exemplo, em sites de 
+comércios eletrônico. Os dados que o usuário introduz nestes campos são enviados 
+ao correio eletrônico do administrador do formulário ou também, em um programa 
+que se encarrega de processá-lo automaticamente. <BR><BR>Usando HTML podemos 
+unicamente enviar o formulário a um correio eletrônico. Se quisermos processar o 
+formulário mediante um programa, a coisa pode ser um pouco mais complexa, já que 
+teremos que empregar outras linguagens mais sofisticadas. Neste caso, a solução 
+mais simples é utilizar os programas pré-desenhados que nos propõem um grande 
+número de servidores de hospedagem e que nos permitem armazenar e processar os 
+dados em forma de arquivo ou outros formatos. Se sua página es ta hospedada em 
+um servidor que não lhe propõem estes tipos de vantagens, você sempre poderá 
+recorrer a servidores de terceiros que oferecem este ou outros tipos de serviços 
+gratuitos para webs. É claro que também existe outra alternativa que é a de 
+aprender linguagens como ASP ou <A href="http://www.criarweb.com/php/">PHP</A> 
+que nos permitirá, entre outras coisas, o tratamento de formulários. <BR><BR>Os 
+formulários são definidos por meio das etiquetas &lt;form&gt; e &lt;/form&gt;. 
+Entre estas duas etiquetas colocaremos todos os campos e botões que compõem o 
+formulário. Dentro desta etiqueta &lt;form&gt; devemos especificar alguns 
+atributos.: <BR><BR><B>Action</B> <BR><BR>Define o tipo de ação a realizar com o 
+formulário. Como já dissemos, existem duas possibilidades: <BR>
+<UL>
+  <LI>O formulário é enviado a um endereço de correio eletrônico 
+  <LI>O formulário é enviado a um programa ou script que processa seu conteúdo. 
+  </LI></UL>No primeiro caso, o conteúdo do formulário é enviado ao endereço de 
+correio eletrônico especificada por meio de uma sintaxe deste tipo: 
+<BR><BR>&lt;form action="mailto:endereço@correio.com"…&gt; <BR><BR>Se o que 
+queremos é que o formulário seja processado por um programa, temos de 
+especificar o endereço do arquivo que contem o tal programa. A etiqueta ficaria 
+neste caso da seguinte forma: <BR><BR>&lt;form action="endereço do 
+arquivo"...&gt; <BR><BR>A forma na qual se expressa a localização do arquivo que 
+contém o programa é a mesma que a <A 
+href="http://www.criarweb.com/artigos/41.php?manual=2">vista para os links</A>. 
+<BR><BR><B>Method</B> <BR><BR>Este atributo se encarrega de especificar a forma 
+na qual o formulário é enviado. Os dois valores possíveis que este atributo pode 
+tomar são post e get. A efeitos práticos e salvo se lhe disserem o contrário, 
+daremos sempre o valor post. <BR><BR><B>Enctype</B> <BR><BR>Utiliza-se para 
+indicar a forma na qual viajará a informação que for mandada pelo formulário. No 
+caso mais corrente, enviar o formulário por correio eletrônico, o valor deste 
+atributo deve ser "text/plain". Assim, conseguimos que o conteúdo do formulário 
+seja enviado como texto plano dentro do e-mail. <BR><BR>Se quisermos que o 
+formulário se processe automaticamente por um programa, geralmente não 
+utilizaremos este atributo, de forma que tome seu valor padrão, ou seja, não 
+incluiremos enctype dentro da etiqueta &lt;form&gt;. <BR><BR><B>Exemplo de 
+etiqueta &lt;form&gt; completa</B> <BR><BR>Assim, para o caso mais habitual - o 
+envio do formulário por correio - a etiqueta de criação do formulário terá o 
+seguiente aspecto: <BR><BR>&lt;form action="mailto:endereço@correio.com (ou o 
+nome do arquivo de processo)" method="post" enctype="text/plain"&gt; 
+<BR><BR>Entre esta etiqueta e seu fechamento, colocaremos o resto de etiquetas 
+que darão forma ao nosso formulário, as quais serão vistas nos próximos 
+capítulos. <BR><BR><SPAN class=fuente8>Informe de <B>Miguel Angel 
+Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Elementos de formulários. Campos de 
+texto.</B></FONT><BR><BR>O HTML nos propõem uma grande diversidade de 
+alternativas na hora de criar nossos formulários. Estas vão desde a clássica 
+caixa de texto até a lista de opções passando pelas caixas de validação. 
+<P>Veremos em que consiste cada una destas modalidades e como podemos 
+implementá-las em nosso formulário. 
+<P><B>Texto curto</B> 
+<P>As caixas de texto são colocadas por meio da etiqueta &lt;input&gt;. Dentro 
+desta etiqueta temos de especificar o valor de dois atributos: <B>type</B> e 
+<B>name</B>. 
+<P>A etiqueta é da seguinte forma: 
+<P>&lt;input type="text" name="nombre"&gt; 
+<P>Deste modo expressamos nosso desejo de criar uma caixa de texto cujo conteúdo 
+será chamado nome (por exemplo). O aspecto deste tipo de caixas é conhecido, 
+como pode ser visto aqui: 
+<P>
+<FORM><INPUT name=nome> </FORM>
+<P>O nome do elemento do formulário é de grande importância para poder 
+identificá-lo em nosso programa de processamento ou no e-mail recebido. Por 
+outro lado, é importante indicar o atributo type, já que, como veremos, existem 
+outras modalidades de formulário que usam esta mesma etiqueta. 
+<P>O emprego destas caixas está fundamentalmente destinado à tomada de dados 
+breves: palavras ou conjuntos de palavras de longitude relativamente curta. 
+Veremos mais adiante que existe outra forma de tomar textos mais longos a partir 
+de outra etiqueta. 
+<P>Além destes dois atributos, essenciais para o correto funcionamento de nossa 
+etiqueta, existem outra série de atributos que podem ser de utilidade, mas que 
+não são imprescindíveis. 
+<P><B>size</B> <BR>Define o tamanho da caixa em número de caracteres. Se ao 
+escrever o usuário chega ao final da caixa, o texto irá desfilando à medida que 
+se escreve fazendo desaparecer a parte de texto que fica à esquerda. 
+<P><B>maxlength</B> <BR>Indica o tamanho máximo do texto que pode ser tomado 
+pelo formulário. É importante não confundí-lo com o atributo size. Enquanto o 
+primeiro define o tamanho aparente da caixa de texto, maxlength indica o tamanho 
+máximo real do texto que pode ser escrito. Podemos ter uma caixa de texto com um 
+tamanho aparente (size) que é menor do que o tamanho máximo (maxlength). O que 
+ocorrerá neste caso é que, ao escrever, o texto irá desfilando dentro da caixa 
+até que cheguemos ao seu tamanho máximo definido por maxlength, momento no qual 
+será impossível continuar escrevendo. 
+<P><B>value</B> <BR>Em alguns casos pode ser interessante atribuir um valor 
+definido ao campo em questão. Isto pode ajudar ao usuário a preencher mais 
+rapidamente o formulário ou a dar alguma idéia sobre a natureza de dados que se 
+requerem. Este valor inicial do campo pode ser expresso mediante o atributo 
+value. Vejamos seu efeito com um exemplo simples: 
+<P>&lt;input type="text" name="nome" value="Perico Palotes"&gt; 
+<P>Gera um campo deste tipo: 
+<P>
+<FORM><INPUT value="Josefa Palotes" name=nome> </FORM>
+<TABLE cellSpacing=2 cellPadding=2 width="90%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8 bgColor=#eeeeee><B>Nota: estamos obrigados a utilizar a 
+      etiqueta &lt;form&gt;</B> <BR><BR>Para que fique mais claro este conteúdo, 
+      ressaltamos: Quando queremos utilizar em qualquer situação elementos de 
+      formulário devemos escrevê-los sempre entre as etiquetas &lt;form&gt; y 
+      &lt;/form&gt;. Caso contrário, os elementos serão vistos perfeitamente no 
+      Explorer, mas não no Netscape. <BR><BR>Com outras palavras, no Netscape 
+      não se visualizam os elementos de formulário a não ser que estejam 
+      colocados entre as correspondentes etiquetas de início e fim de 
+      formulário. <BR><BR>É por isso que para mostrar um campo de texto não 
+      adianta colocar a etiqueta &lt;input&gt;, e sim, coloca-la dentro de um 
+      formulário. Assim: <BR><BR>&lt;form&gt; <BR>&lt;input type="text" 
+      name="nome" value="Josefa Palotes"&gt; <BR>&lt;/form&gt; 
+</TD></TR></TBODY></TABLE>
+<P>Veremos posteriormente que este atributo pode ser relevante em determinadas 
+situações. 
+<P><B>Texto oculto</B> 
+<P>Podemos esconder o texto escrito por meio de asteriscos de forma a fornecer 
+uma certa confiabilidade. Este tipos de campos são análogos aos de texto com 
+somente uma diferença: deslocando o atributo type="text" por type="password": 
+<P>&lt;input type="password" name="nome"&gt; 
+<P>Neste caso, pode ser comprovado que ao escrever dentro do campo no lugar de 
+texto serão vistos asteriscos. 
+<P>Estes campos são ideais para a introdução de dados confidenciais, 
+principalmente códigos de acesso. Isto pode ser visto em funcionamento a seguir: 
+
+<FORM><INPUT type=password name=nome> </FORM>
+<P><B>Texto longo </B>
+<P>Se desejarmos colocar à disposição do usuário um campo de texto onde possa 
+escrever comodamente sobre um espaço composto de várias linhas, temos de 
+convocar uma nova etiqueta: &lt;textarea&gt; e seu fechamento correspondente. 
+<P>Estes tipos de campos são práticos quando o conteúdo a enviar não é um nome, 
+telefone ou qualquer outro dado breve, e sim, um comentário, opinião, etc. 
+<P>Dentro da etiqueta textarea deveremos indicar, como para o caso visto 
+anteriormente, o atributo name para associar o conteúdo a um nome que será 
+semelhante a uma variável nos programas de processo. Além disso, podemos definir 
+as dimensões do campo a partir dos seguintes atributos: 
+<P><B>rows</B> <BR>Define o número de linhas do campo de texto. 
+<P><B>cols</B> <BR>Define o número de colunas do campo de texto. 
+<P>A etiqueta fica portanto, desta forma: 
+<P>&lt;textarea name="comentário" rows="10" cols="40"&gt;&lt;/textarea&gt; 
+<P>O resultado é o seguinte: 
+<P>
+<FORM><TEXTAREA name=comentário rows=10 cols=40></TEXTAREA> </FORM>
+<P>Mesmo assim, é possível definir o conteúdo do campo. Para isso, não usaremos 
+o atributo value e sim, que escreveremos dentro da etiqueta o conteúdo que lhe 
+desejamos atribuir. Vejamos: 
+<P>&lt;textarea name="comentário" rows="10" cols="40"&gt;Escreva seu 
+comentário....&lt;/textarea&gt; 
+<P>Terá como resultado: 
+<P>
+<FORM><TEXTAREA name=comentário rows=10 cols=40>Escreva seu comentário....</TEXTAREA> 
+</FORM><BR><BR><SPAN class=fuente8>Informe de <B>Miguel Angel 
+Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Outros elementos de 
+formulários</B></FONT><BR><BR>Efetivamente, os textos são uma maneira muito 
+prática de fazer chegar a informação do navegante. Porém, em muitos casos, os 
+texto são dificilmente adaptáveis a programas que possam processá-los 
+devidamente ou também pode ser que seu conteúdo não se ajuste ao tipo de 
+informação que requeremos. É por isso que, em determinados casos, pode ser mais 
+efetivo propor uma escolha ao navegante a partir da exposição de uma série de 
+opções. 
+<P>Este é o caso de, por exemplo, oferecer uma lista de países, o tipo de cartão 
+de crédito para um pagamento, etc. 
+<P>Estes tipos de opções podem ser expressadas de diferentes formas. Vejamos a 
+seguir quais são: 
+<P><B>Listas de opções</B> 
+<P>As listas de opções são esse tipo de menus desdobráveis que nos permite 
+escolher uma (ou várias) das múltiplas opções que nos propõem. Para construí-las 
+utilizaremos uma etiqueta com seu respectivo fechamento: &lt;select&gt; 
+<P>Como para os casos já vistos, dentro desta etiqueta definiremos seu nome por 
+meio do atributo name. Cada opção será incluída em uma linha precedida da 
+etiqueta &lt;option&gt;. 
+<P>Podemos ver, a partir destas diretrizes, a forma mais típica e simples desta 
+etiqueta: 
+<P>&lt;select name="estação"&gt; <BR>&lt;option&gt;Primavera&lt;/option&gt; 
+<BR>&lt;option&gt;Verão&lt;/option&gt; <BR>&lt;option&gt;Outono&lt;/option&gt; 
+<BR>&lt;option&gt;Inverno&lt;/option&gt; <BR>&lt;/select&gt; <BR><BR>O resultado 
+é: <BR><BR>
+<FORM><SELECT name=estação> <OPTION selected>Primavera</OPTION> 
+  <OPTION>Verão</OPTION> <OPTION>Outono</OPTION> <OPTION>Inverno</OPTION></SELECT> 
+</FORM>
+<P>Esta estrutura pode ser vista modificada principalmente a partir de outros 
+dois atributos: <BR><BR><B>size</B> <BR>Indica o número de valores mostrados da 
+lista. O resto pode ser visto por meio da barra lateral de deslocamento. 
+<BR><BR><B>multiple</B> <BR>Permite a seleção de mais vários elementos da lista. 
+A escolha de mais de um elemento se faz como com o explorador de Windows, a 
+partir das teclas ctrl ou shift. Este atributo se expressa sem valor algum, ou 
+seja, não se utiliza com o igual: simplesmente se coloca para conseguir o 
+efeito, ou não se coloca se quisermos uma lista desdobrável comum. 
+<P>
+<TABLE cellSpacing=2 cellPadding=2 width="90%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8 bgColor=#eeeeee><B>Conselho: Se for possível, não 
+      utilize multiple</B> <BR><BR>Não recomendamos especialmente a prática 
+      desta opção já que o manejo das teclas ctrl ou shift para escolher várias 
+      opções pode ser desconhecido para o navegante. Evidentemente, sempre cabe 
+      a possibilidade de explicar como funciona a pesar de ser uma complicação a 
+      mais para o visitante. </TD></TR></TBODY></TABLE><BR>Vejamos qual é o efeito 
+produzido por estes dois atributos mudando a linha: <BR>&lt;select 
+name="estação"&gt; <BR><BR>por: <BR>&lt;select name="estação" size="3" 
+multiple&gt; <BR><BR>A lista ficará desta forma: <BR><BR>
+<FORM><SELECT multiple size=3 name=estação> <OPTION>Primavera</OPTION> 
+  <OPTION>Verão</OPTION> <OPTION>Outono</OPTION> <OPTION>Inverno</OPTION></SELECT> 
+</FORM>
+<P>A etiqueta <B>&lt;option&gt;</B> ainda pode ser precisada por meio de 
+<B>outros atributos</B> <BR><BR><B>selected</B> <BR>Da mesma forma que multiple, 
+este atributo não toma nenhum valor senão que simplesmente indica que a opção 
+que apresenta está escolhida por padrão. <BR><BR>Assim, se mudamos a linha do 
+código anterior: <BR>&lt;option&gt;Outono&lt;/option&gt; <BR><BR>por: 
+<BR>&lt;option selected&gt;Outono&lt;/option&gt; <BR><BR>O resultado será: 
+<BR><BR>
+<FORM><SELECT name=estação> <OPTION>Primavera</OPTION> <OPTION>Verão</OPTION> 
+  <OPTION selected>Outono</OPTION> <OPTION>Inverno</OPTION></SELECT> </FORM>
+<P><B>value</B> <BR>Define o valor da opção que será enviada ao programa ou ao 
+correio eletrônico se o usuário escolhe essa opção. Este atributo pode ser muito 
+útil se o formulário for enviado a um programa visto que a cada opção se pode 
+associar um número ou letra, o qual torna-se mais facilmente manipulável que uma 
+palavra ou texto. Poderíamos assim escrever linhas do tipo: <BR><BR>&lt;option 
+value="1"&gt;Primavera&lt;/option&gt; <BR><BR>Deste modo, se o usuário escolhe 
+primavera, o que chegará ao programa (ou ao correio) é uma variável chamada 
+estação que terá com valor 1. No correio eletrônico receberíamos: 
+<BR><BR>estação=1 <BR><BR><B>Botões de radio</B> <BR><BR>Existe outra 
+alternativa para expor uma escolha, neste caso, obrigamos ao internauta a 
+escolher unicamente uma das opções que lhe propõem. <BR><BR>A etiqueta empregada 
+neste caso é &lt;input&gt; na qual teremos a atributo type que temos de tomar o 
+valor radio. Vejamos um exemplo: <BR><BR>&lt;input type="radio" name="estação" 
+value="1"&gt;Primavera <BR>&lt;br&gt;<BR>&lt;input type="radio" name="estação" 
+value="2"&gt;Verão <BR>&lt;br&gt;<BR>&lt;input type="radio" name="estação" 
+value="3"&gt;Outono <BR>&lt;br&gt;<BR>&lt;input type="radio" name="estação" 
+value="4"&gt;Inverno <BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width="90%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8 bgColor=#eeeeee><B>Nota:</B> Temos de observar que a 
+      etiqueta &lt;input type="radio"&gt; somente coloca o campo para clicar na 
+      página. Os textos que aparecem ao lado, assim como as quebras de linha, 
+      colocamos com o correspondente texto no código da página e com as 
+      etiquetas HTML que necessitarmos. </TD></TR></TBODY></TABLE><BR>O resultado é o 
+seguinte: <BR><BR>
+<FORM><INPUT type=radio value=1 name=estação>Primavera <BR><INPUT type=radio 
+value=2 name=estação>Verão <BR><INPUT type=radio value=3 name=estação>Outono 
+<BR><INPUT type=radio value=4 name=estação>Inverno </FORM>
+<P>Como podemos ver, a cada uma das opções se atribui uma etiqueta input dentro 
+da qual atribuimos o mesmo nome (name) para todas as opções e um valor (value) 
+distinto. Se o usuário escolhe supostamente Outono, receberemos em nosso correio 
+uma linha tal como esta: <BR><BR>estação=3 <BR><BR>Cabe assinalar que é possível 
+pré-selecionar por padrão uma das opções. Isto se pode conseguir por meio do 
+atributo <B>checked</B>: <BR><BR>&lt;input type="radio" name="estação" value="2" 
+checked&gt;Verão <BR><BR>Vejamos o efeito: <BR><BR>
+<FORM><INPUT type=radio value=1 name=estação>Primavera <BR><INPUT type=radio 
+CHECKED value=2 name=estação>Verão <BR><INPUT type=radio value=3 
+name=estação>Outono <BR><INPUT type=radio value=4 name=estação>Inverno </FORM>
+<P><B>Caixas de validação</B> <BR><BR>Estes tipos de elementos podem ser 
+ativados ou desativados pelo visitante com um simples clique sobre a caixa em 
+questão. A sintaxe utilizada é muita parecida com as vistas anteriormente: 
+<BR><BR>&lt;input type="checkbox" name="paella"&gt;Adoro uma feijoada <BR><BR>O 
+efeito: <BR><BR>
+<FORM><INPUT type=checkbox name=feijoada>Adoro uma feijoada </FORM>
+<P>A única diferença fundamental é o valor adotado pelo atributo type. 
+<BR><BR>Da mesma forma que para os botões de radio, podemos ativar a caixa por 
+meio do atributo <B>checked</B>. <BR><BR>O tipo de informação que chegará ao 
+nosso correio (ou ao programa) será do tipo: <BR><BR>feijoada=on (ou off 
+dependendo se tiver sido ativada ou não) <BR><BR><SPAN class=fuente8>Informe de 
+<B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Botão Submit, Apagar Campos e outros em formulários 
+HTML</B></FONT><BR><BR>Os formulários têm de dar lugar não somente à informação 
+a tomar do usuário como também, a outra série de funções. Concretamente, 
+permite-nos seu envio mediante seu botão. Também pode ser prático poder propor 
+um botão de Apagar Campos ou também, acompanhá-lo de dados ocultos que possam 
+ajudar-nos em seu processamento. 
+<P>Neste capítulo, para terminar a saga de formulários, tornaremos conhecidos os 
+meios de instalar todas estas funções. 
+<P><B>botão Submit (ou de envio)</B> 
+<P>Para finalizar o processo de preenchimento do formulário e fazê-lo chegar a 
+seu gestor, o navegante tem de validá-lo por meio de um botão previsto para tal 
+efeito. A construção de tal botão não implica nenhuma dificuldade uma vez 
+familiarizados com as etiquetas input já vistas: 
+<P>&lt;input type="submit" value="Enviar"&gt; 
+<P>Com este código geramos um botão como este: 
+<P>
+<FORM><INPUT type=submit value=Enviar> </FORM>
+<P>Como pode ser visto, somente temos de especificar se trata de um botão de 
+envio (type="submit") e temos de definir a mensagem do botão por meio do 
+atributo value. 
+<P><B>botão Apagar Campos</B> 
+<P>Este botão nos permitirá apagar o formulário por completo no caso de que o 
+usuário deseje refazê-lo desde o princípio. Sua estrutura sintática é igual a 
+anterior: 
+<P>&lt;input type="reset" value="Apagar Campos"&gt; 
+<P>A diferença do botão de envio, indispensável em qualquer formulário, o botão 
+de Apagar Campos é meramente optativo e não é utilizado freqüentemente. Há de 
+ter cuidado de não coloca-lo muito perto do botão de envio e de distinguir 
+claramente um do outro. 
+<P><B>Dados ocultos</B> 
+<P>Em alguns casos, aparte dos próprios dados enviados pelo usuário, pode ser 
+prático enviar dados definidos por nós mesmos que ajudem ao programa em seu 
+processamento do formulário. Estes tipos de dados, que não se mostram na página, 
+mas que podem ser detectados solicitando o código fonte, não são freqüentemente 
+utilizados por páginas construídas em HTML, são mais usados por páginas que 
+empregam tecnologias de servidor. Não se assustem, pois veremos mais adiante o 
+que isto quer dizer. Queremos apenas dar constância de sua existência e de seu 
+modo de criação. Como por exemplo: 
+<P>&lt;input type=hidden name="site" value="www.criarweb.com"&gt; 
+<P>Esta etiqueta, incluída dentro de nosso formulário, enviará um dado adicional 
+ao correio ou ao programa encarregado da gestão do formulário. Poderíamos a 
+partir deste dado, tornar conhecido ao programa a origem do formulário ou algum 
+tipo de ação a realizar (um re-endereçamento, por exemplo). 
+<P><B>Botões normais</B> 
+<P>Dentro dos formulários também podemos colocar botões normais, clicáveis como 
+qualquer outro botão. Da mesma forma que ocorre com os campos hidden, estes 
+botões por si só não têm muita utilidade, mas poderemos necessita-los para 
+realizar ações no futuro. Sua sintaxe é a seguinte: 
+<P>&lt;input type=button value="Texto escrito no botão"&gt; 
+<P>Ficaria desta maneira: 
+<P>
+<FORM><INPUT type=button value="Texto escrito no botão"> </FORM>
+<P>O uso mais frequente de um botão é na programação no cliente. Utilizando 
+linguagens como Javascript podemos definir ações a tomar quando um visitante 
+clique o botão de uma página web. 
+<P><B>Exemplo de formulário</B> 
+<P>Com este capítulo finalizamos nosso assunto sobre formulários. Passamos agora 
+a exemplificar todo o aprendido a partir da criação de um formulário que 
+consulta o grau de satisfação dos usuários de uma linha de ônibus fictícia. O 
+formulário está construído para que envie os dados por correio eletrônico a uma 
+caixa de entrada determinada. 
+<P>Vemos o formulário nesta página. Vocês tratem de construí-lo para ver se 
+realmente entenderam bem os temas sobre formulários. 
+<P>
+<FORM action=mailto:juliana@criarweb.com method=post encType=text/plain>Nome 
+<INPUT maxLength=100 size=30 name=nome> <BR>E-mail <INPUT maxLength=100 size=25 
+value=@ name=email> <BR>Cidade <INPUT maxLength=60 name=poblacion> <BR>Sexo 
+<BR><INPUT type=radio CHECKED value=Masculino name=sexo> Homem <BR><INPUT 
+type=radio value=Feminino name=sexo> Mulher <BR><BR>Frequência das viagens 
+<BR><SELECT name=utilização> <OPTION value=1 selected>Várias vezes por 
+  dia<OPTION value=2>Uma vez por dia<OPTION value=3>Várias vezes por 
+  semana<OPTION value=4>várias vezes por mês</OPTION></SELECT> <BR><BR>Comentários 
+sobre sua satisfação pessoal <BR><TEXTAREA name=comentários rows=7 cols=30></TEXTAREA> <BR><BR><INPUT 
+type=checkbox CHECKED name=receber_info> Desejo receber notificação das 
+novidades nas linhas de ônibus. <BR><BR><INPUT type=submit value="Enviar formulário"> <BR><BR><INPUT type=reset value="Apagar tudo"> </FORM>
+<P>A seguir também mostraremos o código fonte deste formulário, que é importante 
+que todos dêem uma olhada, mesmo que seja rapidamente. 
+<P><SPAN class=fuente8>&lt;form action="mailto:juliana@criarweb.com" 
+method="post" enctype="text/plain"&gt; <BR>Nome &lt;input type="text" 
+name="nome" size="30" maxlength="100"&gt; <BR>&lt;br&gt; <BR>E-mail &lt;input 
+type="text" name="email" size="25" maxlength="100" value="@"&gt; <BR>&lt;br&gt; 
+<BR>Cidade &lt;input type="text" name="cidade" size="20" maxlength="60"&gt; 
+<BR>&lt;br&gt; <BR>Sexo <BR>&lt;br&gt; <BR>&lt;input type="radio" name="sexo" 
+value="Masculino" checked&gt; Homem <BR>&lt;br&gt; <BR>&lt;input type="radio" 
+name="sexo" value="Feminino"&gt; Mulher <BR>&lt;br&gt; <BR>&lt;br&gt; 
+<BR>Frequência das viagens <BR>&lt;br&gt; <BR>&lt;select name="utilização"&gt; 
+<BR>&nbsp;&nbsp;&nbsp; &lt;option value="1"&gt;Várias vezes por dia 
+<BR>&nbsp;&nbsp;&nbsp; &lt;option value="2"&gt;Uma vez por dia 
+<BR>&nbsp;&nbsp;&nbsp; &lt;option value="3"&gt;Várias vezes por semana 
+<BR>&nbsp;&nbsp;&nbsp; &lt;option value="4"&gt;várias vezes por mês 
+<BR>&lt;/select&gt; <BR>&lt;br&gt; <BR>&lt;br&gt; <BR>Comentários sobre sua 
+satisfação pessoal <BR>&lt;br&gt; <BR>&lt;textarea cols="30" rows="7" 
+name="comentários"&gt;&lt;/textarea&gt; <BR>&lt;br&gt; <BR>&lt;br&gt; 
+<BR>&lt;input type="checkbox" name="receber_info" checked&gt; <BR>Desejo receber 
+notificação das novidades nas linhas de ônibus. <BR>&lt;br&gt; <BR>&lt;br&gt; 
+<BR>&lt;input type="submit" value="Enviar formulário"&gt; <BR>&lt;br&gt; 
+<BR>&lt;br&gt; <BR>&lt;input type="Reset" value="Apagar tudo"&gt; 
+<BR>&lt;/form&gt;</SPAN> 
+<P>Para acabar, vamos ver o que receberiam por correio eletrônico na empresa de 
+ônibus quando um usuário qualquer preenchesse este formulário e clicasse sobre o 
+botão de envio. 
+<P>nome=Frederico Silvestre <BR>e-mail=fede@terramix.com <BR>cidade=Rio de 
+Janeiro <BR>sexo=Masculino <BR>utilização=2 <BR>comentários=Acho que não é uma 
+boa linha. Colocar mais ônibus. <BR>receber_info=on <BR><BR><SPAN 
+class=fuente8>Informe de <B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Mapas de imagens com HTML</B></FONT><BR><BR>Nos capítulos 
+anteriores nos aprofundamos no elemento básico de navegação do web: O link 
+hipertexto. Vimos que estes links são palavras, textos ou imagens que, ao clicar 
+sobre eles, nos enviam a outras páginas ou zonas. <BR><BR>Os mapas de imagem são 
+uma nova exposição de navegação que incorpora uma série de links dentro de uma 
+mesma imagem. Estes links são definidos por figuras geométricas e funcionam 
+exatamente da mesma forma que os outros links. Pode-se <A 
+href="http://www.criarweb.com/artigos/exemplos/html/mapa.html" target=_blank>ver 
+o funcionamento de um neste link</A>. <BR><BR>À princípio, estes mapas não eram 
+diretamente reconhecidos pelos navegadores e recorriam à tecnologias de lado do 
+servidor para serem visualizados. Hoje em dia podem ser implementados por meio 
+de código HTML tal como veremos neste capítulo. <BR><BR>Podemos utilizar estes 
+mapas, por exemplo, em portais onde tornamos conhecida cada uma das sessões do 
+site por meio de uma imagem. Também pode ser muito prático, em mapas geográficos 
+onde cada cidade, estado ou ponto qualquer representa um link a uma página. 
+<BR><BR>Em qualquer caso, o uso destes mapas tem de ser sistematicamente 
+acompanhado de um texto explicativo que dê a entender ao usuário sobre os 
+distintos pontos da imagem. Frases como "Dê um clique sobre tal ícone para 
+acesar a tal informação". São muito indicativas na hora de fazer intuitiva a 
+navegação pelos mapas de imagens. Por outro lado, não é demais introduzir essa 
+mesma explicação no <A 
+href="http://www.criarweb.com/artigos/57.php?manual=2">atributo alt da 
+imagem</A>. <BR><BR>Sendo assim, um mapa de imagem está composto por duas 
+partes: 
+<UL>
+  <LI>A imagem propriamente dita que estará situada como de costume dentro da 
+  etiqueta &lt;body&gt; de nosso documento HTML. 
+  <LI>Um código, situado no interior da etiqueta &lt;map&gt;, que delimitará por 
+  meio de linhas geométricas imaginárias cada uma das áreas dos links 
+  apresentados na imagem. </LI></UL><IMG height=156 
+alt="Imagem que ilustra o manejo de coordenadas em imagens" hspace=5 
+src="HTML - Manual_archivos/coordenadas.gif" width=186 align=right vspace=5 
+border=0> As linhas geométricas que delimitan os links, ou seja, as áreas dos 
+links, devem ser definidas por meio de coordenadas. Cada imagem é definida por 
+umas dimensões de largura (X) e altura (Y) e cada ponto da imagem pode ser 
+definido portanto, dizendo a que altura (x) e largura (y) nos encontramos. Deste 
+modo, a esquina superior esquerda corresponde à posição 0,0 e a esquina inferior 
+direita corresponde às coordenadas X,Y. Se desejamos saber quais coordenadas 
+correspondem a um ponto concreto de nossa imagem, o melhor é utilizar um 
+programa de desenho gráfico como Photoshop ou Paint Shop Pro. <BR><BR>A melhor 
+forma de explicar o funcionamento deste tipo de mapa é a partir de um exemplo 
+prático. Suponhamos que temos uma imagem com um mapa como esta: <BR><BR>
+<TABLE width=450 border=0>
+  <TBODY>
+  <TR>
+    <TD align=middle><MAP name=mapa1><AREA shape=CIRCLE 
+        alt="Clique para ver a página de meus amigos" coords=44,36,29 
+        href="http://www.criarweb.com/artigos/#"><AREA shape=CIRCLE 
+        alt="Clique para ver minha namorada" coords=140,35,31 
+        href="http://www.criarweb.com/artigos/#"><AREA shape=CIRCLE 
+        alt="Clique para conhecer minha família" coords=239,37,30 
+        href="http://www.criarweb.com/artigos/#"><AREA shape=CIRCLE 
+        alt="Clique para conhecer meu trabalho" coords=336,36,31 
+        href="http://www.criarweb.com/artigos/#"></MAP><IMG height=72 
+      alt="Mapa de imagens. Clique em cada um dos círculos." 
+      src="HTML - Manual_archivos/mapa1.gif" width=380 useMap=#mapa1 border=0> 
+      <BR><FONT face=Verdana,Arial size=1>Clique nos círculos para acessar às 
+      seções!</FONT> </TD></TR></TBODY></TABLE><BR>Dentro dela queremos introduzir um 
+link a cada um dos elementos que a compõem. Para isso, definiremos nossos links 
+como zonas circulares de tamanho pequeno que serão distribuídas ao comprimento e 
+largura da imagem. <BR><BR>Vejamos a seguir o código que utilizaremos: 
+<BR><BR><SPAN class=fuente8>&lt;table border=0 width=450&gt;&lt;tr&gt;&lt;td 
+align="center"&gt; <BR>&lt;map name="mapa1"&gt; <BR>&lt;area alt="Clique para 
+ver a página de meus amigos" shape="CIRCLE" coords="44,36,29" href="#"&gt; 
+<BR>&lt;area alt="Clique para ver minha noiva" shape="CIRCLE" coords="140,35,31" 
+href="#"&gt; <BR>&lt;area alt="Clique para conhecer minha família" 
+shape="circle" coords="239,37,30" href="#"&gt; <BR>&lt;area alt="Clique para 
+conhecer meu trabalho" shape="CIRCLE" coords="336,36,31" href="#"&gt; 
+<BR>&lt;/map&gt; <BR>&lt;img src="../../../../docs/artigos/imagens/mapa1.gif" 
+width="380" height="72" alt="Mapa de imagens. Clique em cada um dos círculos." 
+border="0" usemap="#mapa1"&gt; <BR>&lt;br&gt; <BR>Clique nos círculos para 
+acessar às seções! <BR>&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; </SPAN><BR><BR>
+<TABLE width="90%" align=center bgColor=#eeeeee>
+  <TBODY>
+  <TR>
+    <TD clas="fuente8"><B>Nota: Os href das áreas vão a #</B> <BR>Este é um 
+      exemplo parcial de utilização dos mapas, faltaria colocar os href com 
+      valores reais e não com a #. Cada um dos links das áreas -atributo href da 
+      etiqueta &lt;area&gt;- deveriam levar a uma página web. O exemplo ficaria 
+      completo se criássemos todas as páginas onde linkar as áreas e 
+      colocássemos os href dirigidos para tais páginas. Como não fizemos as 
+      páginas "destino" colocamos links que não levam a lugar nenhum, que, como 
+      se pode ver, indica-se com o caráter "#". </TD></TR></TBODY></TABLE><BR>É 
+possível observar, tal como explicamos antes, que nosso mapa consta de duas 
+partes principais: a imagem e a etiqueta &lt;map&gt; que define as áreas de cada 
+link. <BR><BR>Cada área se indica com uma etiqueta &lt;area&gt;, que tem os 
+seguinte atributos: <BR><BR><B>alt</B> <BR>Para indicar um texto que será 
+mostrado quando situarmos o mouse na área. <BR><BR><B>shape</B> <BR>Indica o 
+tipo de área. <BR><BR><B>coords</B><BR>As coordenadas que definem a área. Será 
+um grupo de valores numéricos distintos dependendo do tipo de área (shape) que 
+estivermos definindo. <BR><BR><B>href</B><BR>Para indicar o destino do link 
+correspondente à área. <BR><BR>Neste caso utilizamos umas áreas circulares 
+(shape="CIRCLE"), que se definem indicando o centro do círculo -uma coordenada 
+(X,Y) e o radio, que é um número inteiro que se corresponde com o número de 
+pixels desde o centro até a borda do círculo. <BR><BR><B>Tipos de áreas: shape 
+distintas.</B> <BR><BR><IMG height=367 
+alt="Distintos tipos de áreas. Shape distintas." hspace=5 
+src="HTML - Manual_archivos/shapes.gif" width=200 align=right vspace=5 border=0> 
+Existem três tipos de áreas distintas, suficientes para fazer quase qualquer 
+tipo de figura. No desenho que acompanha estas linhas pode ser visto uma 
+representação das áreas, que detalhamos a seguir. <BR><BR><B>shape="RECT"</B> 
+<BR><BR>Cria uma área retangular. Para defini-la utilizam-se as coordenadas dos 
+pontos da esquina superior esquerda e da esquina inferior direita. Tal como 
+estão nomeadas tais coordenadas em nosso desenho, a área teria a seguinte 
+etiqueta: <BR><BR>&lt;area shape="RECT" coords="X1,Y1,X2,Y2" href="#"&gt; 
+<BR><BR><B>shape="CIRCLE"</B> <BR><BR>Cria uma área circular, que se indica com 
+a coordenada do centro do círculo e o radio. De acordo com nosso desenho, a 
+etiqueta de uma área circular teria esta forma: <BR><BR>&lt;area shape="CIRCLE" 
+coords="X1,Y1,R" href="#"&gt; <BR><BR><B>shape="POLY"</B> <BR><BR>Este tipo de 
+área, poligonal, é a mais complexa de todas. Um polígono fica definido indicando 
+todos seus pontos, mas atenção, pois temos que indicá-los em ordem, seguindo o 
+caminho marcado pelo perímetro do polígono. Segundo nosso desenho e os nomes que 
+demos aos pontos do polígono, a etiqueta &lt;area&gt; ficaria desta forma: 
+<BR><BR>&lt;area shape="POLY" coords=" X1,Y1, X2,Y2, X3,Y3, X4,Y4" href="#"&gt; 
+<BR><BR><SPAN class=fuente8>Informe de <B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Frames em HTML</B></FONT><BR><BR>Uma das mais modernas 
+características de HTML são os frames, que foram acrescentados tanto em Netscape 
+Navigator como em Internet Explorer, a partir de suas versões 2.0. Os frames 
+-que significam em português janelas- são uma forma de dividir a página em 
+diferentes espaços independentes uns dos outros, de forma que em cada espaço se 
+coloca uma página diferente que se codifica em uma arquivo HTML diferente. 
+<BR><BR>À princípio se criaram como etiquetas proprietárias do navegador 
+Netscape e rapidamente a potência do recurso fez com que o uso de frames se 
+estendesse por toda a web. Pouco tempo demoraria para Internet Explorer 
+incluí-los, pois não podia deixar escapar uma novidade tão popular de seu 
+competidor. Finalmente, como resposta à popularidade entre os desenvolvedores 
+dos frames, o padrão HTML 4.0 incluiu estas etiquetas dentro das permitidas. 
+<BR><BR>Os frames, como dizíamos, nos permitem dividir a janela do navegador em 
+diferentes áreas. Cada uma destas áreas são independentes e devem ser 
+codificadas com arquivos HTML também independentes. Como resultado, cada frame 
+ou janela contem as propriedades específicas que indicamos no código HTML 
+apresentado nesse espaço. Sendo assim, e dado que cada janela é independente, 
+terão suas próprias barras de deslocamento, horizontais e verticais, 
+separadamente. <BR><BR>Existem muitas páginas na web que contém frames e 
+certamente todos já tiveram a ocasião de conhecer algumas. Costuma se utilizar 
+para colocar em uma parte da janela uma barra de navegação, que geralmente 
+encontra-se fixa e permite o acesso a qualquer zona da página web. Uma das 
+principais vantagens da programação com frames vem derivada da independência dos 
+distintos frames, pois podemos navegar pelos conteúdos de nosso site web com a 
+barra de navegação sempre visível, e sem que se tenha que recarregar em cada uma 
+das páginas que vamos visitando. <BR><BR>Um exemplo das áreas que se podem 
+construir em uma construção de frames pode ser visto nas imagens a seguir. 
+<BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD><IMG height=129 alt="Diagrama exemplo de página com Frames" 
+      src="HTML - Manual_archivos/frame1.gif" width=184 border=0></TD>
+    <TD><IMG height=129 alt="Diagrama exemplo de página com Frames" 
+      src="HTML - Manual_archivos/frame2.gif" width=184 
+border=0></TD></TR></TBODY></TABLE><BR><BR><SPAN class=fuente8>Informe de 
+<B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Frames – Explicação básica</B></FONT><BR><BR>As páginas 
+web que estão feitas com frames se compõem de uma declaração das janelas e 
+tantas páginas em formato HTML corrente como distintas divisões tivermos 
+definido. A declaração ou definição de frames é a única página que realmente 
+devemos aprender, visto que as páginas que serão visualizadas em cada uma das 
+janelas são arquivos HTML dos que viemos aprendendo anteriormente neste manual. 
+<BR><BR>Tal definição está composta por etiquetas &lt;FRAMESET&gt; e 
+&lt;FRAME&gt;, com as quais indicamos a disposição de todos os quadros. A 
+etiqueta &lt;FRAMESET&gt; indica as divisões da janela do navegador e a etiqueta 
+&lt;FRAME&gt; indica cada um dos quadros onde colocaremos uma página 
+independente. <BR><BR>As partições que se podem fazer com um &lt;FRAMESET&gt; 
+são em filas ou colunas. Por exemplo, poderíamos indicar que desejamos fazer uma 
+divisão da página em duas filas, ou duas colunas, três filas, etc. Para indicar 
+tanto a forma de dividir a janela -em filas ou colunas- como o número de 
+partições que pretendemos fazer, temos de utilizar o atributo COLS ou ROWS. O 
+primeiro serve para indicar uma partição em colunas e o segundo para uma 
+partição em filas. <BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width="90%" align=center bgColor=#eeeeee 
+border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8><B>Nota:</B> É importante indicar que não se pode fazer 
+      uma partição em filas e colunas de uma vez só, e sim, que devemos escolher 
+      em dividir a janela em uma das duas disposições. Mais adiante, indicaremos 
+      como dividir a janela tanto em filas como em colunas, que é feito com o 
+      acréscimo de frames.</TD></TR></TBODY></TABLE><BR>No atributo COLS ou ROWS 
+-somente podemos escolher um dos dois- colocamos entre aspas o número de 
+divisões que desejamos realizar, indicando de antemão o tamanho que vai atribuir 
+a cada uma. Um valor típico destes atributos seria o seguinte: 
+<BR><BR><B>cols="20%,80%"</B> <BR>Indica que devem ser colocadas duas colunas, a 
+da esquerda teria uns 20% do espaço total da janela e a da direita uns 80%. 
+<BR><BR><B>rows="15%,60%,25%"</B> <BR>Assim, indicamos que desejamos três filas, 
+a de cima com um 15% do espaço total, a do meio com um espaço correspondente ao 
+60% do total e a de abaixo com um 25%. Ao total somam o 100% do espaço da 
+janela. <BR><BR>Além da porcentagem para indicar o espaço de cada um dos campos, 
+também podemos indicá-lo em pixels. Desta maneira: <BR><BR><B>cols="200,600"</B> 
+<BR>Para indicar que a coluna da esquerda deve ter 200 pixels de largura e a da 
+direita 600. Isto está bem se nossa janela tem 800 pixels de largura, mas isto 
+não tem porque ser assim em todos os monitores dos usuários, por isso é 
+importante que este modo de expressar as janelas se indique da seguinte maneira. 
+<BR><BR><B>cols="200,*"</B> <BR>Assim, indicamos que a primeira coluna tem de 
+medir 200 pixels e que o resto do espaço disponível -que será maior ou menor 
+dependendo da definição da tela do usuário- se atribuirá a segunda coluna. 
+<BR><BR>Na prática podemos misturar todos estes métodos para definir as janelas 
+da maneira de desejarmos, com porcentagem, com pixels ou com o asterístico (*). 
+Não importa como se definem, a única recomendação é que um dos valores que 
+indiquemos seja um asterisco, para que a área correspondente a tal asterisco 
+seja mais ou menos grande dependendo do espaço que tenha a janela de nosso 
+navegador. Outros métodos de definir filas e colunas, atendendo a este conselho, 
+seriam os seguintes: <BR><BR><B>rows="100,*,12%"</B> <BR>Definimos três filas, a 
+primeira com 100 pixels de largura, a segunda com o espaço que sobre das outras 
+duas, e a terceira com um 12% do espaço total. 
+<BR><BR><B>cols="10%,50%,120,*"</B> <BR>Estamos indicando quatro colunas. A 
+primeira de 10% do espaço da janela, a segunda com a metade justa da janela, a 
+terceira com um espaço de 120 pixels e a última com a quantidade de espaço que 
+sobre ao atribuir espaço às demais partições. <BR><BR>Uma vez indicado o número 
+de filas ou colunas e o espaço reservado a cada uma com a etiqueta 
+&lt;FRAMESET&gt;, devemos especificar com a etiqueta &lt;FRAME&gt; a procedência 
+de cada um dos frames que dividimos a janela. <BR><BR>Para isso, dispomos do 
+atributo SRC, que tem de ser definido para cada uma das filas ou colunas. Desta 
+maneira. <BR><BR>&lt;FRAME src="janela1.html"&gt; <BR><BR>Assim fica indicado 
+que o frame que estamos definindo deve mostrar a página janela1.html em seu 
+interior. <BR><BR><SPAN class=fuente8>Informe de <B>Miguel Angel 
+Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Frames – Criação de uma estrutura 
+simples</B></FONT><BR><BR>Para ilustrar tudo o que viemos explicando podemos ver 
+o exemplo sobre como se criaria a definição de frames da imagem que podemos ver 
+a seguir. <BR><BR>
+<DIV align=center><IMG height=142 alt="Especificação de frames para o exemplo" 
+src="HTML - Manual_archivos/frames_ex.gif" width=300 
+border=0></DIV><BR><BR>&lt;html&gt; <BR>&lt;head&gt; <BR>&nbsp;&nbsp;&nbsp; 
+&lt;title&gt;Definição de Frames&lt;/title&gt; <BR>&lt;/head&gt; 
+<BR>&lt;frameset rows="15%,*,75"&gt; <BR>&nbsp;&nbsp;&nbsp; &lt;frame 
+src="pagina1.html"&gt; <BR>&nbsp;&nbsp;&nbsp; &lt;frame src="pagina2.html"&gt; 
+<BR>&nbsp;&nbsp;&nbsp; &lt;frame src="pagina3.html"&gt; <BR>&lt;/frameset&gt; 
+<BR>&lt;/html&gt; <BR><BR>Pode-se <A 
+href="http://www.criarweb.com/artigos/exemplos/html/frames/frame1.html" 
+target=_blank>ver esta partição de frames em uma página a parte</A>. 
+<BR><BR>Além disso, temos algumas considerações a fazer para terminar de 
+compreender este exemplo: 
+<UL>
+  <LI>O título da definição de frames é o que herda toda a página web, por isso, 
+  não é boa idéia titular como "definição de frames" por exemplo, já que então 
+  toda nossa página se titularia assim e certamente não seria muito descritivo. 
+  Se estivéssemos fazendo uma página para o açougue Gonçalves seria melhor 
+  titular a definição de frames algo como "Açougue Gonçalves, as melhores carnes 
+  no Rio de Janeiro". 
+  <LI>A página que define os frames não tem body. O HTML pode totalizar um erro 
+  se o incluirmos. 
+  <LI>As páginas "pagina1.html", "pagina2.html" e "pagina3.html" devem ser 
+  escritas em arquivos independentes com o nome indicado. Neste exemplo, Tais 
+  páginas deveriam se encontrar no mesmo diretório que a declaração de frames. 
+  Se especificarmos uma rota para acessar ao arquivo podemos colocá-lo no 
+  diretório que desejarmos. 
+  <LI>As cores de cada um dos frames colocamos com o atributo bgcolor colocado 
+  na etiqueta &lt;BODY&gt; de cada uma das páginas que se mostram nas janelas. 
+  </LI></UL><BR><BR><SPAN class=fuente8>Informe de <B>Miguel Angel 
+Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Frames – Uma página em cada janela</B></FONT><BR><BR>As 
+páginas que mostraremos em cada janela são documentos HTML iguais aos que viemos 
+criando anteriormente. Podemos colocar qualquer elemento HTML dos estudados 
+neste manual, como etiquetas de parágrafo, imagens, cores de fundo, etc. 
+<BR><BR>Cada documento, como já indicamos, se escreve separado em seu próprio 
+arquivo HTML. Para o exemplo do capítulo anterior podemos definir os arquivos 
+HTML da seguinte maneira. <BR><BR><B>pagina1.html</B> <BR>É a página que contém 
+o título da web. Simplesmente se trata de uma etiqueta &lt;H1&gt; de título. A 
+página tem seu próprio título, com a etiqueta &lt;TITLE&gt;, que não poderá ser 
+visualizada nenhum lugar, a não ser que se mostre esta página sem os frames, já 
+que as páginas dentro das janelas herdam o título da definição dos frames. 
+<BR><BR>&lt;html&gt; <BR>&lt;head&gt; <BR>&nbsp;&nbsp;&nbsp; &lt;title&gt;Título 
+Açougue Gonçalves&lt;/title&gt; <BR>&lt;/head&gt; <BR><BR>&lt;body 
+bgcolor="#DECC09"&gt; <BR>&lt;h1 align=center&gt;Açougue Gonçalves&lt;/h1&gt; 
+<BR>&lt;/body&gt; <BR>&lt;/html&gt; <BR><BR><B>pagina2.html</B> <BR>É a página 
+que se apresentará na área principal da definição de frames, ou seja, a página 
+que tem mais espaço para ser visualizada e onde colocaremos os conteúdos da web. 
+Neste caso, mostra uma mensagem de bem-vindo à web, que fará as vezes de portal. 
+<BR><BR>&lt;html&gt; <BR>&lt;head&gt; <BR>&nbsp;&nbsp;&nbsp; &lt;title&gt;Portal 
+do Açougue Gonçalves&lt;/title&gt; <BR>&lt;/head&gt; <BR><BR>&lt;body 
+bgcolor="#CF391C" text="#ffffff"&gt; <BR>&lt;h1 align="center"&gt;Bem-vindo a 
+nossa web&lt;/h1&gt; <BR>&lt;br&gt; <BR>&lt;br&gt; <BR>O açougue Gonçalves, com 
+mais de 100 anos de experiência, é a melhor fonte de carnes de boi e de porco da 
+região. <BR>&lt;br&gt; <BR>&lt;br&gt; <BR>Tanto no inverno como no verão você 
+pode encontrar nossas ofertas de temporada de primeira qualidade. 
+<BR>&lt;/body&gt; <BR>&lt;/html&gt; <BR><BR><B>pagina3.html</B> <BR>Nesta página 
+se mostrará a barra de navegação pelos conteúdos do site. Contém links que 
+deveriam atualizar o conteúdo da área principal da declaração de frames, para 
+mostrar os distintos conteúdos do sitio, por exemplo, o portal, os produtos, a 
+página de contato, etc. <BR><BR>&lt;html&gt; <BR>&lt;head&gt; 
+<BR>&nbsp;&nbsp;&nbsp; &lt;title&gt;Barra de navegação de açougue 
+Gonçalves&lt;/title&gt; <BR>&lt;/head&gt; <BR><BR>&lt;body bgcolor="#AC760E" 
+link="ffffcc" vlink="ffffcc"&gt; <BR>&lt;div align="center"&gt; <BR>&lt;b&gt; 
+<BR>&lt;a href="pagina2.html"&gt;Portal&lt;/a&gt; | <BR>&lt;a 
+href="produtos.html"&gt;Produtos&lt;/a&gt; | <BR>&lt;a 
+href="contato.html"&gt;Contato&lt;/a&gt; <BR>&lt;/b&gt; <BR>&lt;/div&gt; 
+<BR>&lt;/body&gt; <BR>&lt;/html&gt; <BR><BR>Podemos <A 
+href="http://www.criarweb.com/artigos/exemplos/html/frames2/frame_acougue.html" 
+target=_blank>ver como fica a página de frames com estes conteúdos</A>, que 
+simulam a página de um açougue. <BR><BR><SPAN class=fuente8>Informe de <B>Miguel 
+Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Frames – Orientar os links</B></FONT><BR><BR>A única 
+particularidade destacável no <A 
+href="http://www.criarweb.com/artigos/exemplos/html/frames2/frame_acougue.html" 
+target=_blank>exemplo do capítulo anterior</A>, no manejo de frames em geral, 
+trata-se de que <B>cada um dos links que colocamos nas páginas atualizam o frame 
+onde está colocado este link</B>. Por exemplo, se temos link na parte inferior 
+da janela, no espaço correspondente a terceira janela, atualizarão os conteúdos 
+do terceiro frame, que é onde estão situados os links. <BR><BR>Este efeito que 
+comentamos pode-se observar no <A 
+href="http://www.criarweb.com/artigos/exemplos/html/frames2/frame_acougue.html" 
+target=_blank>exemplo da página do açougue</A>, tal como ficaria ao incluir os 
+códigos das distintas páginas. <BR><BR>O lógico é que ao clicar sobre um link da 
+barra de navegação atualizamos o frame principal, que é onde havíamos planejado 
+colocar os conteúdos, no lugar do frame onde colocamos a barra de navegação, que 
+deveria se manter fixa. Para conseguir este efeito devemos fazer duas coisas: 
+<OL>
+  <LI><B>Dar um nome ao frame que desejamos atualizar</B><BR>Tal nome se indica 
+  na etiqueta &lt;FRAME&gt; da definição de frames. Para isso utilizamos o 
+  atributo name, igualado ao nome que queremos dar a tal janela. 
+  <LI><B>Orientar os links para esse frame</B><BR>Para isso devemos colocar no 
+  atributo target dos links -etiqueta &lt;A&gt;- o nome do frame que desejamos 
+  atualizar ao clicar o link. </LI></OL>Depois de dar um nome ao frame principal, 
+nossa declaração de frames ficaria da seguinte maneira. <BR><BR>&lt;frameset 
+rows="15%,*,75"&gt; <BR>&nbsp;&nbsp;&nbsp; &lt;frame src="pagina1.html"&gt; 
+<BR>&nbsp;&nbsp;&nbsp; &lt;frame src="pagina2.html" name="principal"&gt; 
+<BR>&nbsp;&nbsp;&nbsp; &lt;frame src="pagina3.html"&gt; <BR>&lt;/frameset&gt; 
+<BR><BR>Ademais, deveríamos colocar o atributo target aos links, tal como se 
+segue. <BR><BR>&lt;a href="pagina2.html" target="principal"&gt;Portal&lt;/a&gt; 
+| <BR>&lt;a href="produtos.html" target="principal"&gt;Produtos&lt;/a&gt; | 
+<BR>&lt;a href="contato.html" target="principal"&gt;Contato&lt;/a&gt; 
+<BR><BR>Uma vez realizados estas duas mudanças podemos <A 
+href="http://www.criarweb.com/artigos/exemplos/html/frames2/frame_acougue.html" 
+target=_blank>ver como os links da barra de navegação sim que atualizam a página 
+que devem</A>. 
+<P><B>Valores para o atributo target</B> 
+<P>Como vimos, com o atributo target da etiqueta &lt;A&gt; podemos indicar o 
+nome do frame que desejamos que atualize esse link. Entretanto, este não é o 
+único valor que podemos aplicar ao atributo. Temos alguns valores adicionais que 
+podemos atribuir a qualquer link em geral. 
+<P><B>_blank </B><BR>Para fazer com que esse link se abra em uma janela a parte. 
+Nossos exemplos neste manual costumam abrir em uma janela a parte, colocando 
+este valor no target dos links que levam aos exemplos. 
+<P><B>_self </B><BR>Atualiza o frame onde está situado o link. É o valor por 
+padrão. 
+<P><B>_parent</B> <BR>O link se atualiza sobre seu pai ou sobre a janela que 
+estamos trabalhando, se não tiver um pai. 
+<P><B>_top </B><BR>A página carrega a tela completa, ou seja, eliminando todos 
+os frames que pudesse haver. Este atributo é muito importante porque se 
+colocamos em nossa página com frames um link a uma página externa, se abriria em 
+um dos frames e se manteriam visíveis outros frames da página, fazendo um efeito 
+que costuma ser pouco agradável, porque parece que estão evitando que nos 
+escapemos. 
+<P>A sintaxe de um desses valores de atributos colocados em um link seria a 
+seguinte: 
+<P>&lt;A href="http://www.criarweb.com" target="_top"&gt;Acessar a 
+criarweb.com&lt;/A&gt; <BR><BR><SPAN class=fuente8>Informe de <B>Miguel Angel 
+Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Frames – Aninhar frames</B></FONT><BR><BR>Para criar 
+estruturas de janelas nas quais se misturam as filas e as colunas devemos 
+aninhar etiquetas &lt;FRAMESET&gt;. Começando pela partição de frames mais 
+geral, devemos colocar dentro as partições de frames menores. A maneira de 
+indicar isto se pode ver facilmente com um exemplo. <BR><BR>
+<DIV align=center><IMG height=142 alt="Aninhamento de frames" 
+src="HTML - Manual_archivos/frames_aninhados1.gif" width=372 border=0> <BR><SPAN 
+class=fuente8>Os passos para definir o aninhamento podem ser encontrados à 
+direita. <BR>Os distintos frames vêem numerados com a ordem <BR>na qual são 
+escritas no código. </SPAN></DIV><BR>Na imagem pode ser visto o resultado final 
+acompanhada da representação sobre a maneira de defini-los. Em primeiro 
+definimos uma estrutura de frames em duas colunas e dentro da primeira coluna 
+colocamos outra partição de frames em duas filas. O código necessário é o 
+seguinte. <BR><BR>&lt;frameset cols="200,*"&gt; <BR>&nbsp;&nbsp;&nbsp; 
+&lt;frameset rows="170,*"&gt; <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;frame 
+src="pagina1.html"&gt; <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;frame 
+src="pagina2.html"&gt; <BR>&nbsp;&nbsp;&nbsp; &lt;/frameset&gt; 
+<BR>&nbsp;&nbsp;&nbsp; &lt;frame src="pagina3.html"&gt; <BR>&lt;/frameset&gt; 
+<BR><BR>Podemos <A 
+href="http://www.criarweb.com/artigos/exemplos/html/frames-anidados/frame1.html" 
+target=_blank>ver o exemplo em uma página a parte</A>. <BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width="90%" align=center bgColor=#eeeeee 
+border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8><B>Nota:</B> colocamos uma margem em cada uma das linhas 
+      desta definição de frames para conseguir um código mais compreensível 
+      visualmente. Estas margens não são em absoluto necessários, simplesmente 
+      nos servem para ver em que nível de aninhamento nos 
+  encontramos.</TD></TR></TBODY></TABLE><BR>O exemplo anterior pode se complicar 
+um pouco mais se incluirmos mais partições. Vamos ver algo um pouco mais 
+complicado para praticar mais com os aninhamentos de frames. <BR><BR>
+<DIV align=center><IMG height=175 alt="Aninhamento de frames" 
+src="HTML - Manual_archivos/frames_aninhados2.gif" width=355 border=0> <BR><SPAN 
+class=fuente8>Os passos para definir o aninhamento podem ser encontrados à 
+direita. <BR>Os distintos frames vêem numerados com a ordem<BR>na qual se 
+escrevem no código. </SPAN></DIV><BR>Na imagem se observa que o primeiro 
+frameset a definir se compõe de duas filas. Posteriormente, dentro da segunda 
+fila do primeiro frameset, temos outra partição em duas colunas, dentro das que 
+colocamos um terceiro nível de frameset com uma definção em filas nos dois 
+casos. O código pode ser visto a seguir. <BR><BR>&lt;frameset rows="60,*"&gt; 
+<BR>&nbsp;&nbsp;&nbsp; &lt;frame src="pagina1.html"&gt; <BR>&nbsp;&nbsp;&nbsp; 
+&lt;frameset cols="200,*"&gt; <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&lt;frameset rows="*,150"&gt; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;frame 
+src="pagina2.html"&gt; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;frame 
+src="pagina3.html"&gt; <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&lt;/frameset&gt; <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;frameset 
+rows="*,60"&gt; <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&lt;frame src="pagina4.html"&gt; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;frame 
+src="pagina5.html"&gt; <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&lt;/frameset&gt; <BR>&nbsp;&nbsp;&nbsp; &lt;/frameset&gt; <BR>&lt;/frameset&gt; 
+<BR><BR>Podemos <A 
+href="http://www.criarweb.com/artigos/exemplos/html/frames-anidados2/frame1.html" 
+target=_blank>ver o exemplo em uma página a parte</A>. <BR><BR>Até aqui vimos a 
+parte mais básica da criação de frames. Nos próximos capítulos poderemos 
+aprender a configurar as janelas para variar sua aparência e, entre outras 
+coisas, eliminar as barras que separam cada um dos distintos frames. 
+<BR><BR><SPAN class=fuente8>Informe de <B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Frames – Atributos avançados</B></FONT><BR><BR>A parte da 
+criação das janelas propriamente dita, existem muitos atributos com os que 
+configurar sua aparência. Para isso, tanto a etiqueta &lt;frameset&gt; como 
+&lt;frame&gt; admitem diversos atributos que permitem especificar a forma de 
+elementos como as bordas dos frames, a margem, a existência ou não de barras de 
+deslocamento, etc. <BR><BR><B>Atributos para a etiqueta &lt;frameset&gt;</B> 
+<BR><BR>Já conhecemos o atributo cols e rows, que servem para indicar se a 
+distribução em janelas se fará horizontalmente ou verticalmente. Somente se pode 
+utilizar um deles e se iguala às dimensões de cada uma das divisões, separadas 
+por vírgulas. <BR><BR><B>border="número de pixels"</B> <BR>Permite especificar 
+de maneira global para todo o frameset o número de pixels que há de ter a borde 
+dos frames. <BR><BR><B>bordercolor="#rrggbb"</B> <BR>Com este atributo podemos 
+modificar a cor da borda dos frames, também de maneira global a todo o frameset. 
+<BR><BR><B>frameborder="yes|no|0"</B> <BR>Serve para mostrar ou não a borda do 
+frame. Seus possíveis valores são "yes" (para que se vejam as bordas) e "não" ou 
+"0" (para que não se vejam). Na prática elimina a borda, mas permanece uma linha 
+de separação dos frames. <BR><BR><B>framespacing="número de pixels"</B> <BR>Para 
+determinar a largura da linha de separação dos frames. Pode -se utilizar em 
+Internet Explorer e junto com o atributo frameborder="0" serve para eliminar a 
+borda das janelas. <BR><BR><B>Atributos para a etiqueta &lt;frame&gt;</B> 
+<BR><BR>Para esta etiqueta, assinalamos nos capítulos anteriores os atributos 
+src, que servem para indicar o arquivo que contém a janela e name, para dar um 
+nome à janela e logo direcionar os links para ele. Vejamos agora outros 
+atributos disponíveis. <BR><BR><B>marginwidth="número de pixels"</B> <BR>Define 
+o número de pixels que tem a margem do frame onde se indica. Esta margem se 
+aplica à página que pretendemos ver nessa janela, de modo que se colocamos 0, os 
+conteúdos da página nessa janela estarão completamente grudados na borda da 
+margem e se indicamos um valor de 10, os conteúdos da página estariam separados 
+da borda 10 pixels. <BR><BR><B>marginheight="número de pixels"</B> <BR>O mesmo 
+que o atributo anterior, mas para a margem vertical. 
+<BR><BR><B>scrolling="yes|no|auto"</B> <BR>Serve para indicar se queremos que 
+haja barras de deslocamento nas diferentes janelas. Se indicamos "yes" sempre 
+sairão as barras, se indicamos "no" não sairão nunca e se colocamos "auto" 
+sairão somente se forem necessárias. Auto é o valor por padrão. <BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width="90%" align=center bgColor=#eeeeee 
+border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8><B>Conselho:</B> Há que ter cuidado se eliminamos as 
+      bordas dos frames, visto que a a página web pode ter dimensões distintas 
+      dependendo da definição de tela do visitante. Se o espaço da janela se vê 
+      reducido, poderia se ver reduzido o espaço para o frame e pode acontecer 
+      de não caber os elementos que antes sim cabiam e se eliminamos as barras 
+      de deslocamento pode ser que o visitante não possa ver todo o conteúdo da 
+      janela. 
+      <P>Este mesmo conselho pode ser aplicado ao redimensionamento de frames, 
+      que veremos no seguinte atributo. Se fizermos com que as janelas não sejam 
+      redimensionáveis provavelmente teríamos uma declaração de frames demasiado 
+      rígida, que pode ser mal vista em algum tipo de tela. 
+</P></TD></TR></TBODY></TABLE><BR><B>noresize</B> <BR>Este atributo não tem 
+valores, simplesmente se coloca ou não se coloca. No caso de que esteja presente 
+indica que o frame não se pode redimensionar. Como podemos ver, ao colocar o 
+mouse sobre a borda das janelas sai um cursor que nos assinala que podemos mover 
+tal borda e redimensionar assim os frames. Por padrão, se não colocamos nada, as 
+janelas podem ser redimensionadas. <BR><BR><B>frameborder="yes|no|0"</B> 
+<BR>Este atributo permite controlar a aparição das bordas dos frames. Com este 
+atributo igualado a "0" ou "não" as bordeas se eliminam. Entretanto, ficam as 
+feias margens na borda. Pelo que podemos comprovar funciona melhor no Netscape 
+do que no Internet Explorer. De qualquer forma, temos um pouco mais adiante, uma 
+nota para explicar os frames sem bordas. <BR><BR>
+<TABLE cellSpacing=2 cellPadding=2 width="90%" align=center bgColor=#eeeeee 
+border=0>
+  <TBODY>
+  <TR>
+    <TD class=fuente8><B>Nota:</B> os atributos de frames não funcionam sempre 
+      bem em todos os navegadores. É recomendável fazermos um teste sobre o que 
+      estamos desenhando em vários navegadores para comprovar que nosos frames 
+      se vêem bem em todas as plataformas. 
+</TD></TR></TBODY></TABLE><BR><B>bordercolor="#rrggbb"</B> <BR>Permite 
+especificar a cor da borda da janela. <BR><BR><SPAN class=fuente8>Informe de 
+<B>Miguel Angel Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR><BR><FONT 
+face=verdana size=4><B>Vantagens e incovenientes do uso de 
+frames</B></FONT><BR><BR>O desenho com frames é um assunto bastante 
+controvertido, já que distintos desenhadores podem ter outras opiniões. 
+<P>
+<TABLE width="90%" align=center>
+  <TBODY>
+  <TR>
+    <TD class=coment><B>Referência:</B> Se você deseja saber o que são os 
+      frames e como criá-los consulte os <A 
+      href="http://www.criarweb.com/artigos/131.php?manual=2">capítulos de 
+      Frames de nosso manual de HTML</A>. </TD></TR></TBODY></TABLE>
+<P>No meu caso, penso que é preferível não utilizá-los, apesar de que isso 
+depende do tipo de web site que esteja construindo, pois em alguns casos sim que 
+seria muito adequado seu uso. 
+<P>Colocarei algumas vantagens e alguns inconvenientes deo uso de janelas 
+(frames). Isto é ao meu ponto de vista, outros podem ter outras opiniões. 
+<P><B>Vantagens de usar frames</B> 
+<UL>
+  <LI>A navegação da página será mais rápida. Apesar de que o primeiro 
+  caerregamento da página seria igual, em sucessivas impressões páginas já 
+  teremos algumas janelas salvas, que não teriam que voltar a descarregar. 
+  <P></P>
+  <LI>Criar páginas do site seria mais rápido. Como não temos que incluir partes 
+  de código como a barra de navegação, título, etc. criar novas páginas seria um 
+  processo muito mais rápido. 
+  <P></P>
+  <LI>Partes da página (como a barra de navegação) se mantém fixas e isso pode 
+  ser bom, para que o usuário não as perca nunca de vista. 
+  <P></P>
+  <LI>Estas mesmas partes visíveis constantemente, se contém links, podem servir 
+  muito bem para melhorar a navegação pelo site. 
+  <P></P>
+  <LI>Mantém uma navegabilidade do site onde se navega, pois os elementos fixos 
+  conservam a imagem sempre visível. </LI></UL><B>Inconvenientes de usar 
+frames</B> 
+<UL>
+  <LI>Tiram espaço da tela. O espaço ocupado pelos frames fixos se perde na hora 
+  de fazer páginas novas, porque já está utilizado. Em definições de tela 
+  pequena ou em dispositivos como Palms, este problema se torna mais patente. 
+  <P></P>
+  <LI>Forçam ao visitante a entrar pela declaração de frames. Se não o fazem 
+  assim, somente se veria una página interior sem os requadros. Estes requadros 
+  poderian ser insuficientes para uma boa navegação pelos conteúdos e poderiam 
+  não conservar uma boa imagem corporativa. 
+  <P></P>
+  <LI>A promoção da página seria, à princípio, mais limitada. Isto é devido a 
+  que somente se deveria promocioanr o portal, pois se se promocionam páginas 
+  interiores, poderia acontecer o caso em que os visitantes entrassem por elas 
+  no lugar do portal, criando o problema descrito no ponto anterior. 
+  <P></P>
+  <LI>Muita gente não gosta porque não se sentem livers na navegação, pois 
+  entendem que estas partes fixas estão limitando sua mobilidade pela web. Este 
+  efeito se torna mais patente se a página com frames tem links a outras páginas 
+  web fora do site e, ao clicar um link, se mostra a página nova com as janelas 
+  da página que tem frames. 
+  <P></P>
+  <LI>Alguns navegadores não os suportam. Isto não é muito habitual, mas se 
+  estamos fazendo uma página que queremos que seja totalmente acessiível 
+  deveríamos considerá-lo importante. 
+  <P></P>
+  <LI>Os bookmarks ou favoritos não funcionam corretamente em muitos casos. Se 
+  quisermos incluir um favorito a uma página de um frame que não seja o portal 
+  podemos encontrar problemas. 
+  <P></P>
+  <LI>Pode acontecer que o botão detrás do navegador não se comporte como 
+  desejamos. 
+  <P></P>
+  <LI>Se você quer atualizar mais de um frame com o clique de um link deverá 
+  utilizar Javascript. Ademais os scripts podem se complicar bastante quando têm 
+  de comunicar vários frames entre si. </LI></UL><B>Conclusão</B> 
+<P>O trabalho com frames pode ser mais ou menos indicado dependendo das 
+características da página a desenvolver, é sua tarefa saber se no seu caso deve 
+utiliza-los ou não. <BR><BR><SPAN class=fuente8>Informe de <B>Miguel Angel 
+Alvarez</B><BR>Mail: <A 
+href="http://www.criarweb.com/artigos/miguel@desarrolloweb.com"><B>miguel@desarrolloweb.com</B></A><BR></SPAN><BR><BR>
+<HR>
+<BR><BR>
+<DIV align=center><FONT face=verdana size=2>Todos los <A 
+href="http://www.criarweb.com/copyright/">direitos de reprodução e difusão</A> 
+reservados</FONT> <BR><BR><FONT face=verdana size=3><A 
+href="http://www.criarweb.com/manuais/2">Voltar</A></FONT> 
+</DIV></FONT></BODY></HTML>
